@@ -44,7 +44,7 @@ function changeState(evt,row,col) {
    //evt = e || window.event;
    if(! evt.shiftKey) {
        //if(nodes[ind]<0) {
-       exstring = "document.i"+row+"c"+col+".src='boxb.gif'";
+       exstring = "document.i"+row+"c"+col+".src='./neural/boxb.gif'";
        nodes[ind]=1  }
    else {
        exstring = "document.i"+row+"c"+col+".src='./neural/boxt.gif'";
@@ -62,7 +62,7 @@ function showout() { //reveal current neuro state in output
              row++;
              col=0 }
        if(nodes[ii]==1) {
-           eval("document.o"+row+"c"+col+".src='boxb.gif'") }
+           eval("document.o"+row+"c"+col+".src='./neural/boxb.gif'") }
        else {
            eval("document.o"+row+"c"+col+".src='./neural/boxt.gif'") }
     }  
