@@ -1,0 +1,453 @@
+
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>A Simple Neural Network</title>
+
+<script language="Javascript">
+<!--
+
+// Parameters
+learnrate = 1
+running=1
+
+// Initialize arrays
+nodes = new Array(63)
+synapses = new Array(63)
+for(i=0;i<63;i++) {
+   nodes[i] = -1; 
+   synapses[i] = new Array(63)
+   for(j=0;j<63;j++){
+     synapses[i][j] = 0; 
+   }  
+}
+
+function Energy(place) {
+   synsum = 0;
+   for(i=0;i<63;i++) {
+       for(j=0;j<63;j++) {
+          synsum = synsum - synapses[i][j]*nodes[j]*nodes[i]; 
+       }
+   }
+   ener1string = "document.eneraform.enera.value = " + synsum;
+   ener2string = "document.enerbform.enerb.value = " + synsum;
+   if(place>0) { eval(ener2string) } else { eval(ener1string) } 
+   
+}
+
+
+function changeState(evt,row,col) {
+   ind = row*7+col;
+   //evt = e || window.event;
+   if(! evt.shiftKey) {
+       //if(nodes[ind]<0) {
+       exstring = "document.i"+row+"c"+col+".src='boxb.gif'";
+       nodes[ind]=1  }
+   else {
+       exstring = "document.i"+row+"c"+col+".src='boxt.gif'";
+       nodes[ind]=-1 }
+   eval(exstring);
+   Energy(0);
+}
+
+function showout() { //reveal current neuro state in output
+     col = -1;
+     row = 0 ;
+     for(ii=0;ii<63;ii++) {
+          col++;
+          if(col==7) {
+             row++;
+             col=0 }
+       if(nodes[ii]==1) {
+           eval("document.o"+row+"c"+col+".src='boxb.gif'") }
+       else {
+           eval("document.o"+row+"c"+col+".src='boxt.gif'") }
+    }  
+  }
+
+function clearall() {
+     row = 0;
+     col = -1;
+     for(i=0;i<63;i++) {
+          col++;
+          if(col==7) {
+             row++;
+             col=0 }
+       nodes[i]=-1;
+       eval("document.i"+row+"c"+col+".src='boxt.gif'");
+       eval("document.o"+row+"c"+col+".src='boxt.gif'");
+    } 
+  Energy(0);
+  Energy(1); 
+  }
+
+function clearin() {
+     row = 0;
+     col = -1;
+     for(i=0;i<63;i++) {
+          col++;
+          if(col==7) {
+             row++;
+             col=0 }
+       nodes[i]=-1;
+       eval("document.i"+row+"c"+col+".src='boxt.gif'");
+       //eval("document.o"+row+"c"+col+".src='boxt.gif'");
+    } 
+  //Energy(0);
+  //Energy(1); 
+  }
+
+  
+function resetall() {
+     clearall()
+     for(i=0;i<63;i++) {
+        for(j=0;j<63;j++){
+           synapses[i][j] = 0; 
+        }  
+     }
+  Energy(0);
+  Energy(1);
+  
+}
+  
+function learnonce() { 
+   for(i=0;i<63;i++) {
+      for(j=0;j<63;j++){
+         synapses[i][j] = synapses[i][j] + learnrate*nodes[i]*nodes[j]; 
+       }
+   }
+  showout();
+  Energy(1);
+  clearin();
+}
+
+
+
+function runonce() {
+   for(col=0;col<7;col++) {
+      for(row=0;row<9;row++) {
+         ind = row*7+col;
+   
+         synsum = 0;
+         for(j=0;j<63;j++) {
+            synsum = synsum + synapses[ind][j]*nodes[j]; 
+         }
+   
+      if(synsum>0) {
+         nodes[ind]=1  }
+      else {
+         nodes[ind]=-1 }
+    }} //end loops
+}
+
+function ranrunonce() {
+   row = Math.floor(9*Math.random() );
+   col = Math.floor(7*Math.random() );
+   ind = row*7+col;
+   
+   synsum = 0;
+   for(j=0;j<63;j++) {
+      synsum = synsum + synapses[ind][j]*nodes[j]; }
+   
+      if(synsum>0) {
+         nodes[ind]=1  }
+      else {
+         nodes[ind]=-1 }
+}
+
+
+
+function runnet() {
+   runonce();
+   showout();
+   Energy(1);
+
+}
+
+function rannet(runamount) {
+   showout();
+   for(jj=0;jj<runamount;jj++) {
+      ranrunonce(); }
+   
+   showout();
+   Energy(1);
+
+}
+
+
+
+
+
+
+//--></script>
+
+</head>
+
+<body>
+<h1 align="center">Hopfield Network</h1>
+<p align="left">Enter an input pattern by dragging mouse over the grid.&nbsp;
+Blue represents &quot;on&quot; and white (hold shift key) represents
+&quot;off&quot;.&nbsp;&nbsp;</p>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td>
+      <div align="center">
+        <center>
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td>
+              <h3>Input Pattern</h3>
+            </td>
+            <td></td>
+            <td>
+              <h3>Output Pattern</h3>
+            </td>
+          </tr>
+          <tr>
+            <td>
+
+<div align="center">
+  <table border="1" cellpadding="0" cellspacing="0">
+    <tr>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i0c0" onmouseover="changeState(event,0,0)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i0c1" onmouseover="changeState(event,0,1)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i0c2" onmouseover="changeState(event,0,2)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i0c3" onmouseover="changeState(event,0,3)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i0c4" onmouseover="changeState(event,0,4)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i0c5" onmouseover="changeState(event,0,5)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i0c6" onmouseover="changeState(event,0,6)"></td>
+    </tr>
+    <tr>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i1c0" onmouseover="changeState(event,1,0)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i1c1" onmouseover="changeState(event,1,1)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i1c2" onmouseover="changeState(event,1,2)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i1c3" onmouseover="changeState(event,1,3)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i1c4" onmouseover="changeState(event,1,4)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i1c5" onmouseover="changeState(event,1,5)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i1c6" onmouseover="changeState(event,1,6)"></td>
+    </tr>
+    <tr>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i2c0" onmouseover="changeState(event,2,0)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i2c1" onmouseover="changeState(event,2,1)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i2c2" onmouseover="changeState(event,2,2)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i2c3" onmouseover="changeState(event,2,3)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i2c4" onmouseover="changeState(event,2,4)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i2c5" onmouseover="changeState(event,2,5)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i2c6" onmouseover="changeState(event,2,6)"></td>
+    </tr>
+    <tr>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i3c0" onmouseover="changeState(event,3,0)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i3c1" onmouseover="changeState(event,3,1)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i3c2" onmouseover="changeState(event,3,2)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i3c3" onmouseover="changeState(event,3,3)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i3c4" onmouseover="changeState(event,3,4)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i3c5" onmouseover="changeState(event,3,5)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i3c6" onmouseover="changeState(event,3,6)"></td>
+    </tr>
+    <tr>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i4c0" onmouseover="changeState(event,4,0)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i4c1" onmouseover="changeState(event,4,1)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i4c2" onmouseover="changeState(event,4,2)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i4c3" onmouseover="changeState(event,4,3)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i4c4" onmouseover="changeState(event,4,4)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i4c5" onmouseover="changeState(event,4,5)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i4c6" onmouseover="changeState(event,4,6)"></td>
+    </tr>
+    <tr>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i5c0" onmouseover="changeState(event,5,0)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i5c1" onmouseover="changeState(event,5,1)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i5c2" onmouseover="changeState(event,5,2)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i5c3" onmouseover="changeState(event,5,3)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i5c4" onmouseover="changeState(event,5,4)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i5c5" onmouseover="changeState(event,5,5)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i5c6" onmouseover="changeState(event,5,6)"></td>
+    </tr>
+    <tr>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i6c0" onmouseover="changeState(event,6,0)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i6c1" onmouseover="changeState(event,6,1)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i6c2" onmouseover="changeState(event,6,2)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i6c3" onmouseover="changeState(event,6,3)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i6c4" onmouseover="changeState(event,6,4)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i6c5" onmouseover="changeState(event,6,5)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i6c6" onmouseover="changeState(event,6,6)"></td>
+    </tr>
+    <tr>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i7c0" onmouseover="changeState(event,7,0)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i7c1" onmouseover="changeState(event,7,1)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i7c2" onmouseover="changeState(event,7,2)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i7c3" onmouseover="changeState(event,7,3)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i7c4" onmouseover="changeState(event,7,4)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i7c5" onmouseover="changeState(event,7,5)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i7c6" onmouseover="changeState(event,7,6)"></td>
+    </tr>
+    <tr>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i8c0" onmouseover="changeState(event,8,0)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i8c1" onmouseover="changeState(event,8,1)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i8c2" onmouseover="changeState(event,8,2)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i8c3" onmouseover="changeState(event,8,3)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i8c4" onmouseover="changeState(event,8,4)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i8c5" onmouseover="changeState(event,8,5)"></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="i8c6" onmouseover="changeState(event,8,6)"></td>
+    </tr>
+  </table>
+</div>
+
+            </td>
+            <td>
+              <p align="center">
+                 <input type="button" value="Run Synch" name="Start1" onclick="runnet()"><br>
+                 <input type="button" value="Asynch 10" name="Start10" onclick="rannet(10)"><br>
+                 <input type="button" value="Asynch 100" name="Start100" onclick="rannet(100)"><br>
+                 <input type="button" value="Asynch 1000" name="Start1000" onclick="rannet(1000)"></p>
+            </td>
+            <td>
+
+<div align="center">
+  <table border="1" cellpadding="0" cellspacing="0">
+    <tr>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o0c0" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o0c1" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o0c2" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o0c3" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o0c4" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o0c5" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o0c6" ></td>
+    </tr>
+    <tr>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o1c0" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o1c1" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o1c2" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o1c3" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o1c4" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o1c5" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o1c6" ></td>
+    </tr>
+    <tr>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o2c0" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o2c1" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o2c2" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o2c3" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o2c4" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o2c5" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o2c6" ></td>
+    </tr>
+    <tr>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o3c0" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o3c1" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o3c2" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o3c3" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o3c4" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o3c5" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o3c6" ></td>
+    </tr>
+    <tr>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o4c0" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o4c1" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o4c2" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o4c3" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o4c4" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o4c5" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o4c6" ></td>
+    </tr>
+    <tr>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o5c0" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o5c1" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o5c2" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o5c3" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o5c4" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o5c5" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o5c6" ></td>
+    </tr>
+    <tr>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o6c0" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o6c1" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o6c2" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o6c3" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o6c4" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o6c5" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o6c6" ></td>
+    </tr>
+    <tr>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o7c0" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o7c1" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o7c2" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o7c3" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o7c4" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o7c5" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o7c6" ></td>
+    </tr>
+    <tr>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o8c0" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o8c1" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o8c2" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o8c3" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o8c4" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o8c5" ></td>
+      <td><img border="0" src="boxt.gif" width="10" height="10" name="o8c6" ></td>
+    </tr>
+  </table>
+</div>
+
+            </td>
+          </tr>
+          
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>
+              <p align="center">
+              <input type="button" value="Clear Grid" name="Clear" onclick="clearall()">
+            </td>
+            <td>
+              <p align="center">
+               <input type="button" value="Learn Input" name="Learn" onclick="learnonce()">
+            </td>
+            <td>
+              <p align="center"><input type="button" value="Reset Network" name="Clear" onclick="resetall()">
+            </td>
+          </tr>
+
+          <tr>
+            <td><form name="eneraform">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="hidden" name="enera" size="10"></form>
+            </td>
+            <td>
+            </td>
+            <td><form name="enerbform">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="hidden" name="enerb" size="10"></form>
+            </td>
+          </tr>
+
+        </table>
+        </center>
+      </div>
+    </td>
+  </tr>
+</table>
+
+<p>To &quot;learn&quot; the present input pattern, press the learn button.&nbsp;
+Pressing it more than once will &quot;strengthen&quot; the pattern. However,
+neural nets learn not only the patterns you teach them, but also learn
+&quot;spurious patterns&quot; that are combinations of the recorded patterns. </p>
+<p>Once you have taught the network a few patterns, enter a pattern in the input
+and press one of the &quot;run&quot; buttons to run the network that many
+iterations.&nbsp; The &quot;Run Synch&quot; Button will take the network through
+a synchronous execution at each node.&nbsp; The &quot;Asynch&quot; buttons will
+randomly choose either 10, 100, or 1000 successive nodes and evaluate
+them.&nbsp;</p>
+
+<p>The network will find the learned
+pattern that is closest to the input, showing the intermediate calculations and
+result in the &quot;Output Pattern.&quot;&nbsp; event type of &quot;recall&quot;
+activity is known as <i>Content Associative Memory. </i></p>
+
+</body>
+
+</html>
