@@ -6,3 +6,30 @@
   color: lighten($text-color, 30%);
   font-size: 0.9em;
 }
+
+  .footer-nav {
+  	display: block;
+  	text-align: center;
+  	margin: auto;
+  }
+
+   .footer-nav ul {
+      margin: auto;
+      padding: 0;
+      list-style: none;
+      line-height: 1.5;
+    }
+    .footer-nav li {
+      display: inline;
+      margin-right: 1em;
+      vertical-align: middle;
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
+    @media (max-width: 1100px) {
+      .footer-nav ul {
+        display: inline-block;
+        width: 100%;
+      }
+    }

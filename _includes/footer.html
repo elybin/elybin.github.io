@@ -2,8 +2,16 @@
 <script src="{{ "/assets/js/katex_init.js" | relative_url }}"></script>
 {% endif %}
 
+
+
 {% if site.theme_settings.footer_text %}
 <footer class="site-footer">
+	<nav class="footer-nav">
+		<ul>
+				<!-- Social icons from Font Awesome, if enabled  -->
+				{% include icons.html %}
+		</ul>
+	</nav>
 	<p class="text">{{ site.theme_settings.footer_text }}</p>
 </footer>
 {% endif %}
