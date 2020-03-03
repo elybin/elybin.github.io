@@ -16,7 +16,7 @@ theme_settings:
      <p>a website written by wizard.</p>
   header_text_feature_image:
   footer_text: >
-   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a>
+   this ugly blog powered by <a href="https://jekyllrb.com/">jekyll</a>.
 
   # Icons
   rss: false
