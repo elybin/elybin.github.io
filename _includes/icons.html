@@ -54,13 +54,6 @@
 </li>
 {% endif %}
 
-{% if site.theme_settings.github %}
-<li>
-	<a href="https://github.com/{{ site.theme_settings.github }}" title="{{ site.theme_settings.str_follow_on }} GitHub">
-		<i class="fab fa-fw fa-github"></i>
-	</a>
-</li>
-{% endif %}
 
 {% if site.theme_settings.google_plus %}
 <li>
@@ -160,7 +153,7 @@
 
 {% if site.theme_settings.youtube %}
 <li>
-	<a href="https://www.youtube.com/user/{{ site.theme_settings.youtube }}" title="{{ site.theme_settings.str_follow_on }} YouTube">
+	<a href="https://www.youtube.com/channel/{{ site.theme_settings.youtube }}" title="{{ site.theme_settings.str_follow_on }} YouTube">
 		<i class="fab fa-fw fa-youtube"></i>
 	</a>
 </li>
@@ -170,6 +163,14 @@
 <li>
 	<a href="https://gitter.im/{{ site.theme_settings.gitter }}" title="{{ site.theme_settings.str_follow_on }} Gitter">
 		<i class="fab fa-fw fa-gitter"></i>
+	</a>
+</li>
+{% endif %}
+
+{% if site.theme_settings.github %}
+<li>
+	<a href="https://github.com/{{ site.theme_settings.github }}" title="{{ site.theme_settings.str_follow_on }} GitHub">
+		<i class="fab fa-fw fa-github"></i>
 	</a>
 </li>
 {% endif %}
