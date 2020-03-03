@@ -16,7 +16,7 @@ Good question boy! I still don’t know the exact reason, but maybe just because
 Unfortunately, some social media I used still not able to doing this things (eg. sharing code, tutorial, raw graphic design). Twitter too short to share a hello world code, but Instagram are too good-looking to share a .zip file. I need something in between a to be honest.
 Well, I don’t really know where the ships going to go. 
 
-But, the only thing I know is… we’re going to move forward, and write something better than yesterday, hope it works.
+But, the only thing I know is… we’re going to move forward, and write something better than yesterday, hope it works. :)
 
 
 
