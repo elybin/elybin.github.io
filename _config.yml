@@ -43,10 +43,10 @@ theme_settings:
   github: "elybin"
 
   # Scripts
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
-  disqus_shortname:
+  google_analytics: "UA-113947180-1"
+  disqus_shortname: khakimassidiqi
   katex: true # Enable if using math markup
-  search: false # Enable the search feature
+  search: true # Enable the search feature
 
   # Localization strings
   str_follow_on: "Follow on"

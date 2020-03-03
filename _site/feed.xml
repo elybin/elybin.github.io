@@ -5,7 +5,7 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://localhost:4000/</link>
     <description>a website written by wizard</description>
-    <pubDate>Tue, 03 Mar 2020 10:38:29 +0700</pubDate>
+    <pubDate>Tue, 03 Mar 2020 11:42:50 +0700</pubDate>
     
       <item>
         <title>i'm starting a new personal blog</title>
@@ -22,13 +22,26 @@
 &lt;p&gt;Unfortunately, some social media I used still not able to doing this things (eg. sharing code, tutorial, raw graphic design). Twitter too short to share a hello world code, but Instagram are too good-looking to share a .zip file. I need something in between a to be honest.
 Well, I don’t really know where the ships going to go.&lt;/p&gt;
 
-&lt;p&gt;But, the only thing I know is… we’re going to move forward, and write something better than yesterday, hope it works.&lt;/p&gt;
+&lt;p&gt;But, the only thing I know is… we’re going to move forward, and write something better than yesterday, hope it works. :)&lt;/p&gt;
 
 &lt;p&gt;Sincerely,&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/img/signature.png&quot; alt=&quot;&quot; width=&quot;250px&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 03 Mar 2020 00:00:00 +0700</pubDate>
+      </item>
+    
+      <item>
+        <title>i've found internet gem</title>
+        <link>/blog/2019/12/30/i-found-internet-gem.html</link>
+        <guid isPermaLink="true">/blog/2019/12/30/i-found-internet-gem.html</guid>
+        <description>&lt;p&gt;check this one!&lt;/p&gt;
+
+&lt;p&gt;Sincerely,&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/signature.png&quot; alt=&quot;&quot; width=&quot;250px&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 30 Dec 2019 00:00:00 +0700</pubDate>
       </item>
     
   </channel>
