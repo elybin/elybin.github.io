@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>khakim assidiqi</title>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <link>http://localhost:4000/</link>
+    <description>a website written by wizard</description>
+    <pubDate>Tue, 03 Mar 2020 09:36:50 +0700</pubDate>
+    
+      <item>
+        <title>I'm Starting a New Blog</title>
+        <link>/blog/2020/03/03/starting-new-blog.html</link>
+        <guid isPermaLink="true">/blog/2020/03/03/starting-new-blog.html</guid>
+        <description>&lt;p&gt;Good Day Internet!&lt;/p&gt;
+
+&lt;p&gt;Started from today, I’m trying to born new blogging website that previously left abandoned.&lt;/p&gt;
+
+&lt;p&gt;why left abandoned?&lt;/p&gt;
+
+&lt;p&gt;Good question boy! I still don’t know exact reason, but maybe just because I’m too lazy to do things. But, recently I realized that I feel something didn’t work properly, maybe just because I need to share something that I thought bit complicated.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, some social media I used still not able to doing this things (eg. sharing code, tutorial, raw graphic design). Twitter too short to share a hello world code, but Instagram are too good-looking to share a .zip file. I need something in between a to be honest.
+Well, I don’t really know where the ships going to go.&lt;/p&gt;
+
+&lt;p&gt;But, the only thing I know is… we’re going to move forward, and write something better than yesterday, hoped it works.&lt;/p&gt;
+
+&lt;p&gt;Sincerely,&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/signature.png&quot; alt=&quot;&quot; width=&quot;250px&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 03 Mar 2020 00:00:00 +0700</pubDate>
+      </item>
+    
+  </channel>
+</rss>
