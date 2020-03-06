@@ -32,11 +32,12 @@
     /*put some nice background*/
 
     body{
-      background-image: url('img/bg.png') !important; 
-      background-size: 100% auto; 
-      background-position: center bottom; 
+      background-image:  url('img/bg2.png'), url('img/bg.png'); 
+      background-size:  100% auto ; 
+      background-position: center top; 
       background-repeat: no-repeat; 
-      background-color: #53c8e8
+      background-color: #e44984;
+      background-attachment: fixed
     }
     #wrapper #content-wrapper{
       background: none;
@@ -50,6 +51,13 @@
       margin: 0;
       padding: 10px !important;
       display: none
+    }
+
+    .navbar{
+      background-color: #bd235f !important;
+    }
+    .logo-landscape{
+      width: 150px;
     }
   </style>
 </head>
@@ -65,7 +73,7 @@
       <!-- Sidebar - Brand -->
       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="menu.html">
         
-        <div class="sidebar-brand-text mx-3">Demo-Deliberatif</div>
+        <div class="sidebar-brand-text mx-3"><img class="logo-landscape" src="img/logo_teks_landscape_w.png"></div>
       </a>
 
       <!-- Divider -->
@@ -124,7 +132,7 @@
             <i class="fa fa-bars"></i>
           </button>
           <div style="width: 100%; text-align: center;">
-            <img src="img/logo.png" style="width: 150px; " >
+           <img class="logo-landscape" src="img/logo_teks_landscape_w.png">
           </div>
           <!-- Topbar Navbar -->
           <ul class="navbar-nav ml-auto">
