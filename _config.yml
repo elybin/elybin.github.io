@@ -81,3 +81,7 @@ plugins: [jekyll-paginate]
 exclude:
   - Gemfile
   - Gemfile.lock
+  - demo-deliberatif
+  - skripsi-clarita
+  - site1
+  - site2
