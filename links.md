@@ -1,16 +1,201 @@
----
-layout: page
-title: links
-permalink: /links/
----
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+	<meta charset="utf-8">
+	<title>links | khakim assidiqi</title>
+	<meta name="description"
+		content="a website written by wizard">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<ul>
+	<!-- CSS -->
+	<link rel="stylesheet" href="/assets/css/main.css">
+
+	<!--Favicon-->
+	<link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+
+	<!-- Canonical -->
+	<link rel="canonical" href="/links/">
+
+	<!-- RSS -->
+	<link rel="alternate" type="application/atom+xml" title="khakim assidiqi"
+		href="/feed.xml" />
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+		integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+	<!-- Google Fonts -->
+	
+	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet"
+		type="text/css">
+	
+
+	<!-- KaTeX -->
+	
+
+	<!-- Google Analytics -->
+	
+	<script>
+		(function (i, s, o, g, r, a, m) {
+		i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+			(i[r].q = i[r].q || []).push(arguments)
+		}, i[r].l = 1 * new Date(); a = s.createElement(o),
+			m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-113947180-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+	
+</head>
+  <body>
+    <header class="site-header">
+	<div class="branding">
+		
+		<a href="/">
+			<img class="avatar" src="/assets/img/ava.jpg" alt=""/>
+		</a>
+		
+		<h1 class="site-title">
+			<a href="/">khakim assidiqi</a>
+		</h1>
+	</div>
+	<nav class="site-nav">
+		<ul>
+			
+			
+			
+			
+			
+			<li>
+				<a class="page-link" href="/about/">
+					about
+				</a>
+			</li>
+			
+			
+			
+			
+			
+			
+			
+			<li>
+				<a class="page-link" href="/links/">
+					links
+				</a>
+			</li>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<!-- Social icons from Font Awesome, if enabled  -->
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="http://instagram.com/claymachine" title="Follow on Instagram">
+		<i class="fab fa-fw fa-instagram"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="https://soundcloud.com/claymachine" title="Follow on SoundCloud">
+		<i class="fab fa-fw fa-soundcloud"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="https://www.youtube.com/channel/UCczaCELSgivYMxrmnU9DVeA" title="Follow on YouTube">
+		<i class="fab fa-fw fa-youtube"></i>
+	</a>
+</li>
+
+
+
+
+
+<li>
+	<a href="https://github.com/elybin" title="Follow on GitHub">
+		<i class="fab fa-fw fa-github"></i>
+	</a>
+</li>
+
+
+            <!-- Search bar -->
+            
+            <li>
+            <form action="/search.html" method="get">
+                <input type="text" id="search-box" name="query" placeholder="Search" class="">
+                <button type="submit" class="">
+                    <i class="fa fa-fw fa-search"></i>
+                </button>
+            </form>
+            </li>
+            
+		</ul>
+	</nav>
+
+</header>
+
+    <div class="content">
+      <article >
+  <header style="background-image: url('/')">
+    <h1 class="title">links</h1>
+    
+  </header>
+  <section class="post-content"><ul>
+	
+	 
 	<!-- li -->
 	<li>
 		<span class="badge new">new</span>
 		<span class="badge music">music</span>
-		<a href="https://www.youtube.com/watch?v=IfvYMta2oOI&feature=youtu.be"> kunto aji - mercusuar (cover)</a>
+		<a href="https://youtu.be/nwqUdRjLR9I ">arditho pramono - bitterlove (cover)</a>
 	</li>
+
 	<!-- li -->
 	<li>
 		<span class="badge code">code</span>
@@ -20,6 +205,11 @@ permalink: /links/
 	<li>
 		<span class="badge code">code</span>
 		<a href="https://play.google.com/store/apps/details?id=com.remfm.streaming">app streaming radio rem fm (android)</a>
+	</li>
+	<!-- li -->
+	<li>
+		<span class="badge music">music</span>
+		<a href="https://www.youtube.com/watch?v=IfvYMta2oOI&amp;feature=youtu.be"> kunto aji - mercusuar (cover)</a>
 	</li>
 	<!-- li -->
 	<li>
@@ -83,3 +273,93 @@ permalink: /links/
 		<a href="https://www.youtube.com/watch?v=gbJ6ZZK3eaM">walmart yodeling boy (remix)</a>
 	</li>
 </ul>
+</section>
+</article>
+
+    </div>
+    
+
+
+
+
+<footer class="site-footer">
+	<nav class="footer-nav">
+		<ul>
+				<!-- Social icons from Font Awesome, if enabled  -->
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="http://instagram.com/claymachine" title="Follow on Instagram">
+		<i class="fab fa-fw fa-instagram"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="https://soundcloud.com/claymachine" title="Follow on SoundCloud">
+		<i class="fab fa-fw fa-soundcloud"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="https://www.youtube.com/channel/UCczaCELSgivYMxrmnU9DVeA" title="Follow on YouTube">
+		<i class="fab fa-fw fa-youtube"></i>
+	</a>
+</li>
+
+
+
+
+
+<li>
+	<a href="https://github.com/elybin" title="Follow on GitHub">
+		<i class="fab fa-fw fa-github"></i>
+	</a>
+</li>
+
+		</ul>
+	</nav>
+	<p class="text">this ugly blog powered by <a href="https://jekyllrb.com/">jekyll</a>.
+</p>
+</footer>
+
+
+  </body>
+</html>
