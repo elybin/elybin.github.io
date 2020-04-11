@@ -9,6 +9,6 @@ check this one!
 
 
 
-Sincerely,
+sincerely,
 
 ![](/assets/img/signature.png){:width="250px"}

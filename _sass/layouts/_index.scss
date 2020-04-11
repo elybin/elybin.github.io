@@ -19,11 +19,12 @@
 .posts {
   .post-teaser {
     @extend %padding-regular;
+    padding-bottom:  $padding-small*0.1;
     width: 100%;
     margin-bottom: 0;
     display: inline-block;
     background-size: $feature-image-size;
-    border-bottom: 1px solid $border-color;
+    // border-bottom: 1px solid $border-color;
     p a {
       @extend .body-link;
     }

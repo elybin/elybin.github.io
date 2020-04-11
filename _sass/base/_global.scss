@@ -1,8 +1,11 @@
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 figure {
   margin: 0;
 }
@@ -36,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 h1 {
-  font-size: 2.5em;
+  font-size: 2em;
 }
 h2 {
   font-size: 2em;
@@ -87,9 +90,15 @@ dt {
 dd {
     margin-left: 2em;
 }
-p, ol, ul, dl, .math-display {
+p{
   line-height: 1.5;
   margin-bottom: 1em;
+  text-align: justify;
+}
+ol, ul, dl, .math-display {
+  line-height: 1.5;
+  margin-bottom: 1em;
+  text-align: center;
 }
 // KaTeX math display
 .math-display {
@@ -128,4 +137,40 @@ img[align=left] {
 }
 img[align=right] {
   margin-left: 3%;
+}
+
+p.text-gray
+{
+  color: #eee !important;
+}
+
+.post-header-big{
+    @extend %padding-regular;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+/* index book style */
+.row {
+  display: table;
+}
+
+.title-teks, .dots, .value-teks {
+  display: table-cell;
+  text-transform: lowercase;
+}
+
+.title-teks, .value-teks {
+  white-space: nowrap;
+}
+
+.table {
+  width: 500px;
+  margin: 10px;
+}
+
+.dots {
+  border-bottom: 1px dotted gray;
+  width: 100%;
 }

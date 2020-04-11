@@ -4,33 +4,52 @@ layout: default
 
 <div class="home">
   {% if site.theme_settings.header_text %}
-  <div class="call-out"
+  <!-- <div class="call-out"
   style="background-image: url('{{ site.baseurl }}/{{ site.theme_settings.header_text_feature_image }}')">
     {{ site.theme_settings.header_text }}
-  </div>
+  </div> -->
   {% endif %}
+<!-- 
+    <div class="post-header-big">
+      <h1>Contents</h1>
+    </div> -->
 
   <div class="posts">
+
     {% for post in paginator.posts %}
     <div class="post-teaser">
-      <header>
-        <h1>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title }}
+      <div class="row">
+        <div class="title-teks">
+          <a class="" href="{{ post.url | relative_url }}">
+          {{ post.title }}
           </a>
-        </h1>
-        <p class="meta">
-          {{ post.date | date: "%B %-d, %Y" }}
-        </p>
-      </header>
-      <div class="excerpt">
+        </div>
+        <div class="dots"></div>
+        <div class="value-teks">{{ post.date | date: "%b %-d, %y" }}</div>
+      </div>
+
+
+
+      <!-- <div class="excerpt">
         {{ post.excerpt }}
         <a class="button" href="{{ post.url | relative_url }}">
           {{ site.theme_settings.str_continue_reading }}
-        </a>
-      </div>
+        </a>-->
+      <!-- </div> -->
     </div>
     {% endfor %}
+
+        <div class="post-teaser">
+          <div class="row">
+            <div class="title-teks">
+              <a class="" href="{{ site.baseurl }}/links">
+                links collection
+              </a>
+            </div>
+            <div class="dots"></div>
+            <div class="value-teks">inf. &#8734; </div>
+          </div>
+        </div>
   </div>
 
   {% if paginator.total_pages > 1 %}

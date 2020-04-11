@@ -9,13 +9,16 @@ article,
   width: 100%;
 }
 article {
+  margin: 0;
+    padding-top: 0 !important;
   .subtitle {
     font-size: 1.45em;
     font-weight: normal;
-    margin: 0;
+    
   }
   header {
-    margin-bottom: 6%;
+    margin-bottom: 2%;
+    margin-top: 2%;
     text-align: center;
   }
   a {
@@ -28,6 +31,8 @@ article {
 header {
   h1 {
     margin: 0;
+    text-align: left;
+    margin-bottom: 20px;
   }
 }
 .meta {
@@ -35,7 +40,7 @@ header {
   font-size: 0.9em;
   letter-spacing: 0.1em;
   margin: 0;
-  text-transform: uppercase;
+  text-transform: lowercase !important;
 }
 .feature-image {
   padding: 0%;
@@ -78,3 +83,4 @@ header {
   background-color: #eee;
   color: #000;
 }
+

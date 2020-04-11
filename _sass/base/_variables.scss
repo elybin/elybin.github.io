@@ -1,6 +1,7 @@
 // Typography
-$font-family-main: 'Source Sans Pro', Helvetica, Arial, sans-serif !default;
-$font-family-headings: 'Source Sans Pro', Helvetica, Arial, sans-serif !default;
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+$font-family-main: 'Lora', serif;
+$font-family-headings:  'Lora', serif;
 $font-size: 1.10em !default;
 
 // Padding
