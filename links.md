@@ -4,7 +4,23 @@ title: links
 permalink: /links/
 ---
 <!-- links -->
-<div class="post-teaser">
+<div class="post-teaser links">
+	<div class="row">
+		<div class="title-teks">
+			<a class="" href="{{ site.baseurl }}/blog/2020/04/11/rain-drops.html">
+			rain drops, the painkiller
+			</a>
+		</div>
+		<div class="dots"></div>
+		<div class="value-teks">
+			<span class="badge new">new</span>
+			<span class="badge blog">blog</span>
+		</div>
+	</div>
+</div>
+
+<!-- links -->
+<div class="post-teaser links">
 	<div class="row">
 		<div class="title-teks">
 			<a class="" href="https://youtu.be/nwqUdRjLR9I">
@@ -13,14 +29,13 @@ permalink: /links/
 		</div>
 		<div class="dots"></div>
 		<div class="value-teks">
-			<span class="badge new">new</span>
 			<span class="badge music">music</span>
 		</div>
 	</div>
 </div>
 
 <!-- links -->
-<div class="post-teaser">
+<div class="post-teaser links">
 	<div class="row">
 		<div class="title-teks">
 			<a class="" href="https://github.com/elybin/ElybinCMS">
@@ -35,7 +50,7 @@ permalink: /links/
 </div>
 
 <!-- links -->
-<div class="post-teaser">
+<div class="post-teaser links">
 	<div class="row">
 		<div class="title-teks">
 			<a class="" href="https://play.google.com/store/apps/details?id=com.remfm.streaming">
@@ -49,7 +64,7 @@ permalink: /links/
 	</div>
 </div>
 <!-- links -->
-<div class="post-teaser">
+<div class="post-teaser links">
 	<div class="row">
 		<div class="title-teks">
 			<a class="" href="https://play.google.com/store/apps/details?id=com.melonkotak.belajarsanggul">
@@ -63,7 +78,7 @@ permalink: /links/
 	</div>
 </div>
 <!-- links -->
-<div class="post-teaser">
+<div class="post-teaser links">
 	<div class="row">
 		<div class="title-teks">
 			<a class="" href="https://www.youtube.com/watch?v=IfvYMta2oOI&feature=youtu.be">
@@ -77,7 +92,7 @@ permalink: /links/
 	</div>
 </div>
 <!-- links -->
-<div class="post-teaser">
+<div class="post-teaser links">
 	<div class="row">
 		<div class="title-teks">
 			<a class="" href="https://www.youtube.com/watch?v=w6r_TKB1IBQ">
@@ -91,7 +106,7 @@ permalink: /links/
 	</div>
 </div>
 <!-- links -->
-<div class="post-teaser">
+<div class="post-teaser links">
 	<div class="row">
 		<div class="title-teks">
 			<a class="" href="https://soundcloud.com/claymachine/mars-teknik-elektro-unnes-cover">
@@ -105,7 +120,7 @@ permalink: /links/
 	</div>
 </div>
 <!-- links -->
-<div class="post-teaser">
+<div class="post-teaser links">
 	<div class="row">
 		<div class="title-teks">
 			<a class="" href="https://www.youtube.com/watch?v=v0f6S6ZN6VY">
@@ -119,7 +134,7 @@ permalink: /links/
 	</div>
 </div>
 <!-- links -->
-<div class="post-teaser">
+<div class="post-teaser links">
 	<div class="row">
 		<div class="title-teks">
 			<a class="" href="https://www.youtube.com/watch?v=z-99FXk99UQ">
@@ -133,7 +148,7 @@ permalink: /links/
 	</div>
 </div>
 <!-- links -->
-<div class="post-teaser">
+<div class="post-teaser links">
 	<div class="row">
 		<div class="title-teks">
 			<a class="" href="https://soundcloud.com/claymachine/film-favorit">
@@ -147,7 +162,7 @@ permalink: /links/
 	</div>
 </div>
 <!-- links -->
-<div class="post-teaser">
+<div class="post-teaser links">
 	<div class="row">
 		<div class="title-teks">
 			<a class="" href="https://www.youtube.com/watch?v=EjqKeM8zPQM">
@@ -162,7 +177,7 @@ permalink: /links/
 	</div>
 </div>
 <!-- links -->
-<div class="post-teaser">
+<div class="post-teaser links">
 	<div class="row">
 		<div class="title-teks">
 			<a class="" href="https://www.youtube.com/watch?v=PGpwECwc53c">
@@ -176,7 +191,7 @@ permalink: /links/
 	</div>
 </div>
 <!-- links -->
-<div class="post-teaser">
+<div class="post-teaser links">
 	<div class="row">
 		<div class="title-teks">
 			<a class="" href="https://soundcloud.com/claymachine/xxxtentacion-moonlight-koplo-flip-by-clay-machine">
@@ -190,7 +205,7 @@ permalink: /links/
 	</div>
 </div>
 <!-- links -->
-<div class="post-teaser">
+<div class="post-teaser links">
 	<div class="row">
 		<div class="title-teks">
 			<a class="" href="https://soundcloud.com/claymachine/sejuta-harapan">
@@ -204,7 +219,7 @@ permalink: /links/
 	</div>
 </div>
 <!-- links -->
-<div class="post-teaser">
+<div class="post-teaser links">
 	<div class="row">
 		<div class="title-teks">
 			<a class="" href="https://www.youtube.com/watch?v=YOndbY8zKZg">
@@ -218,7 +233,7 @@ permalink: /links/
 	</div>
 </div>
 <!-- links -->
-<div class="post-teaser">
+<div class="post-teaser links">
 	<div class="row">
 		<div class="title-teks">
 			<a class="" href="https://www.youtube.com/watch?v=AUHllWRXofA">
@@ -232,7 +247,7 @@ permalink: /links/
 	</div>
 </div>
 <!-- links -->
-<div class="post-teaser">
+<div class="post-teaser links">
 	<div class="row">
 		<div class="title-teks">
 			<a class="" href="https://www.youtube.com/watch?v=gbJ6ZZK3eaM">
