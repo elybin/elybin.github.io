@@ -7,13 +7,28 @@ permalink: /links/
 <div class="post-teaser links">
 	<div class="row">
 		<div class="title-teks">
+			<a class="" href="https://www.youtube.com/watch?v=8UJTXgmrvlY">
+			clay machine - mashup potato
+			</a>
+		</div>
+		<div class="dots"></div>
+		<div class="value-teks">
+			<span class="badge new">new</span>
+			<span class="badge music">music</span>
+		</div>
+	</div>
+</div>
+
+<!-- links -->
+<div class="post-teaser links">
+	<div class="row">
+		<div class="title-teks">
 			<a class="" href="{{ site.baseurl }}/blog/2020/04/11/rain-drops.html">
 			rain drops, the painkiller
 			</a>
 		</div>
 		<div class="dots"></div>
 		<div class="value-teks">
-			<span class="badge new">new</span>
 			<span class="badge blog">blog</span>
 		</div>
 	</div>
