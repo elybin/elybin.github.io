@@ -48,7 +48,11 @@ author: khakim assidiqi
 
 <p>
 go check my video [here](https://www.youtube.com/watch?v=8UJTXgmrvlY). 
+  
 </p>
+
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/799136779&color=%23544c44&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+
 <p>ps: i do epic live mashup using ableton's session view and launchpad, enjoy! and  i named my first mashup as potato (indonesian: kentang) do you know why? fun fact, here in my country kentang is slang word for rookie people, so ya, forgive my mistake hehe</p>
 
 
