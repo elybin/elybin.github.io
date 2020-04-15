@@ -7,7 +7,7 @@ permalink: /links/
 <div class="post-teaser links">
 	<div class="row">
 		<div class="title-teks">
-			<a class="" href="https://www.youtube.com/watch?v=8UJTXgmrvlY">
+			<a class="" href="https://youtu.be/uhZ0XvN6RbI">
 			clay machine - mashup potato
 			</a>
 		</div>
