@@ -8,46 +8,47 @@ author: khakim assidiqi
 
 <p>everything related to new porter robinson i’ll love it! ya, i thought that the latest alffy’s single are inspired so much with porter’s style. from the way he took a concept and coloring his hair, i'm pretty sure he is.</p>
 <p>
- <b>tracklist:</b>
+ <b>tracklist:</b><br/>
   <b>alffy rev, little linka - till we meet again (clay machine remix)  </b>
-> everything related to new porter robinson i’ll love it! ya, i thought that the latest alffy's single are inspired so much with porter’s style. from the way he took a concept and coloring his hair, i'm pretty sure he is.
+<blockquote>everything related to new porter robinson i’ll love it! ya, i thought that the latest alffy's single are inspired so much with porter’s style. from the way he took a concept and coloring his hair, i'm pretty sure he is. </blockquote>
 
   <b>surfaces - sunday best  </b>
-> no way you not love this song, this song heard everywhere. from tiktok selfie to summer jungle beat, cool!
-
+<blockquote>
+no way you not love this song, this song heard everywhere. from tiktok selfie to summer jungle beat, cool!
+</blockquote>
   <b>justin bieber - yummy  </b>
-> for favorite, this is an exception. sorry
+<blockquote>for favorite, this is an exception. sorry</blockquote>
 
   <b> flume, vera blue - rushing back  </b>
-> flume!!! the ass eater! 
+<blockquote>flume!!! the ass eater! </blockquote>
 
   <b>madeon - all my friends  </b>
-> aalllll myyy frriiieeends all watching, just why?
+<blockquote> aalllll myyy frriiieeends all watching, just why?</blockquote>
 
   <b>tones and i - dance monkey   </b>
-> too catchy to not listen
+<blockquote>too catchy to not listen</blockquote>
 
   <b>madeon, kyan - you're on (feat. kyan)  </b>
-> this is the best madeon song ever exsist! 
+<blockquote>this is the best madeon song ever exsist! </blockquote>
 
   <b>rich brian - 100 degrees  </b>
-> indonesia proud to own rich brian! keep it 100 deg!
+<blockquote> indonesia proud to own rich brian! keep it 100 deg!</blockquote>
 
   <b> weird genius, charita utami - flickshot  </b>
-> first single from trio dj that became viral here in indo.
+<blockquote>first single from trio dj that became viral here in indo.</blockquote>
 
   <b>weird genius, sara fajira - lathi  </b>
-> and this , the most well-done definition of "traditional indonesian edm"
+<blockquote>and this , the most well-done definition of "traditional indonesian edm"</blockquote>
 
   <b>hans zimmer - interstellar gargantua scene  </b>
-> this is the essence of my mashup, all about infinite space! 
+<blockquote>this is the essence of my mashup, all about infinite space! </blockquote>
 
 </p>
 
 
 
 <p>
-go check my video [here](https://youtu.be/uhZ0XvN6RbI). 
+go check my video <a href="https://youtu.be/uhZ0XvN6RbI">here</a>. 
   
 </p>
 
