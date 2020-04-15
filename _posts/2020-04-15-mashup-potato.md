@@ -47,7 +47,7 @@ author: khakim assidiqi
 
 
 <p>
-go check my video [here](https://www.youtube.com/watch?v=8UJTXgmrvlY). 
+go check my video [here](https://youtu.be/uhZ0XvN6RbI). 
   
 </p>
 
