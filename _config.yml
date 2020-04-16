@@ -78,4 +78,11 @@ sass:
   sass_dir: _sass
   style: :compressed
 plugins: [jekyll-paginate]
-exclude: ['Gemfile', 'Gemfile.lock','site1','site2','README.md','skripsi-clarita','demo-deriberatif']
+exclude_from_watch:
+  - Gemfile
+  - Gemfile.lock
+  - site1
+  - site2
+  - README.md
+  - skripsi-clarita
+  - demo-deriberatif
