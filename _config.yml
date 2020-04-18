@@ -78,5 +78,5 @@ sass:
   sass_dir: _sass
   style: :compressed
 plugins: [jekyll-paginate]
-keep_files: [skripsi-clarita, demo-deriberatif]
-exclude: [Gemfile, Gemfile.lock, README.md]
+keep_files: [app, skripsi-clarita, demo-deriberatif]
+exclude: [Gemfile, Gemfile.lock, README.md, app, skripsi-clarita, demo-deriberatif]
