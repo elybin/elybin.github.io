@@ -95,6 +95,16 @@ p{
   margin-bottom: 1em;
   text-align: justify;
 }
+p.indent{
+  line-height: 1.5;
+  margin-bottom: 1em;
+  text-align: justify;
+  text-indent: 50px;
+}
+p span.first{
+  font-weight: bold;
+  font-size: 20px;
+}
 ol, ul, dl, .math-display {
   line-height: 1.5;
   margin-bottom: 1em;

@@ -6,7 +6,7 @@ url: "https://elybin.github.io/"
 theme_settings:
   # Meta
   title: khakim assidiqi
-  avatar: assets/img/ava.jpg
+  avatar: assets/img/ava.jpeg
   favicon: assets/img/rsz_inf-min.png
   gravatar: # Email MD5 hash
   description: "a website written by wizard" # used by search engines
@@ -25,7 +25,7 @@ theme_settings:
   bitbucket:
   dribbble:
   facebook:
-  flickr:
+  flickr: 
   gitlab:
   gitter:
   google_plus:
