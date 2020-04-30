@@ -54,6 +54,12 @@ blockquote {
     border-left: 2px solid;
     padding: 1em 1em;
 }
+blockquote.indent{
+    border-left: 2px solid;
+    padding: 1em 1em;
+
+    margin-left: 40px !important;
+}
 blockquote p:last-child,
 footer p:last-child {
   margin-bottom: 0;
@@ -99,7 +105,7 @@ p.indent{
   line-height: 1.5;
   margin-bottom: 1em;
   text-align: justify;
-  text-indent: 50px;
+  text-indent: 40px;
 }
 p span.first{
   font-weight: bold;
@@ -183,4 +189,65 @@ p.text-gray
 .dots {
   border-bottom: 1px dotted gray;
   width: 100%;
+}
+
+mark{
+  background-color: rgb(252, 252, 155);
+}
+
+
+// blinking cursor effect
+.blinking-cursor {
+  font-weight: 100;
+  color: #2E3D48;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
 }

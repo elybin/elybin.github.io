@@ -1,3 +1,10 @@
+#
+#
+#
+#  YOU NEED TO CLEAR .gitigore to made changes
+#
+
+
 # SITE CONFIGURATION
 baseurl: ""
 url: "https://elybin.github.io/"
@@ -80,3 +87,8 @@ sass:
 plugins: [jekyll-paginate]
 # keep_files: [app, skripsi-clarita, demo-deriberatif]
 exclude: [Gemfile, Gemfile.lock, README.md ]
+
+
+# deployment
+host: 0.0.0.0
+port: 4000
