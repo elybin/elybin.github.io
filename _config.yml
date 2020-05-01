@@ -10,6 +10,7 @@ baseurl: ""
 url: "https://elybin.github.io/"
 site_name : "khakim assidiqi"
 
+
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
@@ -88,7 +89,9 @@ highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed
-plugins: [jekyll-paginate]
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
 # keep_files: [app, skripsi-clarita, demo-deriberatif]
 exclude: [Gemfile, Gemfile.lock, README.md ]
 
