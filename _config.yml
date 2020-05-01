@@ -13,7 +13,7 @@ url: "https://elybin.github.io/"
 theme_settings:
   # Meta
   title: khakim assidiqi
-  avatar: assets/img/ava.jpg
+  avatar: assets/img/ava-min.jpg
   favicon: assets/img/rsz_inf-min.png
   gravatar: # Email MD5 hash
   description: "a website written by wizard" # used by search engines
@@ -51,21 +51,21 @@ theme_settings:
 
   # Scripts
   google_analytics: "UA-113947180-1"
-  disqus_shortname: khakimassidiqi
+  disqus_shortname: "elybin"
   katex: true # Enable if using math markup
   search: true # Enable the search feature
 
   # Localization strings
-  str_follow_on: "Follow on"
-  str_rss_follow: "Follow RSS feed"
-  str_email: "Email"
-  str_next_post: "Next post"
-  str_previous_post: "Previous post"
-  str_next_page: "Next"
-  str_previous_page: "Prev"
-  str_continue_reading: "Continue reading"
-  str_javascript_required_disqus: "Please enable JavaScript to view comments."
-  str_search_no_results: "No results found."
+  str_follow_on: "follow on"
+  str_rss_follow: "follow RSS feed"
+  str_email: "email"
+  str_next_post: "next post"
+  str_previous_post: "prev post"
+  str_next_page: "next"
+  str_previous_page: "prev"
+  str_continue_reading: "continue reading"
+  str_javascript_required_disqus: "please enable JavaScript to view comments."
+  str_search_no_results: "no results found."
 
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"

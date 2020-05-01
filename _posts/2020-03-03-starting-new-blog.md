@@ -3,7 +3,8 @@ layout: post
 title: "i'm starting a new personal blog"
 categories: [blog]
 tags: [blog, starting]
-author: khakim assidiqi
+author: "khakim assidiqi"
+comments: false
 ---
 
 good day internet!

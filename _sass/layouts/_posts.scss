@@ -32,7 +32,53 @@ header {
   h1 {
     margin: 0;
     text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0
+  }
+
+}
+// with header
+header.with-header{
+  h1 {
+    margin: 0;
+    text-align: left;
     margin-bottom: 20px;
+    margin-left: 25px
+  }
+  .header-credit{
+    font-size: 12px;
+    color:rgba(255,255,255,0.8); 
+    margin: 0; 
+    float:left; 
+    margin-top: -25px; 
+    margin-left: 25px
+  }
+
+  @media (max-width: 1000px) {
+    h1 {
+      margin: 0;
+      margin-left: 0px;
+      margin-top: -15px;
+    }
+    .header-credit{
+      margin-top: -8px; 
+      margin-left: 1px;
+    }
+  }
+  @media (max-width: 576px) {
+    h1 {
+      margin-left: -55px;
+      margin-top: -5px; 
+    }
+
+    .header-credit{
+      margin: 0; 
+      float:left; 
+      margin-top: -7px; 
+      margin-left: -54px;
+    }
+
   }
 }
 .meta {
@@ -44,6 +90,7 @@ header {
 }
 .feature-image {
   padding: 0%;
+  padding-bottom: 40px;
   .post-link {
     color: $feature-image-text-color;
   }

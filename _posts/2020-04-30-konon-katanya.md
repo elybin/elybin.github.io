@@ -4,6 +4,7 @@ title: "konon katanya"
 categories: [blog]
 tags: [blog, why]
 author: khakim assidiqi
+comments: true
 lang: id
 excerpt: "untuk apa? jawab sahabatku, sesaat setelah ku jelaskan semua hal yang membuatku berdarah namun aku tetap girang menjalaninya. mengombang-ambingkan perasaan sendiri pada sebuah sekoci tentang berlabuhnya perasaan pada tujuan yang mungkin hanya diinginkan salah satu dari kita saja."
 ---
