@@ -52,6 +52,7 @@ theme_settings:
   # Scripts
   google_analytics: "UA-113947180-1"
   disqus_shortname: "elybin"
+  fb_appid: "285677132447016"
   katex: true # Enable if using math markup
   search: true # Enable the search feature
 

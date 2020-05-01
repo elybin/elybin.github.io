@@ -1,5 +1,5 @@
 <meta content="{{ site.title }}" property="og:site_name">
-{% if page.title %}	<meta content="{{ page.title }}" property="og:title">
+{% if page.title %}	<meta content="{{ page.title }} {% if page.lang %}oleh{% else %}by{% endif %} {{ page.author}}" property="og:title">
 {% else %}	<meta content="{{ site.title }}" property="og:title">
 {% endif %}
 {% if page.title %}	<meta content="article" property="og:type">
@@ -8,7 +8,7 @@
 {% if page.excerpt %}	<meta content="{{ page.excerpt }}" property="og:description">
 {% else %}	<meta content="{{ site.description }}" property="og:description">
 {% endif %}
-{% if page.url %}	<meta content="{{ site.url }}/{{ page.url }}" property="og:url">
+{% if page.url %}	<meta content="{{ site.url }}{{ page.url }}" property="og:url">
 {% endif %}
 {% if page.date %}	<meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
 	<meta content="{{ site.url }}/about/" property="article:author">
@@ -26,7 +26,7 @@
 {% endif %}
 
 <!-- /twitter  -->
-{% if page.title %}	<meta name="twitter:title" content="{{ page.title }}">
+{% if page.title %}	<meta name="twitter:title" content="{{ page.title }} {% if page.lang %}oleh{% else %}by{% endif %} {{ page.author}}">
 {% else %}	<meta name="twitter:title" content="{{ site.title }}">
 {% endif %}
 {% if page.excerpt %}	<meta name="twitter:description" content="{{ page.excerpt }}">
@@ -37,4 +37,9 @@
 {% endif %}
 <meta name="twitter:card" content="summary_large_image">
 {% if page.featured-image %}	<meta name="twitter:site" content="{{ site.twitter }}">
+{% endif %}
+
+{% if site.theme_settings.fb_appid %}
+<!-- /facebook -->
+<meta property="fb:app_id" content="{{ site.theme_settings.fb_appid }}" />
 {% endif %}
