@@ -37,6 +37,6 @@ something wrong with me.<br/>
 </blockquote>
 
 
-<p class="indent">seperti biasa, aku suka mengirimkan akhir dari tulisan dengan sebuah sajak lagu. karena hanya itu, yang dapat menenangkan rasa, menghadirkan bahagia, tanpa terselip duka.</p> 
+<p class="indent">seperti biasa, aku suka menyimpulkan akhir dari sebuah tulisan dengan baris sajak lagu. karena hanya itu, yang dapat menenangkan jiwa, menghadirkan bahagia, tanpa sedikitpun terselip duka.</p> 
 
 \- k
