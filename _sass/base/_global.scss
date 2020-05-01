@@ -107,9 +107,12 @@ p.indent{
   text-align: justify;
   text-indent: 40px;
 }
-p span.first{
+h2.first{
   font-weight: bold;
   font-size: 20px;
+  float: left;
+  margin: 0;
+  margin: 10px;
 }
 ol, ul, dl, .math-display {
   line-height: 1.5;

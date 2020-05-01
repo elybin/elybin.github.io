@@ -4,14 +4,16 @@ title: "konon katanya"
 categories: [blog]
 tags: [blog, why]
 author: khakim assidiqi
+lang: id
+excerpt: "untuk apa? jawab sahabatku, sesaat setelah ku jelaskan semua hal yang membuatku berdarah namun aku tetap girang menjalaninya. mengombang-ambingkan perasaan sendiri pada sebuah sekoci tentang berlabuhnya perasaan pada tujuan yang mungkin hanya diinginkan salah satu dari kita saja."
 ---
  
  
-<p><span class="first">"untuk apa?"</span> jawab sahabatku, sesaat setelah ku jelaskan semua hal yang membuatku berdarah namun aku tetap girang menjalaninya. mengombang-ambingkan perasaan sendiri pada sebuah sekoci (<i>baca: kemungkinan</i>) tentang berlabuhnya perasaan pada tujuan yang mungkin hanya diinginkan salah satu dari kita saja.</p>
+<h2 class="first">&quot;untuk apa?&quot;</h2><p> jawab sahabatku, sesaat setelah ku jelaskan semua hal yang membuatku berdarah namun aku tetap girang menjalaninya. mengombang-ambingkan perasaan sendiri pada sebuah sekoci (<i>baca: kemungkinan</i>) tentang berlabuhnya perasaan pada tujuan yang mungkin hanya diinginkan salah satu dari kita saja.</p>
  
 <p class="indent">saat sendiri diantara waktu salat isya dan subuh ini, cukup sulit memang untuk tertidur dengan pikiran tanpa peperangan. seperti biasa, badai terus berlangsung antara logika dan perasaan sendiri. tenaga ini habis mempertahankan logika untuk terus memberikan argumen masuk akal guna memerankan dua tokoh sekaligus dalam sebuah cerita. sementara, perasaan terus memberikan pupuk dan air pada tanah kering, mungkin agar kebun ini terus berbunga pada tangkai yang tak pernah kau sapa.</p>
  
-<p class="indent">sekarang, pada latar cerita kedua, aku memiliki peran ganda. pertama, aku berperan seperti pada cerita sebelumnya, tentang sosok sahabat dekat yang selalu dipilih sebagai pundak yang tepat untuk bercerita. tentang apa saja, dari rasa kesal karena matahari temaram tak jadi berkunjung "karena hujan tak juga reda". lalu...  tentang musik yang sukar pergi dari gawai milikmu. sampai, tentang masa-masa indah saat musim kasmaran sedang bersemi kembali diantara kamu dan lelaki itu.</p>
+<p class="indent">sekarang, pada latar cerita kedua, aku memiliki peran ganda. pertama, aku berperan seperti pada cerita sebelumnya, tentang sosok sahabat dekat yang selalu dipilih sebagai pundak yang tepat untuk bercerita. tentang apa saja, dari rasa kesal karena matahari temaram tak jadi berkunjung &quot;karena hujan tak juga reda&quot;. lalu...  tentang musik yang sukar pergi dari gawai milikmu. sampai, tentang masa-masa indah saat musim kasmaran sedang bersemi kembali diantara kamu dan lelaki itu.</p>
  
 <p class="indent">peran kedua adalah sebagai lelaki yang sedang jatuh hati pada sosok paling mengerti dari apa yang sungguh dibutuhkan dalam diri ini. aku menjadi seseorang yang selalu ingin membuat pujaannya bahagia dengan cara yang istimewa, walau kadang seadanya dan itu-itu saja. jujur aku tidak suka memainkan peran kedua ini, penuh rasa khawatir dan takut buat kecewa.</p>
  
