@@ -8,6 +8,7 @@
 # SITE CONFIGURATION
 baseurl: ""
 url: "https://elybin.github.io/"
+title : "khakim assidiqi"
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
@@ -53,6 +54,8 @@ theme_settings:
   google_analytics: "UA-113947180-1"
   disqus_shortname: "elybin"
   fb_appid: "285677132447016"
+  fb_articlepublisher: "https://www.facebook.com/khakimassidiqi"
+  web_color: "#eee"
   katex: true # Enable if using math markup
   search: true # Enable the search feature
 
