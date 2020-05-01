@@ -8,7 +8,7 @@
 # SITE CONFIGURATION
 baseurl: ""
 url: "https://elybin.github.io/"
-title : "khakim assidiqi"
+site_name : "khakim assidiqi"
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
