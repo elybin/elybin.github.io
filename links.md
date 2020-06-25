@@ -7,13 +7,44 @@ permalink: /links/
 <div class="post-teaser links">
 	<div class="row">
 		<div class="title-teks">
+			<a class="" href="https://play.google.com/store/apps/details?id=com.melonkotak.onefunlearn">
+			star mobile app - e-learning
+			</a>
+		</div>
+		<div class="dots"></div>
+		<div class="value-teks">
+			<span class="badge new">new</span>
+			<span class="badge code">code</span>
+		</div>
+	</div>
+</div>
+
+<!-- links -->
+<div class="post-teaser links">
+	<div class="row">
+		<div class="title-teks">
+			<a class="" href="{{ site.baseurl }}/blog/2020/04/30/konon-katanya.html">
+			konon katanya
+			</a>
+		</div>
+		<div class="dots"></div>
+		<div class="value-teks">
+			<span class="badge blog">blog</span>
+		</div>
+	</div>
+</div>
+
+
+<!-- links -->
+<div class="post-teaser links">
+	<div class="row">
+		<div class="title-teks">
 			<a class="" href="https://youtu.be/uhZ0XvN6RbI">
 			clay machine - mashup potato
 			</a>
 		</div>
 		<div class="dots"></div>
 		<div class="value-teks">
-			<span class="badge new">new</span>
 			<span class="badge music">music</span>
 		</div>
 	</div>
