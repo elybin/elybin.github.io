@@ -70,7 +70,7 @@
     <script>
     let url_var = 'https://order-file.shopee.co.id/accounting/invoice/'
 
-
+$( document ).ready(function() {
 $("form").submit(function(event) {
 let order_id = $('input[name="order_id"]').val();
 let shop_id =  $('input[name="shop_id"]').val();
@@ -81,12 +81,14 @@ let shop_id =  $('input[name="shop_id"]').val();
     
     console.log(download_link)
     window.location.href = download_link;
-    alert(download_link);
+    console.log(download_link);
   }else{
   	alert('please fill input!');
   }
 
+
   event.preventDefault();
+});
 });
 
     </script>
