@@ -9,7 +9,7 @@ permalink: /links/
 	<div class="row">
 		<div class="title-teks">
 			<a class="" href="https://twitter.com/clay_machine/status/1292807415449006080">
-			twitter - tentang aplikasi akinator 
+			tentang aplikasi akinator 
 			</a>
 		</div>
 		<div class="dots"></div>
