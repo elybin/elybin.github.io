@@ -3,6 +3,23 @@ layout: page
 title: links
 permalink: /links/
 ---
+
+<!-- links -->
+<div class="post-teaser links">
+	<div class="row">
+		<div class="title-teks">
+			<a class="" href="https://twitter.com/clay_machine/status/1292807415449006080">
+			twitter - tentang aplikasi akinator 
+			</a>
+		</div>
+		<div class="dots"></div>
+		<div class="value-teks">
+			<span class="badge new">new</span>
+			<span class="badge blog">blog</span>
+		</div>
+	</div>
+</div>
+
 <!-- links -->
 <div class="post-teaser links">
 	<div class="row">
@@ -13,7 +30,6 @@ permalink: /links/
 		</div>
 		<div class="dots"></div>
 		<div class="value-teks">
-			<span class="badge new">new</span>
 			<span class="badge code">code</span>
 		</div>
 	</div>
