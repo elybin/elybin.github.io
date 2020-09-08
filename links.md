@@ -3,6 +3,21 @@ layout: page
 title: links
 permalink: /links/
 ---
+<!-- links -->
+<div class="post-teaser links">
+	<div class="row">
+		<div class="title-teks">
+			<a class="" href="https://open.spotify.com/album/0Nt1hch1xfLXQp1aFspsYv?si=g-4B7JWgQUO6GMxaijG3xA">
+			danny leone - why do you care?
+			</a>
+		</div>
+		<div class="dots"></div>
+		<div class="value-teks">
+			<span class="badge new">new</span>
+			<span class="badge music">music</span>
+		</div>
+	</div>
+</div>
 
 <!-- links -->
 <div class="post-teaser links">
@@ -14,7 +29,6 @@ permalink: /links/
 		</div>
 		<div class="dots"></div>
 		<div class="value-teks">
-			<span class="badge new">new</span>
 			<span class="badge blog">blog</span>
 		</div>
 	</div>
