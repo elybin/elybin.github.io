@@ -108,8 +108,8 @@ o::/-.````````````````............`````.......````````````............``......``
          $( document ).ready(function() {
          $("form").submit(function(event) {
          let wanumber = $('input[name="wanumber"]').val();
-         wanumber.replace(/\D/g,'');
-         
+         wanumber = wanumber.replace(/\D/g,'');
+            
          
          if (wanumber !== null) {
          let direct_link = url_var + wanumber;
