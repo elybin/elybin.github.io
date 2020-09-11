@@ -7,13 +7,43 @@ permalink: /links/
 <div class="post-teaser links">
 	<div class="row">
 		<div class="title-teks">
+			<a class="" href="https://twitter.com/clay_machine/status/1303938295122989058">
+			the black pink box project
+			</a>
+		</div>
+		<div class="dots"></div>
+		<div class="value-teks">
+			<span class="badge new">new</span>
+			<span class="badge blog">blog</span>
+		</div>
+	</div>
+</div>
+
+<!-- links -->
+<div class="post-teaser links">
+	<div class="row">
+		<div class="title-teks">
+			<a class="" href="https://elybin.github.io/tools_wa_nosave.html">
+			whatsapp nosave
+			</a>
+		</div>
+		<div class="dots"></div>
+		<div class="value-teks">
+			<span class="badge code">code</span>
+		</div>
+	</div>
+</div>
+
+<!-- links -->
+<div class="post-teaser links">
+	<div class="row">
+		<div class="title-teks">
 			<a class="" href="https://open.spotify.com/album/0Nt1hch1xfLXQp1aFspsYv?si=g-4B7JWgQUO6GMxaijG3xA">
 			danny leone - why do you care?
 			</a>
 		</div>
 		<div class="dots"></div>
 		<div class="value-teks">
-			<span class="badge new">new</span>
 			<span class="badge music">music</span>
 		</div>
 	</div>
