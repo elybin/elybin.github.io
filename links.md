@@ -7,13 +7,29 @@ permalink: /links/
 <div class="post-teaser links">
 	<div class="row">
 		<div class="title-teks">
+			<a class="" href="https://www.youtube.com/watch?v=_dLd_l2jgNE">
+			/MA&#183;LEV&#183;O&#183;LENT/ - the last of _____ invention
+			</a>
+		</div>
+		<div class="dots"></div>
+		<div class="value-teks">
+			<span class="badge original">original</span>
+			<span class="badge music">music</span>
+			<span class="badge new">new</span>
+		</div>
+	</div>
+</div>
+
+<!-- links -->
+<div class="post-teaser links">
+	<div class="row">
+		<div class="title-teks">
 			<a class="" href="https://twitter.com/clay_machine/status/1303938295122989058">
 			the black pink box project
 			</a>
 		</div>
 		<div class="dots"></div>
 		<div class="value-teks">
-			<span class="badge new">new</span>
 			<span class="badge blog">blog</span>
 		</div>
 	</div>
