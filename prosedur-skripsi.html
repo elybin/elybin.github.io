@@ -19,6 +19,154 @@
     <!-- load js -->
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+
+    <style>
+        body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.timeline {
+    position: relative;
+    padding: 21px 0px 10px;
+    margin-top: 4px;
+    margin-bottom: 30px;
+}
+
+.timeline .line {
+    position: absolute;
+    width: 4px;
+    display: block;
+    background: currentColor;
+    top: 0px;
+    bottom: 0px;
+    margin-left: 30px;
+}
+
+.timeline .separator {
+    border-top: 1px solid currentColor;
+    padding: 5px;
+    padding-left: 40px;
+    font-style: italic;
+    font-size: .9em;
+    margin-left: 30px;
+}
+
+.timeline .line::before { top: -4px; }
+.timeline .line::after { bottom: -4px; }
+.timeline .line::before,
+.timeline .line::after {
+    content: '';
+    position: absolute;
+    left: -4px;
+    width: 12px;
+    height: 12px;
+    display: block;
+    border-radius: 50%;
+    background: currentColor;
+}
+
+.timeline .panel {
+    position: relative;
+    margin: 10px 0px 21px 70px;
+    clear: both;
+}
+
+.timeline .panel::before {
+    position: absolute;
+    display: block;
+    top: 8px;
+    left: -24px;
+    content: '';
+    width: 0px;
+    height: 0px;
+    border: inherit;
+    border-width: 12px;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+}
+
+.timeline .panel .panel-heading.icon * { font-size: 20px; vertical-align: middle; line-height: 40px; }
+.timeline .panel .panel-heading.icon {
+    position: absolute;
+    left: -59px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    padding: 0px;
+    border-radius: 50%;
+    text-align: center;
+    float: left;
+}
+
+.timeline .panel-outline {
+    border-color: transparent;
+    background: transparent;
+    box-shadow: none;
+}
+
+.timeline .panel-outline .panel-body {
+    padding: 10px 0px;
+}
+
+.timeline .panel-outline .panel-heading:not(.icon),
+.timeline .panel-outline .panel-footer {
+    display: none;
+}
+
+
+.page-header {
+    border: none;
+}
+
+
+
+h2{
+    font-size: 20px;
+}
+h3{
+    line-height: 20px;
+    font-size: 17px;
+}
+
+h2,h3,h4,h5{
+    font-weight: 700;
+}
+.panel-outline h3{
+    font-size: 17px;   
+    margin: 0;
+    line-height: 1;
+    color: #888;
+}
+
+
+.referensi{
+    margin-bottom: 30px;
+}
+
+h1 span{
+    display: block;
+}
+
+.info{
+    background-color: #fafafa;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    color: #666;
+    font-size: 12px;
+    float:right;
+    text-align: right;
+}
+.info span{
+    display: block;
+}
+
+.page-intro{
+    margin-bottom: 20px;
+}
+
+    </style>
 </head>
 
 <body>
@@ -364,7 +512,69 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 
-    <script src="https://raw.githubusercontent.com/elybin/prosedur-skripsi-jurusan-te/main/js/main.js"></script>
+    <script>
+        let userAndRepo = "elybin/prosedur-skripsi-jurusan-te";
+        let lastCommitEndpoint = "https://api.github.com/repos/" + userAndRepo + "/git/refs/heads/main";
+        let getCommitDetailEndpoint = "https://api.github.com/repos/" + userAndRepo + "/git/commits/";
+
+        $(document).ready(function () {
+            getLastestCommit();
+        })
+
+        function getLastestCommit() {
+            let commitList = "";
+            $.getJSON(lastCommitEndpoint, function (data) {
+                theCommitSha = data.object.sha;
+
+                // get detail 
+                $.getJSON(getCommitDetailEndpoint + theCommitSha, function (data2) {
+                    theCommitDetail = data2;
+
+                    var unixDate = new Date(theCommitDetail.committer.date).getTime();
+
+                    let writeIt =
+                        timeSince(unixDate) +
+                        " yang lalu oleh " +
+                        theCommitDetail.committer.name +
+                        " <br/>(" +
+                        theCommitDetail.message +
+                        ")";
+                    $("#last-update").html(writeIt);
+
+                    console.log(theCommitDetail);
+                });
+            })
+        }
+
+
+
+
+        function timeSince(date) {
+            var seconds = Math.floor((new Date() - date) / 1000);
+
+            var interval = seconds / 31536000;
+
+            if (interval > 1) {
+                return Math.floor(interval) + " tahun";
+            }
+            interval = seconds / 2592000;
+            if (interval > 1) {
+                return Math.floor(interval) + " bulan";
+            }
+            interval = seconds / 86400;
+            if (interval > 1) {
+                return Math.floor(interval) + " hari";
+            }
+            interval = seconds / 3600;
+            if (interval > 1) {
+                return Math.floor(interval) + " jam";
+            }
+            interval = seconds / 60;
+            if (interval > 1) {
+                return Math.floor(interval) + " menit";
+            }
+            return Math.floor(seconds) + " detik";
+        }</script>
 </body>
 
 </html>
