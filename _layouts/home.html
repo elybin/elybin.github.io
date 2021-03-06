@@ -2,70 +2,78 @@
 layout: default
 ---
 
+
 <div class="home">
-  {% if site.theme_settings.header_text %}
-  <!-- <div class="call-out"
-  style="background-image: url('{{ site.baseurl }}/{{ site.theme_settings.header_text_feature_image }}')">
-    {{ site.theme_settings.header_text }}
-  </div> -->
-  {% endif %}
-<!-- 
-    <div class="post-header-big">
-      <h1>Contents</h1>
-    </div> -->
 
-  <div class="posts">
-
-    {% for post in paginator.posts %}
-    <div class="post-teaser">
-      <div class="row">
-        <div class="title-teks">
-          <a class="" href="{{ post.url | relative_url }}">
+  <div class="container">
+    <div class="row section-heading">
+      <div class="col section-title">
+        <h2>Blog Posts</h2>
+      </div>
+      <div class="col">
+       
+      </div>
+    </div>
+    
+    {% assign count = 0 %}
+    {% for post in site.categories.blog %}
+    <div class="row posts">
+      <div class="col date">
+        {{ post.date | date: "%d %b  %Y" }}
+      </div>
+      <div class="col title">
+        <a href="{{ post.url | relative_url }}">
           {{ post.title }}
           </a>
-        </div>
-        <div class="dots"></div>
-        <div class="value-teks">{{ post.date | date: "%b %-d, %y" }}</div>
       </div>
+    </div>
+    {% assign count = count | plus:1 %}
+    {% if count == 20 %}{% break %}{% endif %}
+    {% endfor %}
+  </div>
+  
+  <div class="container">
+    <div class="row section-heading">
+      <div class="col section-title">
+        <h2>Works and Projects</h2>
+      </div>
+      <div class="col">
+       
+      </div>
+    </div>
+    {% assign count = 0 %}
+    {% for post in site.categories.project %}
+    <div class="row posts">
+      <div class="col date">
+        {{ post.date | date: "%d %b  %Y" }}
+      </div>
+      <div class="col title">
+        <a href="{{ post.url | relative_url }}">
+          {{ post.title }}
+          </a>
+      </div>
+    </div>
+    {% assign count = count | plus:1 %}
+    {% if count == 20 %}{% break %}{% endif %}
+    {% endfor %}
+  </div>
 
-
-
-      <!-- <div class="excerpt">
-        {{ post.excerpt }}
-        <a class="button" href="{{ post.url | relative_url }}">
-          {{ site.theme_settings.str_continue_reading }}
-        </a>-->
-      <!-- </div> -->
+  <div class="container">
+    <div class="row section-heading">
+      <div class="col section-title">
+        <h2>Apps and APIs</h2>
+      </div>
+      <div class="col">
+       
+      </div>
+    </div>
+    {% for post in site.categories.apps %}
+    <div class="row posts">
+      <div class="col title-apps">
+        <span class="bold"><a href="{{ post.links }}" >{{ post.title }}</a>:</span><span class="brief">  {{ post.brief }}</span>
+      </div>
     </div>
     {% endfor %}
-
-        <div class="post-teaser">
-          <div class="row">
-            <div class="title-teks">
-              <a class="" href="{{ site.baseurl }}/links">
-                links collection
-              </a>
-            </div>
-            <div class="dots"></div>
-            <div class="value-teks">inf. &#8734; </div>
-          </div>
-        </div>
   </div>
 
-  {% if paginator.total_pages > 1 %}
-  <div class="pagination">
-    {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | relative_url | replace: '//', '/' }}" class="button" >
-      <i class="fa fa-chevron-left"></i>
-      {{ site.theme_settings.str_previous_page }}
-    </a>
-    {% endif %}
-    {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | relative_url | replace: '//', '/' }}" class="button" >
-      {{ site.theme_settings.str_next_page }}
-      <i class="fa fa-chevron-right"></i>
-    </a>
-    {% endif %}
-  </div>
-  {% endif %}
 </div>

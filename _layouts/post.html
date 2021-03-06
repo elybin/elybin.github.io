@@ -1,23 +1,27 @@
 ---
 layout: default
 ---
+<div class="container">
 <article {% if page.feature-img %}class="feature-image"{% endif %}>
   
-      <!-- <p class="meta text-gray">
-        <div class="row">
-          <div class="title-teks">by {{ page.author }}</div>
-          <div class="dots"></div>
-          <div class="value-teks">{{ page.date | date: "%b %-d, %Y" }}</div>
-        </div>
-      </p> -->
+   
   
   <header style="background-image: url('{{ site.baseurl }}/{{ page.feature-img }}')">
     <h1 class="title">{{ page.feature-title | default: page.title }} <div style="display:none">by khakim assidiqi</div></h1>
     {% if page.subtitle %}<h2 class="subtitle">{{ page.subtitle }}</h2>{% endif %}
 
   </header>
+  <div class="meta">
+    <div class="row">
+      <div class="date">{{ page.date | date: "%d %B %Y" }}</div>
+      {% if page.location %}
+      <div class="dots"></div>
+      <div class="location">{{ page.location }}</div>
+      {% endif %}
+    </div>
+  </div>
   <section class="post-content">{{ content }}</section>
-  {% include tags_list.html tags=page.tags tag_count=page.tags.size %}
+  <!-- {% include tags_list.html tags=page.tags tag_count=page.tags.size %} -->
 </article>
 
 <!-- Disqus -->
@@ -33,3 +37,4 @@ layout: default
 {% if site.theme_settings.post_navigation %}
   {% include post_nav.html %}
 {% endif %}
+</div>

@@ -175,15 +175,26 @@ p.text-gray
   display: table;
 }
 
-.title-teks, .dots, .value-teks {
+.title-teks, .dots, .value-teks{
   display: table-cell;
-  text-transform: lowercase;
 }
 
-.title-teks, .value-teks {
-  white-space: nowrap;
+.title-teks a{
+  font-size: 23px;
+  color: #111;
+  text-decoration: underline;
+  text-decoration-color: #f5f5f5;
 }
-
+.value-teks {
+  display: inline-block;
+  width: 150px;
+  margin-left: -1px;
+  margin-right: 25px;
+  color: #b5b5b5;
+  font-family: fira mono,monospace;
+  text-align: right;
+  margin-left: 20px;
+}
 .table {
   width: 500px;
   margin: 10px;
@@ -257,4 +268,11 @@ mark{
 
 .home{
   margin-bottom: 50px;
+}
+.posts .section-title{
+  padding: 0%;
+}
+.posts .section-title h2{
+  font-size: 20px;
+  font-weight: bold;
 }

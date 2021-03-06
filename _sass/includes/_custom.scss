@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap');
+
+$primary-color: #cc0000;
+$dark-color: #111;
+$grey-color: #6d6d6d;
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    color: rgb(32, 32, 32);
+    // text-decoration: underline;
+    // text-decoration-color: #dadada;
+}
+a:hover{
+    color: $dark-color;
+    text-decoration: underline;
+    text-decoration-color: #979797;
+}
+
+
+.container
+{
+    max-width: 42em;
+}
+
+.site-header
+{
+    margin-top: 60px;
+}
+.site-header h1
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.meta .row{
+    margin-left: 0;
+}
+.posts
+{
+    margin-bottom: 5px;
+}
+.posts .date
+{
+
+    max-width: 150px;
+    margin-right: 0px;
+    color: $grey-color;
+    font-family: fira mono,monospace;
+    text-align: right;  
+    margin-left: -15px;
+}
+.posts .title a,
+.posts .title-apps a
+{
+    color: $dark-color;
+    // text-decoration: underline;
+    // text-decoration-color: #dadada;
+    font-weight: bold;
+}
+
+.posts .title-apps{
+    color: $grey-color;
+}
+.posts .title-apps .bold{
+    font-weight: bolder;
+    color: $dark-color;
+}
+.posts .title-apps .brief{
+    font-family: fira mono,monospace;
+}
+
+.section-title h2
+{
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: $primary-color;
+}
+
+h1{
+    color:  $primary-color;
+}
+
+.site-footer{
+    border-top: 3px solid #eee;
+    padding-top: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.site-footer .name{
+    font-weight: bold;
+    color: $dark-color;
+}
+
+.footer-nav {
+    float:left;
+    margin-top: 5px;
+    margin-left: -45px;
+}
+@media (min-width: 576px) {
+    .footer-nav {
+        float:right;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+}
+.footer-nav ul {
+    list-style-type: none;
+}
+.footer-nav li{
+    float: left;
+    margin: 3px;
+}
+
+
+
+// blinking cursor effect
+.blinking-cursor {
+    font-weight: 100;
+    color: $primary-color;
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+    -ms-animation: 1s blink step-end infinite;
+    -o-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
+  }
+  
+  @keyframes "blink" {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: $primary-color;
+    }
+  }
+  
+  @-moz-keyframes blink {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: $primary-color;
+    }
+  }
+  
+  @-webkit-keyframes "blink" {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: $primary-color;
+    }
+  }
+  
+  @-ms-keyframes "blink" {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: $primary-color;
+    }
+  }
+  
+  @-o-keyframes "blink" {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: $primary-color;
+    }
+  }
+.site-footer .brief a 
+{
+    font-weight: bold;
+    color: $dark-color;
+}
+
+//   post 
+.content h1.title
+{
+    color: $dark-color;
+    font-size: 20px;
+    font-weight: bold;
+}
+article .meta
+{
+    color: $grey-color;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.meta .dots
+{
+    content: " ";
+    display: block;
+    width: 10px;
+    height: 2px;
+    background-color: $grey-color;
+    margin: 0 6px;
+    margin-top: 10px;
+   
+}
+.post-content p{
+    text-align: justify;
+}
+.post-content blockquote
+{
+    border-left: 2px solid $grey-color;
+    padding: 10px 20px;
+}
+article header .title
+{
+    margin-top: 20px;
+}

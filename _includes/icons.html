@@ -1,18 +1,5 @@
-{% if site.theme_settings.rss %}
-<li>
-	<a href="{{ "/feed.xml" | relative_url }}" title="{{ site.theme_settings.str_rss_follow }}">
-		<i class="fas fa-fw fa-rss"></i>
-	</a>
-</li>
-{% endif %}
 
-{% if site.theme_settings.email_address %}
-<li>
-	<a href="mailto:{{ site.theme_settings.email_address }}" title="{{ site.theme_settings.str_email }}">
-		<i class="fas fa-fw fa-envelope"></i>
-	</a>
-</li>
-{% endif %}
+
 
 {% if site.theme_settings.behance %}
 <li>
@@ -171,6 +158,14 @@
 <li>
 	<a href="https://github.com/{{ site.theme_settings.github }}" title="{{ site.theme_settings.str_follow_on }} GitHub">
 		<i class="fab fa-fw fa-github"></i>
+	</a>
+</li>
+{% endif %}
+
+{% if site.theme_settings.rss %}
+<li>
+	<a href="{{ "/feed.xml" | relative_url }}" title="{{ site.theme_settings.str_rss_follow }}">
+		<i class="fas fa-fw fa-rss"></i>
 	</a>
 </li>
 {% endif %}

@@ -15,11 +15,17 @@
 .call-out a {
   color: $header-desc-link-color
 }
+
+span.site-title h1 {
+  font-size: 20px;
+  margin-top: -3px;
+}
+
 // Post listing
 .posts {
   .post-teaser {
     @extend %padding-regular;
-    padding-bottom:  $padding-small*0.1;
+    padding-bottom:  0;
     width: 100%;
     margin-bottom: 0;
     display: inline-block;
@@ -27,6 +33,7 @@
     p a {
       @extend .body-link;
     }
+    padding-top: 0;
   }
   .excerpt {
     margin-top: 1em;
