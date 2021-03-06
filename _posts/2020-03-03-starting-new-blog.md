@@ -1,13 +1,17 @@
 ---
 layout: post
-title: "i'm starting a new personal blog."
-categories: [blog]
-tags: [blog, starting]
-author: "khakim assidiqi"
+title: i'm starting a new personal blog.
+categories:
+  - blog
+tags:
+  - blog
+  - starting
+author: khakim assidiqi
 comments: false
+published: true
 ---
 
-good day internet!
+G'Day Internet!
 
 started from today, i’m trying to born new ugly blogging website that previously left abandoned.
 
@@ -22,8 +26,6 @@ but, the only thing i know is… we’re going to move forward, and write someth
 
 
 
-
-
 sincerely,
 
-![](/assets/img/signature.png){:width="250px"}
+Khakim
