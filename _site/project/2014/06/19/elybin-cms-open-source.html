@@ -1,47 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <head itemscope>
 	<meta charset="utf-8">
 	<title>Elybin CMS: an Open Source Content Management System -  Khakim A. Hudaya</title>
-	<meta name="description"
-		content="Pada 2014 lalu, saya memulai mempelajari bahasa pemrograman pertama saya yaitu PHP. Dengan arahan guru SMK Bapak Fauzan, saya disarankan untuk membuat sebuah...">	
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
 	<!-- CSS -->
 	<link rel="stylesheet" href="/assets/css/main.css">
-
 	<!--Favicon-->
 	<link rel="shortcut icon" href="/assets/img/rsz_inf-min.png" type="image/x-icon">
-
 	<!-- Canonical -->
 	<link rel="canonical" href="/project/2014/06/19/elybin-cms-open-source.html">
-
 	<!-- RSS -->
-	<link rel="alternate" type="application/atom+xml" title="Khakim A. Hudaya"
-		href="/feed.xml" />
-
+	<link rel="alternate" type="application/atom+xml" title="Khakim A. Hudaya" href="/feed.xml" />
 	<!-- Font Awesome -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-		integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-
-	<!-- Google Fonts -->
-	
-	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet"
-		type="text/css">
-	
-
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/regular.min.css" integrity="sha512-1yhsV5mlXC9Ve9GDpVWlM/tpG2JdCTMQGNJHvV5TEzAJycWtHfH0/HHSDzHFhFgqtFsm1yWyyHqssFERrYlenA==" crossorigin="anonymous" />
 	<!-- KaTeX -->
-	
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css"
-		integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
-
-	<script src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js"
-		integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ"
-		crossorigin="anonymous"></script>
-	
-
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js" integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ" crossorigin="anonymous"></script>
 	<!-- Google Analytics -->
-	
 	<script>
 		(function (i, s, o, g, r, a, m) {
 		i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
@@ -53,47 +29,34 @@
 		ga('create', 'UA-113947180-1', 'auto');
 		ga('send', 'pageview');
 	</script>
-	
+	<meta name="description" content="Elybin CMS dibuat dengan campuran antara Native dan OOP yang di-fork dari Popoji CMS. Tampilan menggunakan framework AdminLTE yang berjalan pada Bootstrap di...">	
 
-	<!-- Open Graph Tags -->
-	<meta content="Khakim A. Hudaya" property="og:site_name">
-	<meta content="Elybin CMS: an Open Source Content Management System by Khakim A. Hudaya" property="og:title">
-
-	<meta content="article" property="og:type">
-
-	<meta content="<p>Pada 2014 lalu, saya memulai mempelajari bahasa pemrograman pertama saya yaitu PHP. Dengan arahan guru SMK Bapak Fauzan, saya disarankan untuk membuat sebuah <em>project</em> secara mandiri yang nantinya sekaligus digunakan sebagai persyaratan tugas akhir untuk menyelesaikan studi saya.</p>
-
-" property="og:description">
-
-	<meta content="http://0.0.0.0:4000/project/2014/06/19/elybin-cms-open-source.html" property="og:url">
-
-	<meta content="2014-06-19T00:00:00+07:00" property="article:published_time">
-	<meta content="2014-06-19T00:00:00+07:00" property="article:modified_time">
-	<meta content="http://0.0.0.0:4000about/" property="article:author">
-
-	<meta content="http://0.0.0.0:4000assets/img/og_cover-min.jpg" property="og:image">
-
-	<meta content="https://melonkotak.com/api/v1/img-min/?qty=95&url=http://0.0.0.0:4000assets/img/og_cover-min.jpg" property="og:image:alt">
-
-  <meta property="og:image:height" content="630" /> 
-  <meta property="og:image:width" content="1200" />
-
-  	<meta content="project" property="article:section">
-  
+    <!-- Open Graph Tags -->
+    <meta property="og:site_name" content="Khakim A. Hudaya">
+    <meta property="og:title" content="Elybin CMS: an Open Source Content Management System by Khakim A. Hudaya">
+    <meta property="og:type" content="article">
+    <meta property="og:description" content="Elybin CMS dibuat dengan campuran antara Native dan OOP yang di-fork dari Popoji CMS. Tampilan menggunakan framework AdminLTE yang berjalan pada Bootstrap ditambah dengan beberapa plugin JavaScript. Untuk penyimpanan data digunakan MySQL.
+Salah satu fitur yang menurut saya menarik adalah kemampuan Elybin CMS untuk secara otomatis beradaptasi dengan plugin yang tersedia pada folder system. Selain itu adalah tampilan yang sederhana dan mudah disesuaikan. Ukuran dari CMS ini cukup ringkas, yaitu hanya 3,2MB.">
+    <meta property="og:url" content="http://0.0.0.0:4000/project/2014/06/19/elybin-cms-open-source.html">
+    <meta property="article:published_time" content="2014-06-19T00:00:00+07:00">
+    <meta property="article:modified_time" content="2014-06-19T00:00:00+07:00">
+    <meta property="author" content="Khakim A. Hudaya">
+    <meta property="article:publisher" content="https://www.facebook.com/khakimassidiqi" />
+    <meta property="og:image" content="http://0.0.0.0:4000/assets/img/og_cover-min.jpg">
+    <meta property="og:image:alt" content="https://melonkotak.com/api/v1/img-min/?qty=95&url=http://0.0.0.0:4000/assets/img/og_cover-min.jpg">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:width" content="1200">
+    <meta property="article:section" content="project">
+	<meta property="article:tag" content="project">
+	<meta property="article:tag" content="web-app">
 
 
-  	<meta content="project" property="article:tag">
-  	<meta content="web-app" property="article:tag">
-  
-
-
-<!-- /twitter  -->
-<meta name="twitter:card" content="summary_large_image">
+	  <!-- /twitter	  -->
+	  <meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" content="Elybin CMS: an Open Source Content Management System by Khakim A. Hudaya">
 
-	<meta name="twitter:description" content="<p>Pada 2014 lalu, saya memulai mempelajari bahasa pemrograman pertama saya yaitu PHP. Dengan arahan guru SMK Bapak Fauzan, saya disarankan untuk membuat sebuah <em>project</em> secara mandiri yang nantinya sekaligus digunakan sebagai persyaratan tugas akhir untuk menyelesaikan studi saya.</p>
-
-">
+	<meta name="twitter:description" content="Elybin CMS dibuat dengan campuran antara Native dan OOP yang di-fork dari Popoji CMS. Tampilan menggunakan framework AdminLTE yang berjalan pada Bootstrap ditambah dengan beberapa plugin JavaScript. Untuk penyimpanan data digunakan MySQL.
+Salah satu fitur yang menurut saya menarik adalah kemampuan Elybin CMS untuk secara otomatis beradaptasi dengan plugin yang tersedia pada folder system. Selain itu adalah tampilan yang sederhana dan mudah disesuaikan. Ukuran dari CMS ini cukup ringkas, yaitu hanya 3,2MB.">
 
 	<meta name="twitter:image" content="http://0.0.0.0:4000assets/img/og_cover-min.jpg">
 
@@ -102,9 +65,6 @@
 
 <!-- /facebook -->
 <meta property="fb:app_id" content="285677132447016" />
-
-
-<meta property="article:publisher" content="https://www.facebook.com/khakimassidiqi" />
 
 
 
@@ -123,147 +83,20 @@
 <!-- Google / Search Engine Tags -->
 		<meta itemprop="name" content="Elybin CMS: an Open Source Content Management System by Khakim A. Hudaya">
 
-	<meta content="<p>Pada 2014 lalu, saya memulai mempelajari bahasa pemrograman pertama saya yaitu PHP. Dengan arahan guru SMK Bapak Fauzan, saya disarankan untuk membuat sebuah <em>project</em> secara mandiri yang nantinya sekaligus digunakan sebagai persyaratan tugas akhir untuk menyelesaikan studi saya.</p>
+	<meta content="Elybin CMS dibuat dengan campuran antara Native dan OOP yang di-fork dari Popoji CMS. Tampilan menggunakan framework AdminLTE yang berjalan pada Bootstrap ditambah dengan beberapa plugin JavaScript. Untuk penyimpanan data digunakan MySQL.
+Salah satu fitur yang menurut saya menarik adalah kemampuan Elybin CMS untuk secara otomatis beradaptasi dengan plugin yang tersedia pada folder system. Selain itu adalah tampilan yang sederhana dan mudah disesuaikan. Ukuran dari CMS ini cukup ringkas, yaitu hanya 3,2MB." itemprop="description">
 
-" itemprop="description">
-
-	<meta itemprop="image" content="http://0.0.0.0:4000assets/img/og_cover-min.jpg">
+	<meta itemprop="image" content="http://0.0.0.0:4000/assets/img/og_cover-min.jpg">
 
 </head>
   <body>
     <div class="container">
 	<header class="site-header">
 		<div class="branding">
-
-			<span class="site-title">
-				<h1 href="/">Khakim A. Hudaya <span class="blinking-cursor">|</span></h1> 
-			</span>
+			<div class="site-title">
+				<a href="/"><h1>Khakim A. Hudaya <span class="blinking-cursor">|</span></h1></a> 
+			</div>
 		</div>
-		
-		<!-- <nav class="site-nav">
-			<ul>
-				
-				
-				
-				
-				
-				<li>
-					<a class="page-link" href="/about/">
-						about
-					</a>
-				</li>
-				
-				
-				
-				
-				
-				
-				
-				<li>
-					<a class="page-link" href="/links/">
-						links
-					</a>
-				</li>
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<li>
-	<a href="https://twitter.com/@clay_machine" title="follow on Twitter">
-		<i class="fab fa-fw fa-twitter"></i>
-	</a>
-</li>
-
-
-
-
-
-
-
-
-
-<li>
-	<a href="https://github.com/elybin" title="follow on GitHub">
-		<i class="fab fa-fw fa-github"></i>
-	</a>
-</li>
-
-
-
-<li>
-	<a href="/feed.xml" title="follow RSS feed">
-		<i class="fas fa-fw fa-rss"></i>
-	</a>
-</li>
-
-
-
-			
-				
-				<li>
-				<form action="/search.html" method="get">
-					<input type="text" id="search-box" name="query" placeholder="Search" class="">
-					<button type="submit" class="">
-						<i class="fa fa-fw fa-search"></i>
-					</button>
-				</form>
-				</li>
-				
-			</ul>
-		</nav> -->
-
 	</header>
 </div>
     <div class="content">
@@ -283,21 +116,23 @@
       
     </div>
   </div>
-  <section class="post-content"><p>Pada 2014 lalu, saya memulai mempelajari bahasa pemrograman pertama saya yaitu PHP. Dengan arahan guru SMK Bapak Fauzan, saya disarankan untuk membuat sebuah <em>project</em> secara mandiri yang nantinya sekaligus digunakan sebagai persyaratan tugas akhir untuk menyelesaikan studi saya.</p>
+  <section class="post-content"><p>Pada 2014 lalu, saya memulai mempelajari bahasa pemrograman pertama saya yaitu PHP. Dengan arahan guru SMK saya Bapak Fauzan, saya disarankan untuk membuat sebuah <em>project</em> secara mandiri yang nantinya akan digunakan sebagai persyaratan tugas akhir untuk menyelesaikan studi saya.</p>
 
-<p>Terdapat beberapa ide yang seketika muncul, salah satunya adalah ketertarikan saya terhadap sebuah <em>software</em> yang bersifat <em>plug-and-play</em> atau dapat dibongkar pasang dan adaptif bergantung kepada <em>plugin</em> apa yang di-<em>install</em>. Konsep ini sesungguhnya bukan hal yang baru melainkan sudah banyak dibuat seperti yang terdapat pada <em>Content Management System</em> (CMS) <em>Wordpress</em>, Popoji CMS, Formulasi CMS, dan masih banyak lagi.</p>
+<p>Ketertarikan saya terhadap sebuah <em>software</em> yang bersifat <em>plug-and-play</em> atau dapat dibongkar pasang serta adaptif bergantung kepada <em>plugin</em> apa yang di-<em>install</em>, membuat saya memutuskan untuk membuat sebuah perangkat lunak pengelola konten (<em>Content Management System</em>). Konsep ini sesungguhnya bukan hal yang baru, melainkan sudah banyak dibuat seperti yang terdapat pada Wordpress, Popoji CMS, Formulasi CMS, dan masih banyak lagi.</p>
 
-<p>Dari sekian banyak pertimbangan, dimulailah sebuah <em>project</em> bernama <a href="https://web.archive.org/web/20160722184522/http://www.elybin.com/"><strong>Elybin CMS</strong></a>. Nama ini sangat <em>random</em> sekali sejujurnya, diambil dari kata <em>Elysium</em> yang berarti <em>surga/paradise</em> dan <em>Binary</em> yang berarti kode angka. Proyek dimulai dengan mencari kekurangan dan kelebihan dari CMS yang sudah ada dan saya tingkatkan pada Elybin CMS.</p>
+<p>Dari sekian banyak pertimbangan, dimulailah sebuah <em>project</em> bernama <a href="https://web.archive.org/web/20160722184522/http://www.elybin.com/"><strong>Elybin CMS</strong></a>. Nama ini sejujurnya sangat <em>random</em> sekali, diambil dari kata <em>Elysium</em> yang berarti surga/<em>paradise</em> dan <em>Binary</em> yang berarti kode angka. CMS ini awalnya bernama Sedap CMS karena keinginan saya untuk membuat aplikasi <em>Point Of Sales</em>, namun saya rasa terlalu spesifik, sehingga dibuatlah CMS ini dengan plugin yang dapat dimodifikasi. Dengan mengamati kekurangan dan kelebihan dari CMS yang sudah ada dapat saya gunakan sebagai acuan peningkatan pada Elybin CMS.</p>
 
 <p><img src="/assets/img/blog/elybin-ss2.jpg" alt="alt text" title="Mengubah Tulisan pada Elybin CMS" /></p>
-
-<p><img src="/assets/img/blog/elybin-ss1.jpg" alt="alt text" title="Tampilan Saat Menginstall Plugin" /></p>
 
 <p>Elybin CMS dibuat dengan campuran antara <em>Native</em> dan <em>OOP</em> yang di-<em>fork</em> dari Popoji CMS. Tampilan menggunakan framework <em>AdminLTE</em> yang berjalan pada <em>Bootstrap</em> ditambah dengan beberapa <em>plugin</em> <em>JavaScript</em>. Untuk penyimpanan data digunakan <em>MySQL</em>.</p>
 
 <p>Salah satu fitur yang menurut saya menarik adalah kemampuan Elybin CMS untuk secara otomatis beradaptasi dengan <em>plugin</em> yang tersedia pada <em>folder system</em>. Selain itu adalah tampilan yang sederhana dan mudah disesuaikan. Ukuran dari CMS ini cukup ringkas, yaitu hanya 3,2MB.</p>
 
-<p>Sampai 15 Januari 2016, Elybin CMS telah diunduh lebih dari 2000 kali dan masuk pada artikel “<a href="https://web.archive.org/web/20201028143313/https://winpoin.com/inilah-4-cms-keren-buatan-indonesia-untuk-membuat-website-dengan-mudah/"><em>Inilah 4 CMS Keren Buatan Indonesia untuk Membuat Website Dengan Mudah</em></a>” yang ditulis oleh <a href="https://web.archive.org/web/20201028143313/https://winpoin.com/inilah-4-cms-keren-buatan-indonesia-untuk-membuat-website-dengan-mudah/">winpoin.com</a>. Elybin CMS juga pernah digunakan pada situ Lomba Foto Nasional KSI 2015 (<a href="https://web.archive.org/web/20160317210959/http://www.lombafotoksi2015.com/">lombafotoksi2015.com</a>) dan memenangkan penghargaan pada <em>Electro Engineering Expo 2017</em> yang diadakan oleh HIMPROTE Universitas Negeri Semarang.</p>
+<p><img src="/assets/img/blog/elybin-ss1.jpg" alt="alt text" title="Tampilan Saat Menginstall Plugin" /></p>
+
+<p>Sampai 15 Januari 2016, Elybin CMS telah diunduh lebih dari 2000 kali dan masuk pada artikel “<a href="https://web.archive.org/web/20201028143313/https://winpoin.com/inilah-4-cms-keren-buatan-indonesia-untuk-membuat-website-dengan-mudah/"><em>Inilah 4 CMS Keren Buatan Indonesia untuk Membuat Website Dengan Mudah</em></a>” yang ditulis oleh <a href="https://web.archive.org/web/20201028143313/https://winpoin.com/inilah-4-cms-keren-buatan-indonesia-untuk-membuat-website-dengan-mudah/">winpoin.com</a>.</p>
+
+<p>Elybin CMS juga pernah digunakan pada situ Lomba Foto Nasional KSI 2015 (<a href="https://web.archive.org/web/20160317210959/http://www.lombafotoksi2015.com/">lombafotoksi2015.com</a>) dan memenangkan penghargaan pada <em>Electro Engineering Expo 2017</em> yang diadakan oleh HIMPROTE Universitas Negeri Semarang.</p>
 
 <p><img src="/assets/img/blog/eee2017.jpg" alt="alt text" title="Penghargaan pada Electro Engineering Expo 2017" /></p>
 

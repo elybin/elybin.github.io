@@ -7,7 +7,7 @@
 
 # SITE CONFIGURATION
 baseurl: ""
-url: "https://elybin.github.io/"
+url: "https://elybin.github.io"
 site_name : "Khakim A. Hudaya"
 
 
