@@ -1,6 +1,6 @@
 ---
 layout: post
-title: i'm starting a new personal blog.
+title: I'm Starting a New Personal Blog.
 categories:
   - blog
 tags:
