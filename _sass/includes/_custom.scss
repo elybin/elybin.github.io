@@ -215,3 +215,16 @@ article header .title
 {
     margin-top: 20px;
 }
+.post-content img
+{
+    max-width: 100%;
+}
+
+.post-content  .code,
+.post-content  code 
+{
+  border: 1px solid #ddd;
+  background-color: #eef;
+  font-size: 95%;
+  padding: 0 .2em;
+}

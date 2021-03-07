@@ -9,14 +9,33 @@ layout: null
     <link>{{ site.url }}{{ site.baseurl }}/</link>
     <description>{{ site.theme_settings.description | xml_escape }}</description>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    {% for post in site.posts limit:15 %}
-      <item>
+
+
+    {% assign count = 0 %}
+    {% for post in site.categories.blog %}
+    <item>
         <title>{{ post.title | xml_escape }}</title>
         <link>{{ post.url | relative_url }}</link>
         <guid isPermaLink="true">{{ post.url | relative_url }}</guid>
         <description>{{ post.content | xml_escape }}</description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-      </item>
+    </item>
+    {% assign count = count | plus:1 %}
+    {% if count == 20 %}{% break %}{% endif %}
     {% endfor %}
-  </channel>
+
+    {% assign count = 0 %}
+    {% for post in site.categories.project %}
+    <item>
+        <title>{{ post.title | xml_escape }}</title>
+        <link>{{ post.url | relative_url }}</link>
+        <guid isPermaLink="true">{{ post.url | relative_url }}</guid>
+        <description>{{ post.content | xml_escape }}</description>
+        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+    </item>
+    {% assign count = count | plus:1 %}
+    {% if count == 20 %}{% break %}{% endif %}
+    {% endfor %}
+    </channel>
+
 </rss>

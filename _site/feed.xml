@@ -5,31 +5,16 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://0.0.0.0:4000/</link>
     <description>computer enthusiast, sound crusher and something in-between</description>
-    <pubDate>Sat, 06 Mar 2021 21:23:27 +0700</pubDate>
+    <pubDate>Sun, 07 Mar 2021 14:56:05 +0700</pubDate>
+
+
     
-      <item>
-        <title>Alfamart vs. Indomaret</title>
-        <link>/apps/2021/03/03/alfamart-vs-indomaret.html</link>
-        <guid isPermaLink="true">/apps/2021/03/03/alfamart-vs-indomaret.html</guid>
-        <description>
-</description>
-        <pubDate>Wed, 03 Mar 2021 00:00:00 +0700</pubDate>
-      </item>
     
-      <item>
-        <title>Prosedur Skripsi</title>
-        <link>/apps/2020/11/11/prosedur-skripsi-jurusan-te.html</link>
-        <guid isPermaLink="true">/apps/2020/11/11/prosedur-skripsi-jurusan-te.html</guid>
-        <description>
-</description>
-        <pubDate>Wed, 11 Nov 2020 00:00:00 +0700</pubDate>
-      </item>
-    
-      <item>
-        <title>i'm starting a new personal blog.</title>
+    <item>
+        <title>I'm Starting a New Personal Blog.</title>
         <link>/blog/2020/03/03/starting-new-blog.html</link>
         <guid isPermaLink="true">/blog/2020/03/03/starting-new-blog.html</guid>
-        <description>&lt;p&gt;good day internet!&lt;/p&gt;
+        <description>&lt;p&gt;G’Day Internet!&lt;/p&gt;
 
 &lt;p&gt;started from today, i’m trying to born new ugly blogging website that previously left abandoned.&lt;/p&gt;
 
@@ -44,19 +29,45 @@ well, i don’t really know where the ships were going to go.&lt;/p&gt;
 
 &lt;p&gt;sincerely,&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/signature.png&quot; alt=&quot;&quot; width=&quot;250px&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Khakim&lt;/p&gt;
 </description>
         <pubDate>Tue, 03 Mar 2020 00:00:00 +0700</pubDate>
-      </item>
+    </item>
     
-      <item>
+    
+    
+
+    
+    
+    <item>
         <title>Elybin CMS: an Open Source Content Management System</title>
-        <link>/project/2016/01/01/elybin-cms-open-source.html</link>
-        <guid isPermaLink="true">/project/2016/01/01/elybin-cms-open-source.html</guid>
-        <description>&lt;p&gt;no yet updated.&lt;/p&gt;
+        <link>/project/2014/06/19/elybin-cms-open-source.html</link>
+        <guid isPermaLink="true">/project/2014/06/19/elybin-cms-open-source.html</guid>
+        <description>&lt;p&gt;Pada 2014 lalu, saya memulai mempelajari bahasa pemrograman pertama saya yaitu PHP. Dengan arahan guru SMK Bapak Fauzan, saya disarankan untuk membuat sebuah &lt;em&gt;project&lt;/em&gt; secara mandiri yang nantinya sekaligus digunakan sebagai persyaratan tugas akhir untuk menyelesaikan studi saya.&lt;/p&gt;
+
+&lt;p&gt;Terdapat beberapa ide yang seketika muncul, salah satunya adalah ketertarikan saya terhadap sebuah &lt;em&gt;software&lt;/em&gt; yang bersifat &lt;em&gt;plug-and-play&lt;/em&gt; atau dapat dibongkar pasang dan adaptif bergantung kepada &lt;em&gt;plugin&lt;/em&gt; apa yang di-&lt;em&gt;install&lt;/em&gt;. Konsep ini sesungguhnya bukan hal yang baru melainkan sudah banyak dibuat seperti yang terdapat pada &lt;em&gt;Content Management System&lt;/em&gt; (CMS) &lt;em&gt;Wordpress&lt;/em&gt;, Popoji CMS, Formulasi CMS, dan masih banyak lagi.&lt;/p&gt;
+
+&lt;p&gt;Dari sekian banyak pertimbangan, dimulailah sebuah &lt;em&gt;project&lt;/em&gt; bernama &lt;a href=&quot;https://web.archive.org/web/20160722184522/http://www.elybin.com/&quot;&gt;&lt;strong&gt;Elybin CMS&lt;/strong&gt;&lt;/a&gt;. Nama ini sangat &lt;em&gt;random&lt;/em&gt; sekali sejujurnya, diambil dari kata &lt;em&gt;Elysium&lt;/em&gt; yang berarti &lt;em&gt;surga/paradise&lt;/em&gt; dan &lt;em&gt;Binary&lt;/em&gt; yang berarti kode angka. Proyek dimulai dengan mencari kekurangan dan kelebihan dari CMS yang sudah ada dan saya tingkatkan pada Elybin CMS.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/blog/elybin-ss2.jpg&quot; alt=&quot;alt text&quot; title=&quot;Mengubah Tulisan pada Elybin CMS&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/blog/elybin-ss1.jpg&quot; alt=&quot;alt text&quot; title=&quot;Tampilan Saat Menginstall Plugin&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Elybin CMS dibuat dengan campuran antara &lt;em&gt;Native&lt;/em&gt; dan &lt;em&gt;OOP&lt;/em&gt; yang di-&lt;em&gt;fork&lt;/em&gt; dari Popoji CMS. Tampilan menggunakan framework &lt;em&gt;AdminLTE&lt;/em&gt; yang berjalan pada &lt;em&gt;Bootstrap&lt;/em&gt; ditambah dengan beberapa &lt;em&gt;plugin&lt;/em&gt; &lt;em&gt;JavaScript&lt;/em&gt;. Untuk penyimpanan data digunakan &lt;em&gt;MySQL&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Salah satu fitur yang menurut saya menarik adalah kemampuan Elybin CMS untuk secara otomatis beradaptasi dengan &lt;em&gt;plugin&lt;/em&gt; yang tersedia pada &lt;em&gt;folder system&lt;/em&gt;. Selain itu adalah tampilan yang sederhana dan mudah disesuaikan. Ukuran dari CMS ini cukup ringkas, yaitu hanya 3,2MB.&lt;/p&gt;
+
+&lt;p&gt;Sampai 15 Januari 2016, Elybin CMS telah diunduh lebih dari 2000 kali dan masuk pada artikel “&lt;a href=&quot;https://web.archive.org/web/20201028143313/https://winpoin.com/inilah-4-cms-keren-buatan-indonesia-untuk-membuat-website-dengan-mudah/&quot;&gt;&lt;em&gt;Inilah 4 CMS Keren Buatan Indonesia untuk Membuat Website Dengan Mudah&lt;/em&gt;&lt;/a&gt;” yang ditulis oleh &lt;a href=&quot;https://web.archive.org/web/20201028143313/https://winpoin.com/inilah-4-cms-keren-buatan-indonesia-untuk-membuat-website-dengan-mudah/&quot;&gt;winpoin.com&lt;/a&gt;. Elybin CMS juga pernah digunakan pada situ Lomba Foto Nasional KSI 2015 (&lt;a href=&quot;https://web.archive.org/web/20160317210959/http://www.lombafotoksi2015.com/&quot;&gt;lombafotoksi2015.com&lt;/a&gt;) dan memenangkan penghargaan pada &lt;em&gt;Electro Engineering Expo 2017&lt;/em&gt; yang diadakan oleh HIMPROTE Universitas Negeri Semarang.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/blog/eee2017.jpg&quot; alt=&quot;alt text&quot; title=&quot;Penghargaan pada Electro Engineering Expo 2017&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sumber terbuka dari poyek ini dapat diunduh pada &lt;em&gt;repository&lt;/em&gt; GitHub yang beralamat pada &lt;a href=&quot;https://github.com/elybin/ElybinCMS&quot; class=&quot;code&quot;&gt;github.com/elybin/ElybinCMS&lt;/a&gt;, dengan versi terakhir yaitu 1.1.4. Proyek ini dinyatakan tidak lagi dikelola setelah rilisnya PHP versi 7 pada 3 December 2015.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 01 Jan 2016 00:00:00 +0700</pubDate>
-      </item>
+        <pubDate>Thu, 19 Jun 2014 00:00:00 +0700</pubDate>
+    </item>
     
-  </channel>
+    
+    
+    </channel>
+
 </rss>
