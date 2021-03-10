@@ -5,7 +5,7 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://0.0.0.0:4000/</link>
     <description>computer enthusiast, sound crusher and something in-between</description>
-    <pubDate>Wed, 10 Mar 2021 20:58:52 +0700</pubDate>
+    <pubDate>Wed, 10 Mar 2021 21:08:18 +0700</pubDate>
 
 
     
@@ -51,11 +51,11 @@ well, i don’t really know where the ships were going to go.&lt;/p&gt;
 
 &lt;p&gt;Aplikasi ini dibuat dengan menggunakan &lt;strong&gt;Ionic&lt;/strong&gt; sebagai &lt;strong&gt;Mobile Client&lt;/strong&gt; dan &lt;strong&gt;CodeIgniter&lt;/strong&gt; sebagai &lt;strong&gt;Backend&lt;/strong&gt;. &lt;em&gt;AngularJS&lt;/em&gt; menjadi hal yang sangat baru untuk saya, yang sebelumnya hanya berangkat dari &lt;em&gt;JavaScript&lt;/em&gt;. Versi 0.0.1 rilis pada tanggal 15 November 2017 dengan fitur sangat minimilalis yaitu hanya pemutar radio streaming dan infomasi nomor telepon.&lt;/p&gt;
 
-&lt;p&gt;Hal yang lebih menarik adalah fitur yang terdapat pada tampilan &lt;em&gt;Backend&lt;/em&gt; atau &lt;em&gt;panel&lt;/em&gt; yang sering disebut &lt;strong&gt;Kabin Siar&lt;/strong&gt;. Terdapat fitur untuk untuk melakukan presensi penyiar secara daring, sehingga penyiar saat ini dapat dapat muncul pada aplikasi &lt;em&gt;mobile&lt;/em&gt; tersebut. Kemudian terdapat fitur “Menejemen Musik” yang membantu divisi &lt;em&gt;Music Director&lt;/em&gt; untuk mengelola pustaka musik yang ada. Data musik disingkronisasi dengan databse &lt;strong&gt;iTunes&lt;/strong&gt; dan &lt;strong&gt;Spotify&lt;/strong&gt;, sehingga &lt;em&gt;album art&lt;/em&gt; dapat muncul pada saat pengguna radio REM FM (&lt;em&gt;baca: Akademia&lt;/em&gt;) mendengarkan musik.&lt;/p&gt;
+&lt;p&gt;Hal yang lebih menarik adalah fitur yang terdapat pada tampilan &lt;em&gt;Backend&lt;/em&gt; atau &lt;em&gt;panel&lt;/em&gt; yang sering disebut &lt;strong&gt;Kabin Siar&lt;/strong&gt;. Terdapat fitur untuk melakukan presensi siaran secara daring, sehingga informasi nama penyiar yang sedang &lt;em&gt;on-air&lt;/em&gt; dapat muncul pada aplikasi &lt;em&gt;mobile&lt;/em&gt; tersebut. Kemudian terdapat fitur “Menejemen Musik” yang membantu divisi &lt;em&gt;Music Director&lt;/em&gt; untuk mengelola pustaka musik yang ada. Data musik di-singkronisasi dengan &lt;em&gt;database&lt;/em&gt; &lt;strong&gt;iTunes&lt;/strong&gt; dan &lt;strong&gt;Spotify&lt;/strong&gt;, sehingga &lt;em&gt;album art&lt;/em&gt; dapat muncul pada saat pengguna radio REM FM (&lt;em&gt;baca: Akademia&lt;/em&gt;) mendengarkan musik.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/img/blog/remfm_manager.jpg&quot; alt=&quot;Direktur REM FM 2019 (Kiri), Pembina, Manager Off Air, Manager On Air (Kanan).&quot; style=&quot;width: 100%&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Pada 2019, saya diberikan amanah untuk menjabat sebagai &lt;em&gt;Manager On Air&lt;/em&gt; yang menangani 5 divisi dibawahnya. Saya mengamati bahwa adanya potensi anggota UKM REM FM untuk menuliskan opininya dan berita secara individu, &lt;em&gt;because  I believe that everyone deserve equal power to share their ideas&lt;/em&gt;. Sehingga, saya bersama divisi Teknisi berinisiatif untuk menambahkan fitur baru yang memungkinakan setiap anggota dapat menuliskan pemikiranya dalam bentuk &lt;em&gt;blog&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Pada 2019, saya diberikan amanah untuk menjabat sebagai &lt;em&gt;Manager On Air&lt;/em&gt; yang menangani 5 divisi dibawahnya. Saya mengamati bahwa adanya potensi anggota UKM REM FM untuk menuliskan opini dan berita secara individu dan independen, &lt;em&gt;because  I believe that everyone deserve equal power to share their ideas&lt;/em&gt;. Sehingga, saya bersama divisi Teknisi berinisiatif untuk menambahkan fitur baru yang memungkinakan setiap anggota dapat menuliskan pemikiranya dalam bentuk &lt;em&gt;blog&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/img/blog/web_remfm_01.png &quot; alt=&quot;Web Radio REM FM UNNES&quot; /&gt;&lt;/p&gt;
 

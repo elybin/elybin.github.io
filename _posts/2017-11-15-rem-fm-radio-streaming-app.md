@@ -19,12 +19,12 @@ Singkat cerita pada akhir 2017, **REM FM** hendak menonaktifkan penggunaan jarin
 
 Aplikasi ini dibuat dengan menggunakan **Ionic** sebagai **Mobile Client** dan **CodeIgniter** sebagai **Backend**. *AngularJS* menjadi hal yang sangat baru untuk saya, yang sebelumnya hanya berangkat dari *JavaScript*. Versi 0.0.1 rilis pada tanggal 15 November 2017 dengan fitur sangat minimilalis yaitu hanya pemutar radio streaming dan infomasi nomor telepon.
 
-Hal yang lebih menarik adalah fitur yang terdapat pada tampilan *Backend* atau *panel* yang sering disebut **Kabin Siar**. Terdapat fitur untuk untuk melakukan presensi penyiar secara daring, sehingga penyiar saat ini dapat dapat muncul pada aplikasi *mobile* tersebut. Kemudian terdapat fitur "Menejemen Musik" yang membantu divisi *Music Director* untuk mengelola pustaka musik yang ada. Data musik disingkronisasi dengan databse **iTunes** dan **Spotify**, sehingga *album art* dapat muncul pada saat pengguna radio REM FM (*baca: Akademia*) mendengarkan musik. 
+Hal yang lebih menarik adalah fitur yang terdapat pada tampilan *Backend* atau *panel* yang sering disebut **Kabin Siar**. Terdapat fitur untuk melakukan presensi siaran secara daring, sehingga informasi nama penyiar yang sedang *on-air* dapat muncul pada aplikasi *mobile* tersebut. Kemudian terdapat fitur "Menejemen Musik" yang membantu divisi *Music Director* untuk mengelola pustaka musik yang ada. Data musik di-singkronisasi dengan *database* **iTunes** dan **Spotify**, sehingga *album art* dapat muncul pada saat pengguna radio REM FM (*baca: Akademia*) mendengarkan musik. 
 
 
 <img src="/assets/img/blog/remfm_manager.jpg" alt="Direktur REM FM 2019 (Kiri), Pembina, Manager Off Air, Manager On Air (Kanan)." style="width: 100%">
 
-Pada 2019, saya diberikan amanah untuk menjabat sebagai *Manager On Air* yang menangani 5 divisi dibawahnya. Saya mengamati bahwa adanya potensi anggota UKM REM FM untuk menuliskan opininya dan berita secara individu, *because  I believe that everyone deserve equal power to share their ideas*. Sehingga, saya bersama divisi Teknisi berinisiatif untuk menambahkan fitur baru yang memungkinakan setiap anggota dapat menuliskan pemikiranya dalam bentuk *blog*. 
+Pada 2019, saya diberikan amanah untuk menjabat sebagai *Manager On Air* yang menangani 5 divisi dibawahnya. Saya mengamati bahwa adanya potensi anggota UKM REM FM untuk menuliskan opini dan berita secara individu dan independen, *because  I believe that everyone deserve equal power to share their ideas*. Sehingga, saya bersama divisi Teknisi berinisiatif untuk menambahkan fitur baru yang memungkinakan setiap anggota dapat menuliskan pemikiranya dalam bentuk *blog*. 
 
 <img src="/assets/img/blog/web_remfm_01.png " alt="Web Radio REM FM UNNES">
 
