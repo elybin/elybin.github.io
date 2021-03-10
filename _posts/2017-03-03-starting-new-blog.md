@@ -6,7 +6,7 @@ categories:
 tags:
   - blog
   - starting
-author: khakim assidiqi
+author: Khakim A. Hudaya
 comments: false
 published: true
 ---

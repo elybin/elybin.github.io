@@ -5,19 +5,17 @@ categories: [project]
 tags: [project, web-app]
 author: "Khakim A. Hudaya"
 comments: false
-excerpt: "Elybin CMS dibuat dengan campuran antara Native dan OOP yang di-fork dari Popoji CMS. Tampilan menggunakan framework AdminLTE yang berjalan pada Bootstrap ditambah dengan beberapa plugin JavaScript. Untuk penyimpanan data digunakan MySQL.
-
-Salah satu fitur yang menurut saya menarik adalah kemampuan Elybin CMS untuk secara otomatis beradaptasi dengan plugin yang tersedia pada folder system. Selain itu adalah tampilan yang sederhana dan mudah disesuaikan. Ukuran dari CMS ini cukup ringkas, yaitu hanya 3,2MB."
+excerpt: "Singkat cerita pada akhir 2017, REM FM hendak menonaktifkan penggunaan jaringan radio pada frekuensi 107.7 MHz dan beralih sepenuhnya ke radio streaming. Saat itu, layanan streaming masih menggunakan website sedehana yang di-embed kan sebuah player radio. Kemudian terlintas dalam pikiran: Apakah fitur ini boleh dan bisa ditingkatkan dalam versi mobile? mengingat banyak pengguna yang menggunakan mobile pada saat itu. Setelah berdiskusi dengan crew lainnya akhirnya diputuskanlah saya untuk menangani pembuatan aplikasi ini."
 ---
 
 Radio Ekspresi Mahasiswa (REM FM) merupakan salah satu Unit Kegiatan Mahasiswa (UKM) yang ada di Universitas Negeri Semarang. Saya bergabung dengan UKM ini pada semester awal (2016) dan memilih divisi *Production House* yang fokus terhadap pembuatan konten. 
 
-Singkat cerita pada akhir 2017, **REM FM** hendak menonaktifkan penggunaan jaringan radio pada frekuensi 107.7 MHz dan beralih sepenuhnya ke radio *streaming*. Saat itu, layanan *streaming* masih menggunakan website sedehana yang di-*embed* kan sebuah *player* radio. Kemudian terlintas dalam kepala: Apakah fitur ini boleh dan bisa ditingkatkan dalam versi *mobile*? mengingat pengguna banyak yang menggunakan mobile pada saat itu. Setelah berdiskusi dengan *crew* lain akhirnya diputuskanlah saya untuk menangani pembuatan aplikasi ini.
+Singkat cerita pada akhir 2017, **REM FM** hendak menonaktifkan penggunaan jaringan radio pada frekuensi 107.7 MHz dan beralih sepenuhnya ke radio *streaming*. Saat itu, layanan *streaming* masih menggunakan website sedehana yang di-*embed* kan sebuah *player* radio. Kemudian terlintas dalam pikiran: Apakah fitur ini boleh dan bisa ditingkatkan dalam versi *mobile*? mengingat banyak pengguna yang menggunakan mobile pada saat itu. Setelah berdiskusi dengan *crew* lainnya akhirnya diputuskanlah saya untuk menangani pembuatan aplikasi ini.
 
 
 <img src="/assets/img/blog/app_remfm.webp " alt="Banner Aplikasi Android Radio REM FM UNNES" style="width: 100%">
 
-Aplikasi ini dibuat dengan menggunakan **Ionic** sebagai **Mobile Client** dan **CodeIgniter** sebagai **Backend**. *AngularJS* menjadi hal yang sangat baru untuk saya, yang sebelumnya hanya berangkat dari *JavaScript*. Versi 0.0.1 rilis pada tanggal 15 November 2017 dengan fitur sangat minimilalis yaitu hanya pemutar radio streaming dan infomasi nomor telepon.
+Aplikasi ini dibuat dengan menggunakan **Ionic** sebagai **Mobile Client** dan **CodeIgniter** sebagai **Backend**. *AngularJS* menjadi hal yang sangat baru untuk saya, yang sebelumnya hanya berangkat dari *JavaScript*. Versi 0.0.1 rilis pada tanggal 15 November 2017 dengan fitur sangat minimilalis yaitu hanya pemutar radio *streaming* dan infomasi nomor telepon.
 
 Hal yang lebih menarik adalah fitur yang terdapat pada tampilan *Backend* atau *panel* yang sering disebut **Kabin Siar**. Terdapat fitur untuk melakukan presensi siaran secara daring, sehingga informasi nama penyiar yang sedang *on-air* dapat muncul pada aplikasi *mobile* tersebut. Kemudian terdapat fitur "Menejemen Musik" yang membantu divisi *Music Director* untuk mengelola pustaka musik yang ada. Data musik di-singkronisasi dengan *database* **iTunes** dan **Spotify**, sehingga *album art* dapat muncul pada saat pengguna radio REM FM (*baca: Akademia*) mendengarkan musik. 
 
