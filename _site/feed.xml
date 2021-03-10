@@ -5,7 +5,7 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://0.0.0.0:4000/</link>
     <description>computer enthusiast, sound crusher and something in-between</description>
-    <pubDate>Sun, 07 Mar 2021 17:53:52 +0700</pubDate>
+    <pubDate>Wed, 10 Mar 2021 20:58:52 +0700</pubDate>
 
 
     
@@ -37,6 +37,37 @@ well, i don’t really know where the ships were going to go.&lt;/p&gt;
     
     
 
+    
+    
+    <item>
+        <title>REM FM Streaming: a Digital Radio Streaming App and CMS</title>
+        <link>/project/2017/11/15/rem-fm-radio-streaming-app.html</link>
+        <guid isPermaLink="true">/project/2017/11/15/rem-fm-radio-streaming-app.html</guid>
+        <description>&lt;p&gt;Radio Ekspresi Mahasiswa (REM FM) merupakan salah satu Unit Kegiatan Mahasiswa (UKM) yang ada di Universitas Negeri Semarang. Saya bergabung dengan UKM ini pada semester awal (2016) dan memilih divisi &lt;em&gt;Production House&lt;/em&gt; yang fokus terhadap pembuatan konten.&lt;/p&gt;
+
+&lt;p&gt;Singkat cerita pada akhir 2017, &lt;strong&gt;REM FM&lt;/strong&gt; hendak menonaktifkan penggunaan jaringan radio pada frekuensi 107.7 MHz dan beralih sepenuhnya ke radio &lt;em&gt;streaming&lt;/em&gt;. Saat itu, layanan &lt;em&gt;streaming&lt;/em&gt; masih menggunakan website sedehana yang di-&lt;em&gt;embed&lt;/em&gt; kan sebuah &lt;em&gt;player&lt;/em&gt; radio. Kemudian terlintas dalam kepala: Apakah fitur ini boleh dan bisa ditingkatkan dalam versi &lt;em&gt;mobile&lt;/em&gt;? mengingat pengguna banyak yang menggunakan mobile pada saat itu. Setelah berdiskusi dengan &lt;em&gt;crew&lt;/em&gt; lain akhirnya diputuskanlah saya untuk menangani pembuatan aplikasi ini.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/blog/app_remfm.webp &quot; alt=&quot;Banner Aplikasi Android Radio REM FM UNNES&quot; style=&quot;width: 100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Aplikasi ini dibuat dengan menggunakan &lt;strong&gt;Ionic&lt;/strong&gt; sebagai &lt;strong&gt;Mobile Client&lt;/strong&gt; dan &lt;strong&gt;CodeIgniter&lt;/strong&gt; sebagai &lt;strong&gt;Backend&lt;/strong&gt;. &lt;em&gt;AngularJS&lt;/em&gt; menjadi hal yang sangat baru untuk saya, yang sebelumnya hanya berangkat dari &lt;em&gt;JavaScript&lt;/em&gt;. Versi 0.0.1 rilis pada tanggal 15 November 2017 dengan fitur sangat minimilalis yaitu hanya pemutar radio streaming dan infomasi nomor telepon.&lt;/p&gt;
+
+&lt;p&gt;Hal yang lebih menarik adalah fitur yang terdapat pada tampilan &lt;em&gt;Backend&lt;/em&gt; atau &lt;em&gt;panel&lt;/em&gt; yang sering disebut &lt;strong&gt;Kabin Siar&lt;/strong&gt;. Terdapat fitur untuk untuk melakukan presensi penyiar secara daring, sehingga penyiar saat ini dapat dapat muncul pada aplikasi &lt;em&gt;mobile&lt;/em&gt; tersebut. Kemudian terdapat fitur “Menejemen Musik” yang membantu divisi &lt;em&gt;Music Director&lt;/em&gt; untuk mengelola pustaka musik yang ada. Data musik disingkronisasi dengan databse &lt;strong&gt;iTunes&lt;/strong&gt; dan &lt;strong&gt;Spotify&lt;/strong&gt;, sehingga &lt;em&gt;album art&lt;/em&gt; dapat muncul pada saat pengguna radio REM FM (&lt;em&gt;baca: Akademia&lt;/em&gt;) mendengarkan musik.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/blog/remfm_manager.jpg&quot; alt=&quot;Direktur REM FM 2019 (Kiri), Pembina, Manager Off Air, Manager On Air (Kanan).&quot; style=&quot;width: 100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Pada 2019, saya diberikan amanah untuk menjabat sebagai &lt;em&gt;Manager On Air&lt;/em&gt; yang menangani 5 divisi dibawahnya. Saya mengamati bahwa adanya potensi anggota UKM REM FM untuk menuliskan opininya dan berita secara individu, &lt;em&gt;because  I believe that everyone deserve equal power to share their ideas&lt;/em&gt;. Sehingga, saya bersama divisi Teknisi berinisiatif untuk menambahkan fitur baru yang memungkinakan setiap anggota dapat menuliskan pemikiranya dalam bentuk &lt;em&gt;blog&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/blog/web_remfm_01.png &quot; alt=&quot;Web Radio REM FM UNNES&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Pada minggu pertama peluncuran, aplikasi ini sukses diunduh lebih dari 350 mahasiswa UNNES. Aplikasi ini masih digunakan hingga sekarang dan mendapat umpan balik yang positif baik dari anggota maupun pendengar. Website dapat diakses pada alamat &lt;a href=&quot;https://remfm.unnes.ac.id/&quot; target=&quot;_blank&quot;&gt;&lt;code&gt;remfm.unnes.ac.id&lt;/code&gt;&lt;/a&gt; dan aplikasi android dapat diunduh di &lt;em&gt;Google Play Store&lt;/em&gt; pada tautan &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.remfm.streaming&quot; target=&quot;_blank&quot;&gt;berikut&lt;/a&gt; atau &lt;em&gt;QR-Code&lt;/em&gt; dibawah.&lt;/p&gt;
+
+&lt;p class=&quot;text-center&quot;&gt;
+&lt;img src=&quot;/assets/img/blog/barcode_remfm_streaming.png&quot; alt=&quot;Aplikasi Android - Radio REM UNNES&quot; /&gt;
+&lt;/p&gt;
+</description>
+        <pubDate>Wed, 15 Nov 2017 00:00:00 +0700</pubDate>
+    </item>
+    
     
     
     <item>
