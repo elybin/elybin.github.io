@@ -5,7 +5,7 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://0.0.0.0:4000/</link>
     <description>computer enthusiast, sound crusher and something in-between</description>
-    <pubDate>Thu, 11 Mar 2021 10:10:15 +0700</pubDate>
+    <pubDate>Thu, 11 Mar 2021 18:11:15 +0700</pubDate>
 
 
     
@@ -72,6 +72,28 @@ Khakim&lt;/p&gt;
     
     
     <item>
+        <title>Belajar Sanggul: an App for learning Javanese Hair Bun.</title>
+        <link>/project/2020/04/19/aplikasi-belajar-sanggul.html</link>
+        <guid isPermaLink="true">/project/2020/04/19/aplikasi-belajar-sanggul.html</guid>
+        <description>&lt;p&gt;Belajar Sanggul merupakan aplikasi yang memungkinkan kita untuk mengetahui lebih jauh tentang sejarah dan tahapan cara membuatan Sanggul Tradisional Jawa. Aplikasi ini merupakan sebuah &lt;em&gt;request&lt;/em&gt; dari seorang &lt;em&gt;client&lt;/em&gt; yang hendak menguji coba efisiensi penggunaan media pembelajaran elektronik pada Sekolah Menengah Kejuruan khususnya pada bidang Tata Kecantikan.&lt;/p&gt;
+
+&lt;p&gt;Mengulas tentang sanggul daerah yang berada di Jawa Tengah dan DIY yakni berupa sanggul Ukel Konde dan Ukel Tekuk. Didalamnya terdapat menu sejarah sanggul, ciri khas dar kedua sanggul tersebut, alat dan aksesoris yang digunakan hingga langkah-langkah pembuatan dari Sanggul Ukel Konde dan Sanggul Ukel Tekuk.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/blog/belajar_sanggul_001.jpg&quot; title=&quot;Tangkapan layar Pada Halaman Sejarah - Aplikasi Belajar Sanggul&quot; style=&quot;width: 100%&quot; /&gt;
+&lt;img src=&quot;/assets/img/blog/belajar_sanggul_002.jpg&quot; title=&quot;Tangkapan layar Utama Aplikasi Belajar Sanggul&quot; style=&quot;width: 100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Dibangun secara statis menggunakan &lt;em&gt;framework&lt;/em&gt; &lt;strong&gt;Bootstrap&lt;/strong&gt; yang ditampilkan &lt;em&gt;WebView&lt;/em&gt; dengan menggunakan &lt;strong&gt;Cordova&lt;/strong&gt;. Sehingga memperkecil ukuran instalasi dan dapat mengubah isi konten secara berkala tanpa memperbaharui aplikasi. Aplikasi android dapat diunduh di &lt;em&gt;Google Play Store&lt;/em&gt; pada tautan &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.melonkotak.belajarsanggul&quot; target=&quot;_blank&quot;&gt;berikut&lt;/a&gt; atau dengan memindai&lt;em&gt;QR-Code&lt;/em&gt; dibawah.&lt;/p&gt;
+
+&lt;p class=&quot;text-center&quot;&gt;
+&lt;img src=&quot;/assets/img/blog/barcode_belajarsanggul.png&quot; title=&quot;Scan untuk meng-install aplikasi android - Belajar Sanggul&quot; style=&quot;max-width:200px&quot; /&gt;
+&lt;/p&gt;
+</description>
+        <pubDate>Sun, 19 Apr 2020 00:00:00 +0700</pubDate>
+    </item>
+    
+    
+    
+    <item>
         <title>REM FM Streaming: a Digital Radio Streaming App and CMS</title>
         <link>/project/2017/11/15/rem-fm-radio-streaming-app.html</link>
         <guid isPermaLink="true">/project/2017/11/15/rem-fm-radio-streaming-app.html</guid>
@@ -89,7 +111,7 @@ Khakim&lt;/p&gt;
 
 &lt;p&gt;Pada 2019, saya diberikan amanah untuk menjabat sebagai &lt;em&gt;Manager On Air&lt;/em&gt; yang menangani 5 divisi dibawahnya. Saya mengamati bahwa adanya potensi anggota UKM REM FM untuk menuliskan opini dan berita secara individu dan independen, &lt;em&gt;because  I believe that everyone deserve equal power to share their ideas&lt;/em&gt;. Sehingga, saya bersama divisi Teknisi berinisiatif untuk menambahkan fitur baru yang memungkinakan setiap anggota dapat menuliskan pemikiranya dalam bentuk &lt;em&gt;blog&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/blog/web_remfm_01.png &quot; title=&quot;Web Radio REM FM UNNES&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/blog/web_remfm_01.jpg&quot; title=&quot;Web Radio REM FM UNNES&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Pada minggu pertama peluncuran, aplikasi ini sukses diunduh lebih dari 350 mahasiswa UNNES. Aplikasi ini masih digunakan hingga sekarang dan mendapat umpan balik yang positif baik dari anggota maupun pendengar. Website dapat diakses pada alamat &lt;a href=&quot;https://remfm.unnes.ac.id/&quot; target=&quot;_blank&quot;&gt;&lt;code&gt;remfm.unnes.ac.id&lt;/code&gt;&lt;/a&gt; dan aplikasi android dapat diunduh di &lt;em&gt;Google Play Store&lt;/em&gt; pada tautan &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.remfm.streaming&quot; target=&quot;_blank&quot;&gt;berikut&lt;/a&gt; atau &lt;em&gt;QR-Code&lt;/em&gt; dibawah.&lt;/p&gt;
 

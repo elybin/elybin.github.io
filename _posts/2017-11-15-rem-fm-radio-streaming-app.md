@@ -24,7 +24,7 @@ Hal yang lebih menarik adalah fitur yang terdapat pada tampilan *Backend* atau *
 
 Pada 2019, saya diberikan amanah untuk menjabat sebagai *Manager On Air* yang menangani 5 divisi dibawahnya. Saya mengamati bahwa adanya potensi anggota UKM REM FM untuk menuliskan opini dan berita secara individu dan independen, *because  I believe that everyone deserve equal power to share their ideas*. Sehingga, saya bersama divisi Teknisi berinisiatif untuk menambahkan fitur baru yang memungkinakan setiap anggota dapat menuliskan pemikiranya dalam bentuk *blog*. 
 
-<img src="/assets/img/blog/web_remfm_01.png " title="Web Radio REM FM UNNES">
+<img src="/assets/img/blog/web_remfm_01.jpg" title="Web Radio REM FM UNNES">
 
 
 Pada minggu pertama peluncuran, aplikasi ini sukses diunduh lebih dari 350 mahasiswa UNNES. Aplikasi ini masih digunakan hingga sekarang dan mendapat umpan balik yang positif baik dari anggota maupun pendengar. Website dapat diakses pada alamat <a href="https://remfm.unnes.ac.id/" target="_blank"><code>remfm.unnes.ac.id</code></a> dan aplikasi android dapat diunduh di *Google Play Store* pada tautan <a href="https://play.google.com/store/apps/details?id=com.remfm.streaming" target="_blank">berikut</a> atau *QR-Code* dibawah. 
