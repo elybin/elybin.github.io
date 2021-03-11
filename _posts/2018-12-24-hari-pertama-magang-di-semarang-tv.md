@@ -14,7 +14,7 @@ excerpt: "Hari ini adalah hari pertama saya melakukan magang di Semarang TV yang
 
 Hari ini adalah hari pertama saya melakukan magang di **Semarang TV** yang merupakan televisi regional yang berada dibawah naungan PT Mataram Cakrawala Televisi Indonesia. Beralamat pada kompleks Candi Sari, Semarang, Jawa Tengah, televisi ini mengudara 17 jam setiap hari pada frekuensi 45 UHF. Berlangsung selama 45 hari, program magang ini merupakan salah satu aktifitas yang wajib dilakukan oleh mahasiswa Teknik Elektro UNNES yang sedang menempuh semester 5.
 
-Bersama 3 kawan lainnya, saya diberi tugas oleh bapak Triyani untuk membuat *set portable* untuk membuat iklan dengan teknologi *green screen*. Mungkin terdengar mudah, namun tantangan yang sebenarnya adalah anggaran yang sangat minim. Kami hanya diberi *budget* kurang dari Rp 500.000, dimana *budget* sebesar itu bahkan belum cukup untuk membeli *background green screen* yang cukup *proper* untuk standar televisi. 
+Bersama 3 kawan lainnya, saya diberi tugas oleh bapak Triyani untuk menciptakan *set portable* untuk membuat iklan dengan teknologi *green screen*. Mungkin terdengar mudah, namun tantangan yang sebenarnya adalah anggaran yang sangat minim. Kami hanya diberi *budget* kurang dari Rp 500.000, dimana *budget* sebesar itu bahkan belum cukup untuk membeli *background green screen* yang cukup *proper* untuk standar televisi. 
 
 ![alt text](/assets/img/blog/magang_smg_tv_06.jpg "Hari Ke-1: Mencari kain jahit pada kompleks Pecinan, Semarang.")
 

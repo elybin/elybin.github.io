@@ -5,7 +5,7 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://0.0.0.0:4000/</link>
     <description>computer enthusiast, sound crusher and something in-between</description>
-    <pubDate>Thu, 11 Mar 2021 09:44:07 +0700</pubDate>
+    <pubDate>Thu, 11 Mar 2021 10:10:15 +0700</pubDate>
 
 
     
@@ -16,7 +16,7 @@
         <guid isPermaLink="true">/blog/2018/12/24/hari-pertama-magang-di-semarang-tv.html</guid>
         <description>&lt;p&gt;Hari ini adalah hari pertama saya melakukan magang di &lt;strong&gt;Semarang TV&lt;/strong&gt; yang merupakan televisi regional yang berada dibawah naungan PT Mataram Cakrawala Televisi Indonesia. Beralamat pada kompleks Candi Sari, Semarang, Jawa Tengah, televisi ini mengudara 17 jam setiap hari pada frekuensi 45 UHF. Berlangsung selama 45 hari, program magang ini merupakan salah satu aktifitas yang wajib dilakukan oleh mahasiswa Teknik Elektro UNNES yang sedang menempuh semester 5.&lt;/p&gt;
 
-&lt;p&gt;Bersama 3 kawan lainnya, saya diberi tugas oleh bapak Triyani untuk membuat &lt;em&gt;set portable&lt;/em&gt; untuk membuat iklan dengan teknologi &lt;em&gt;green screen&lt;/em&gt;. Mungkin terdengar mudah, namun tantangan yang sebenarnya adalah anggaran yang sangat minim. Kami hanya diberi &lt;em&gt;budget&lt;/em&gt; kurang dari Rp 500.000, dimana &lt;em&gt;budget&lt;/em&gt; sebesar itu bahkan belum cukup untuk membeli &lt;em&gt;background green screen&lt;/em&gt; yang cukup &lt;em&gt;proper&lt;/em&gt; untuk standar televisi.&lt;/p&gt;
+&lt;p&gt;Bersama 3 kawan lainnya, saya diberi tugas oleh bapak Triyani untuk menciptakan &lt;em&gt;set portable&lt;/em&gt; untuk membuat iklan dengan teknologi &lt;em&gt;green screen&lt;/em&gt;. Mungkin terdengar mudah, namun tantangan yang sebenarnya adalah anggaran yang sangat minim. Kami hanya diberi &lt;em&gt;budget&lt;/em&gt; kurang dari Rp 500.000, dimana &lt;em&gt;budget&lt;/em&gt; sebesar itu bahkan belum cukup untuk membeli &lt;em&gt;background green screen&lt;/em&gt; yang cukup &lt;em&gt;proper&lt;/em&gt; untuk standar televisi.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/img/blog/magang_smg_tv_06.jpg&quot; alt=&quot;alt text&quot; title=&quot;Hari Ke-1: Mencari kain jahit pada kompleks Pecinan, Semarang.&quot; /&gt;&lt;/p&gt;
 
@@ -124,7 +124,7 @@ Khakim&lt;/p&gt;
 
 &lt;p&gt;Elybin CMS juga pernah digunakan pada situ Lomba Foto Nasional KSI 2015 (&lt;a href=&quot;https://web.archive.org/web/20160317210959/http://www.lombafotoksi2015.com/&quot;&gt;lombafotoksi2015.com&lt;/a&gt;) dan memenangkan penghargaan pada &lt;em&gt;Electro Engineering Expo 2017&lt;/em&gt; yang diadakan oleh HIMPROTE Universitas Negeri Semarang.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/blog/eee2017.jpg&quot; alt=&quot;alt text&quot; title=&quot;Penghargaan pada Electro Engineering Expo 2017&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/blog/eee2017.jpg&quot; alt=&quot;alt text&quot; title=&quot;Penghargaan pada Electro Engineering Expo&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Sumber terbuka dari poyek ini dapat diunduh pada &lt;em&gt;repository&lt;/em&gt; GitHub yang beralamat pada &lt;a href=&quot;https://github.com/elybin/ElybinCMS&quot; class=&quot;code&quot;&gt;github.com/elybin/ElybinCMS&lt;/a&gt;, dengan versi terakhir yaitu 1.1.4. Proyek ini dinyatakan tidak lagi dikelola setelah rilisnya PHP versi 7 pada 3 December 2015.&lt;/p&gt;
 </description>

@@ -28,6 +28,6 @@ Sampai 15 Januari 2016, Elybin CMS telah diunduh lebih dari 2000 kali dan masuk 
 
 Elybin CMS juga pernah digunakan pada situ Lomba Foto Nasional KSI 2015 (<a href="https://web.archive.org/web/20160317210959/http://www.lombafotoksi2015.com/">lombafotoksi2015.com</a>) dan memenangkan penghargaan pada *Electro Engineering Expo 2017* yang diadakan oleh HIMPROTE Universitas Negeri Semarang.
 
-![alt text](/assets/img/blog/eee2017.jpg "Penghargaan pada Electro Engineering Expo 2017")
+![alt text](/assets/img/blog/eee2017.jpg "Penghargaan pada Electro Engineering Expo")
 
 Sumber terbuka dari poyek ini dapat diunduh pada *repository* GitHub yang beralamat pada <a href="https://github.com/elybin/ElybinCMS" class="code">github.com/elybin/ElybinCMS</a>, dengan versi terakhir yaitu 1.1.4. Proyek ini dinyatakan tidak lagi dikelola setelah rilisnya PHP versi 7 pada 3 December 2015. 

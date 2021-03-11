@@ -7,7 +7,7 @@
 
 # SITE CONFIGURATION
 baseurl: ""
-url: "https://elybin.github.io"
+url: "https://khakim.melonkotak.com"
 site_name : "Khakim A. Hudaya"
 
 
@@ -24,8 +24,7 @@ theme_settings:
   header_text: >
      <p>computer enthusiast, sound crusher and something in-between.</p>
   header_text_feature_image:
-  footer_text: >
-   powered by <a href="https://jekyllrb.com/">jekyll</a>.
+
 
   # Icons
   rss: true
@@ -46,7 +45,7 @@ theme_settings:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: "@clay_machine"
+  twitter: "clay_machine"
   wordpress:
   youtube: 
   github: "elybin"
@@ -55,7 +54,7 @@ theme_settings:
   google_analytics: "UA-113947180-1"
   disqus_shortname: "elybin"
   fb_appid: "285677132447016"
-  fb_articlepublisher: "https://www.facebook.com/khakimassidiqi"
+  fb_articlepublisher: ""
   web_color: "#eee"
   katex: true # Enable if using math markup
   search: true # Enable the search feature
