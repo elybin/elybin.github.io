@@ -114,22 +114,22 @@
 
 <p>Singkat cerita pada akhir 2017, <strong>REM FM</strong> hendak menonaktifkan penggunaan jaringan radio pada frekuensi 107.7 MHz dan beralih sepenuhnya ke radio <em>streaming</em>. Saat itu, layanan <em>streaming</em> masih menggunakan website sedehana yang di-<em>embed</em> kan sebuah <em>player</em> radio. Kemudian terlintas dalam pikiran: Apakah fitur ini boleh dan bisa ditingkatkan dalam versi <em>mobile</em>? mengingat banyak pengguna yang menggunakan mobile pada saat itu. Setelah berdiskusi dengan <em>crew</em> lainnya akhirnya diputuskanlah saya untuk menangani pembuatan aplikasi ini.</p>
 
-<p><img src="/assets/img/blog/app_remfm.webp " alt="Banner Aplikasi Android Radio REM FM UNNES" style="width: 100%" /></p>
+<p><img src="/assets/img/blog/app_remfm.webp " title="Banner Aplikasi Android Radio REM FM UNNES" style="width: 100%" /></p>
 
 <p>Aplikasi ini dibuat dengan menggunakan <strong>Ionic</strong> sebagai <strong>Mobile Client</strong> dan <strong>CodeIgniter</strong> sebagai <strong>Backend</strong>. <em>AngularJS</em> menjadi hal yang sangat baru untuk saya, yang sebelumnya hanya berangkat dari <em>JavaScript</em>. Versi 0.0.1 rilis pada tanggal 15 November 2017 dengan fitur sangat minimilalis yaitu hanya pemutar radio <em>streaming</em> dan infomasi nomor telepon.</p>
 
 <p>Hal yang lebih menarik adalah fitur yang terdapat pada tampilan <em>Backend</em> atau <em>panel</em> yang sering disebut <strong>Kabin Siar</strong>. Terdapat fitur untuk melakukan presensi siaran secara daring, sehingga informasi nama penyiar yang sedang <em>on-air</em> dapat muncul pada aplikasi <em>mobile</em> tersebut. Kemudian terdapat fitur “Menejemen Musik” yang membantu divisi <em>Music Director</em> untuk mengelola pustaka musik yang ada. Data musik di-singkronisasi dengan <em>database</em> <strong>iTunes</strong> dan <strong>Spotify</strong>, sehingga <em>album art</em> dapat muncul pada saat pengguna radio REM FM (<em>baca: Akademia</em>) mendengarkan musik.</p>
 
-<p><img src="/assets/img/blog/remfm_manager.jpg" alt="Direktur REM FM 2019 (Kiri), Pembina, Manager Off Air, Manager On Air (Kanan)." style="width: 100%" /></p>
+<p><img src="/assets/img/blog/remfm_manager.jpg" title="Direktur REM FM 2019 (Kiri), Pembina, Manager Off Air, Manager On Air (Kanan)." style="width: 100%" /></p>
 
 <p>Pada 2019, saya diberikan amanah untuk menjabat sebagai <em>Manager On Air</em> yang menangani 5 divisi dibawahnya. Saya mengamati bahwa adanya potensi anggota UKM REM FM untuk menuliskan opini dan berita secara individu dan independen, <em>because  I believe that everyone deserve equal power to share their ideas</em>. Sehingga, saya bersama divisi Teknisi berinisiatif untuk menambahkan fitur baru yang memungkinakan setiap anggota dapat menuliskan pemikiranya dalam bentuk <em>blog</em>.</p>
 
-<p><img src="/assets/img/blog/web_remfm_01.png " alt="Web Radio REM FM UNNES" /></p>
+<p><img src="/assets/img/blog/web_remfm_01.png " title="Web Radio REM FM UNNES" /></p>
 
 <p>Pada minggu pertama peluncuran, aplikasi ini sukses diunduh lebih dari 350 mahasiswa UNNES. Aplikasi ini masih digunakan hingga sekarang dan mendapat umpan balik yang positif baik dari anggota maupun pendengar. Website dapat diakses pada alamat <a href="https://remfm.unnes.ac.id/" target="_blank"><code>remfm.unnes.ac.id</code></a> dan aplikasi android dapat diunduh di <em>Google Play Store</em> pada tautan <a href="https://play.google.com/store/apps/details?id=com.remfm.streaming" target="_blank">berikut</a> atau <em>QR-Code</em> dibawah.</p>
 
 <p class="text-center">
-<img src="/assets/img/blog/barcode_remfm_streaming.png" alt="Aplikasi Android - Radio REM UNNES" />
+<img src="/assets/img/blog/barcode_remfm_streaming.png" title="Scan untuk meng-install aplikasi android - Radio REM UNNES" />
 </p>
 </section>
   <!-- 
@@ -150,6 +150,20 @@
 
 
 
+
+<!-- Image Alt -->
+<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+<script>
+ jQuery('.post-content').find('img').after(function() {
+   return jQuery('<p class="image-title">').text(jQuery (this).attr('title'));
+ });
+ jQuery('.post-content').find('iframe').after(function() {
+   return jQuery('<p class="image-title">').text(jQuery (this).attr('title'));
+ });
+</script>
 
 <!-- Post navigation -->
 

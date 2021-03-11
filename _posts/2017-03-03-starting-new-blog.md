@@ -13,19 +13,15 @@ published: true
 
 G'Day Internet!
 
-started from today, i’m trying to born new ugly blogging website that previously left abandoned.
+Started from today, I’m trying to born new blogging website that previously left abandoned.
 
-why left abandoned?
+Why left abandoned? Good question! but hard to say. I still don’t know the exact reason, maybe just because I’m too lazy to do things 😅. But, recently I realized that I feel something didn’t work correctly, perhaps just because I need to share something that I thought bit complicated. 
 
-good question, boy! i still don’t know the exact reason, but maybe just because i’m too lazy to do things. but, recently i realized that i feel something didn’t work correctly, perhaps just because i need to share something that i thought bit complicated. 
+Unfortunately, some social media I used still not able to do these things (e.g. sharing code, tutorial, raw graphic design). Twitter too short to share a *hello world* code, but Instagram is too good-looking to share a .zip file. I need something in-between a to be honest.
 
-unfortunately, some social media i used still not able to do these things (e.g. sharing code, tutorial, raw graphic design). twitter too short to share a hello world code, but instagram is too good-looking to share a .zip file. i need something in between a to be honest.
-well, i don’t really know where the ships were going to go. 
-
-but, the only thing i know is… we’re going to move forward, and write something better than yesterday, hope it works. :)
+Well, I don’t really know where the ships were going to go. But, the only thing I know is… we’re going to move forward, and write something better than yesterday, hope it works. :)
 
 
 
-sincerely,
-
+Sincerely,
 Khakim

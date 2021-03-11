@@ -118,20 +118,16 @@
   </div>
   <section class="post-content"><p>G’Day Internet!</p>
 
-<p>started from today, i’m trying to born new ugly blogging website that previously left abandoned.</p>
+<p>Started from today, I’m trying to born new blogging website that previously left abandoned.</p>
 
-<p>why left abandoned?</p>
+<p>Why left abandoned? Good question! but hard to say. I still don’t know the exact reason, maybe just because I’m too lazy to do things 😅. But, recently I realized that I feel something didn’t work correctly, perhaps just because I need to share something that I thought bit complicated.</p>
 
-<p>good question, boy! i still don’t know the exact reason, but maybe just because i’m too lazy to do things. but, recently i realized that i feel something didn’t work correctly, perhaps just because i need to share something that i thought bit complicated.</p>
+<p>Unfortunately, some social media I used still not able to do these things (e.g. sharing code, tutorial, raw graphic design). Twitter too short to share a <em>hello world</em> code, but Instagram is too good-looking to share a .zip file. I need something in-between a to be honest.</p>
 
-<p>unfortunately, some social media i used still not able to do these things (e.g. sharing code, tutorial, raw graphic design). twitter too short to share a hello world code, but instagram is too good-looking to share a .zip file. i need something in between a to be honest.
-well, i don’t really know where the ships were going to go.</p>
+<p>Well, I don’t really know where the ships were going to go. But, the only thing I know is… we’re going to move forward, and write something better than yesterday, hope it works. :)</p>
 
-<p>but, the only thing i know is… we’re going to move forward, and write something better than yesterday, hope it works. :)</p>
-
-<p>sincerely,</p>
-
-<p>Khakim</p>
+<p>Sincerely,
+Khakim</p>
 </section>
   <!-- 
 <footer>
@@ -151,6 +147,20 @@ well, i don’t really know where the ships were going to go.</p>
 
 
 
+
+<!-- Image Alt -->
+<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+<script>
+ jQuery('.post-content').find('img').after(function() {
+   return jQuery('<p class="image-title">').text(jQuery (this).attr('title'));
+ });
+ jQuery('.post-content').find('iframe').after(function() {
+   return jQuery('<p class="image-title">').text(jQuery (this).attr('title'));
+ });
+</script>
 
 <!-- Post navigation -->
 
