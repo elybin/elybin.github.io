@@ -5,7 +5,7 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://0.0.0.0:4000/</link>
     <description>computer enthusiast, sound crusher and something in-between</description>
-    <pubDate>Fri, 12 Mar 2021 13:59:51 +0700</pubDate>
+    <pubDate>Fri, 12 Mar 2021 15:11:35 +0700</pubDate>
 
 
     
@@ -75,11 +75,15 @@ Khakim&lt;/p&gt;
         <title>Semarang Kreatif: a Digital tools for micro-small bussiness (UMKM)</title>
         <link>/project/2020/12/16/semarang-kreatif-a-digital-tools-for-micro-small-bussiness-umkm.html</link>
         <guid isPermaLink="true">/project/2020/12/16/semarang-kreatif-a-digital-tools-for-micro-small-bussiness-umkm.html</guid>
-        <description>&lt;p&gt;Semarang Kreatif merupakan aplikasi yang mempermudah Usaha Mikro, Kecil, dan Menengah (UMKM) dalam melakukan berbagai kegitan secara daring. Memiliki beberapa fitur utama seperti menampilkan daftar tautan penting, rekomendasi wisata, dan panduan izin usaha kreatif. Aplikasi ini merupakan sebuah permintaan dari seorang &lt;em&gt;client&lt;/em&gt; yang hendak merencanakan suatu &lt;em&gt;prototype&lt;/em&gt; untuk memudahkan UMKM mengelola perizinan.&lt;/p&gt;
+        <description>&lt;p&gt;Semarang Kreatif merupakan aplikasi yang mempermudah Usaha Mikro, Kecil, dan Menengah (UMKM) dalam melakukan berbagai kegitan secara daring. Memiliki beberapa fitur utama seperti menampilkan daftar tautan penting, rekomendasi wisata, dan panduan izin usaha kreatif. Aplikasi ini merupakan sebuah permintaan dari Kak Fauzi yang hendak merencanakan suatu &lt;em&gt;prototype&lt;/em&gt; untuk memudahkan UMKM mengelola perizinan.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/img/blog/semarang_kreatif_001.jpg&quot; title=&quot;Tangkapan layar - Semarang Kreatif&quot; class=&quot;img&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Dibangun dengan menggunakan basis &lt;em&gt;framework&lt;/em&gt; &lt;strong&gt;Bootstrap&lt;/strong&gt; sebagai tampilan utama yang dijalankan pada &lt;em&gt;WebView&lt;/em&gt;. Bagian &lt;em&gt;backend&lt;/em&gt; menggunakaan PHP yang bertukar data dengan &lt;em&gt;front-end&lt;/em&gt; melalui API. Sehingga mampu memperkecil ukuran instalasi dan dapat mengubah isi konten secara berkala tanpa perlu memperbaharui aplikasi.&lt;/p&gt;
+
+&lt;p&gt;Aplikasi ini diikutsertakan dalam &lt;a href=&quot;http://fis.unnes.ac.id/index.php/2021/03/01/mahasiswa-fis-juara-2-pemilihan-mahasiswa-berprestasi-tingkat-unnes/&quot; target=&quot;_blank&quot;&gt;Kompetisi Pemilihan Mahasiswa Berprestasi UNNES 2021&lt;/a&gt; oleh Muhammad Fauzi Fitri Adhika mahasiswa Jurusan Politik dan Kewarganegaraan FIS UNNES. Aplikasi Semarang Kreatif mendapat respon positif dan mendapatkan penghargaan sebagai Juara 3.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/blog/semarangkreatif_002.jpg&quot; title=&quot;Muhammad Fauzi Fitri Adhika mendapat Juara 3 dalam Mahasiswa Berprestasi UNNES 2021 dengan mengusulkan aplikasi Semarang Kreatif&quot; class=&quot;img&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Aplikasi android dapat diunduh di &lt;em&gt;Google Play Store&lt;/em&gt; pada tautan &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.melonkotak.smgkreatif&quot; target=&quot;_blank&quot;&gt;berikut&lt;/a&gt; atau dengan memindai &lt;em&gt;QR-Code&lt;/em&gt; dibawah.&lt;/p&gt;
 
@@ -96,7 +100,7 @@ Khakim&lt;/p&gt;
         <title>Star Mobile: E-learning and Instant Messaging in single app</title>
         <link>/project/2020/06/02/star-mobile-e-learning-and-instant-messaging-in-single-app.html</link>
         <guid isPermaLink="true">/project/2020/06/02/star-mobile-e-learning-and-instant-messaging-in-single-app.html</guid>
-        <description>&lt;p&gt;Star Mobile App merupakan aplikasi pembelajaran daring yang mudah digunakan. Menggabungkan antara konsep pesan instan seperti halnya Telegram, Singnal atau WhatsApp yang digabungkan dengan forum diskusi. Aplikasi ini merupakan sebuah permintaan dari seorang &lt;em&gt;client&lt;/em&gt; yang hendak menguji coba efisiensi penggunaan media pembelajaran elektronik pada SMP Islam Plus At-Tohari Tuntang khususnya pada tingkat kelas 8.&lt;/p&gt;
+        <description>&lt;p&gt;Star Mobile App merupakan aplikasi pembelajaran daring yang mudah digunakan. Menggabungkan antara konsep pesan instan seperti halnya Telegram, Signal atau WhatsApp yang digabungkan dengan forum diskusi. Aplikasi ini merupakan sebuah permintaan dari seorang &lt;em&gt;client&lt;/em&gt; yang hendak menguji coba efisiensi penggunaan media pembelajaran elektronik pada SMP Islam Plus At-Tohari Tuntang khususnya pada tingkat kelas 8.&lt;/p&gt;
 
 &lt;p&gt;Memiliki beberapa fitur utama seperti perpesanan instan, mengirim tugas atau materi pembelajaran, membuat ujian daring dan &lt;em&gt;video conference&lt;/em&gt; untuk proses belajar mengajar. Terdapat dua peran pengguna yang bisa didaftarkan, yaitu Siswa/Mahasiswa dan Tenaga Didik/Dosen. Setiap akun pengguna dapat saling mengirim pesan jika berada dalam kelas yang sama. Siswa dapat melakukan diskusi pada grup atau mengirim pesan pribadi ke Tenaga Didik.  Tenaga Didik dapat menginputkan soal ujian secara daring dan siswa dapat mengikuti ujian langsung melalui aplikasi.&lt;/p&gt;
 

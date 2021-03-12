@@ -243,3 +243,9 @@ article header .title
 {
   width:100%;
 }
+
+.post-content a
+{
+  color: $primary-color;
+  text-decoration: underline;
+}

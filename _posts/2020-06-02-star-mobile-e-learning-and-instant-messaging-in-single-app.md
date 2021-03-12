@@ -9,7 +9,7 @@ tags: [project, web-app]
 ---
 
 
-Star Mobile App merupakan aplikasi pembelajaran daring yang mudah digunakan. Menggabungkan antara konsep pesan instan seperti halnya Telegram, Singnal atau WhatsApp yang digabungkan dengan forum diskusi. Aplikasi ini merupakan sebuah permintaan dari seorang *client* yang hendak menguji coba efisiensi penggunaan media pembelajaran elektronik pada SMP Islam Plus At-Tohari Tuntang khususnya pada tingkat kelas 8.
+Star Mobile App merupakan aplikasi pembelajaran daring yang mudah digunakan. Menggabungkan antara konsep pesan instan seperti halnya Telegram, Signal atau WhatsApp yang digabungkan dengan forum diskusi. Aplikasi ini merupakan sebuah permintaan dari seorang *client* yang hendak menguji coba efisiensi penggunaan media pembelajaran elektronik pada SMP Islam Plus At-Tohari Tuntang khususnya pada tingkat kelas 8.
 
 Memiliki beberapa fitur utama seperti perpesanan instan, mengirim tugas atau materi pembelajaran, membuat ujian daring dan *video conference* untuk proses belajar mengajar. Terdapat dua peran pengguna yang bisa didaftarkan, yaitu Siswa/Mahasiswa dan Tenaga Didik/Dosen. Setiap akun pengguna dapat saling mengirim pesan jika berada dalam kelas yang sama. Siswa dapat melakukan diskusi pada grup atau mengirim pesan pribadi ke Tenaga Didik.  Tenaga Didik dapat menginputkan soal ujian secara daring dan siswa dapat mengikuti ujian langsung melalui aplikasi.
 
