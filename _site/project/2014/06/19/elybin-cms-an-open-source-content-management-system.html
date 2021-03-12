@@ -8,7 +8,7 @@
 	<!--Favicon-->
 	<link rel="shortcut icon" href="/assets/img/rsz_inf-min.png" type="image/x-icon">
 	<!-- Canonical -->
-	<link rel="canonical" href="/project/2014/06/19/elybin-cms-open-source.html">
+	<link rel="canonical" href="/project/2014/06/19/elybin-cms-an-open-source-content-management-system.html">
 	<!-- RSS -->
 	<link rel="alternate" type="application/atom+xml" title="Khakim A. Hudaya" href="/feed.xml">
 	<!-- Font Awesome -->
@@ -34,7 +34,7 @@
     <meta property="og:type" content="article">
     <meta property="og:description" content="Elybin CMS dibuat dengan campuran antara Native dan OOP yang di-fork dari Popoji CMS. Tampilan menggunakan framework AdminLTE yang berjalan pada Bootstrap ditambah dengan beberapa plugin JavaScript. Untuk penyimpanan data digunakan MySQL.
 Salah satu fitur yang menurut saya menarik adalah kemampuan Elybin CMS untuk secara otomatis beradaptasi dengan plugin yang tersedia pada folder system. Selain itu adalah tampilan yang sederhana dan mudah disesuaikan. Ukuran dari CMS ini cukup ringkas, yaitu hanya 3,2MB.">
-    <meta property="og:url" content="http://0.0.0.0:4000/project/2014/06/19/elybin-cms-open-source.html">
+    <meta property="og:url" content="http://0.0.0.0:4000/project/2014/06/19/elybin-cms-an-open-source-content-management-system.html">
     <meta property="article:published_time" content="2014-06-19T00:00:00+07:00">
     <meta property="article:modified_time" content="2014-06-19T00:00:00+07:00">
     <meta property="author" content="Khakim A. Hudaya">
@@ -157,6 +157,21 @@ Salah satu fitur yang menurut saya menarik adalah kemampuan Elybin CMS untuk sec
 <!-- Post navigation -->
 
 </div>
+
+<!-- Image Alt -->
+<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+<script>
+ jQuery('.post-content').find('img').after(function() {
+   return jQuery('<p class="image-title">').text(jQuery (this).attr('title'));
+ });
+ jQuery('.post-content').find('iframe').after(function() {
+   return jQuery('<p class="image-title">').text(jQuery (this).attr('title'));
+ });
+</script>
+
     </div>
     
 <script src="/assets/js/katex_init.js"></script>

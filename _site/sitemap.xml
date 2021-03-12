@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://0.0.0.0:4000/project/2014/06/19/elybin-cms-open-source.html</loc>
+<loc>http://0.0.0.0:4000/project/2014/06/19/elybin-cms-an-open-source-content-management-system.html</loc>
 <lastmod>2014-06-19T00:00:00+07:00</lastmod>
 </url>
 <url>
@@ -9,7 +9,7 @@
 <lastmod>2017-03-03T00:00:00+07:00</lastmod>
 </url>
 <url>
-<loc>http://0.0.0.0:4000/project/2017/11/15/rem-fm-radio-streaming-app.html</loc>
+<loc>http://0.0.0.0:4000/project/2017/11/15/rem-fm-streaming-a-digital-radio-streaming-app-and-cms.html</loc>
 <lastmod>2017-11-15T00:00:00+07:00</lastmod>
 </url>
 <url>
@@ -25,12 +25,20 @@
 <lastmod>2020-03-12T00:00:00+07:00</lastmod>
 </url>
 <url>
-<loc>http://0.0.0.0:4000/project/2020/04/19/aplikasi-belajar-sanggul.html</loc>
+<loc>http://0.0.0.0:4000/project/2020/04/19/belajar-sanggul-an-app-for-learning-javanese-hair-bun.html</loc>
 <lastmod>2020-04-19T00:00:00+07:00</lastmod>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/project/2020/06/02/star-mobile-e-learning-and-instant-messaging-in-single-app.html</loc>
+<lastmod>2020-06-02T00:00:00+07:00</lastmod>
 </url>
 <url>
 <loc>http://0.0.0.0:4000/apps/2020/11/11/prosedur-skripsi-jurusan-te.html</loc>
 <lastmod>2020-11-11T00:00:00+07:00</lastmod>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/project/2020/12/16/semarang-kreatif-a-digital-tools-for-micro-small-bussiness-umkm.html</loc>
+<lastmod>2020-12-16T00:00:00+07:00</lastmod>
 </url>
 <url>
 <loc>http://0.0.0.0:4000/about/</loc>
@@ -67,6 +75,12 @@
 </url>
 <url>
 <loc>http://0.0.0.0:4000/blog/page8/</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/blog/page9/</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/blog/page10/</loc>
 </url>
 <url>
 <loc>http://0.0.0.0:4000/prosedur-skripsi.html</loc>
