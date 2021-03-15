@@ -5,7 +5,7 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://0.0.0.0:4000/</link>
     <description>computer enthusiast, sound crusher and something in-between</description>
-    <pubDate>Fri, 12 Mar 2021 15:11:35 +0700</pubDate>
+    <pubDate>Mon, 15 Mar 2021 21:07:26 +0700</pubDate>
 
 
     
@@ -136,13 +136,35 @@ Khakim&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/assets/img/blog/belajar_sanggul_001.jpg&quot; title=&quot;Tangkapan layar Pada Halaman Sejarah - Aplikasi Belajar Sanggul&quot; class=&quot;img&quot; /&gt;
 &lt;img src=&quot;/assets/img/blog/belajar_sanggul_002.jpg&quot; title=&quot;Tangkapan layar Utama Aplikasi Belajar Sanggul&quot; class=&quot;img&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Dibangun secara statis menggunakan &lt;em&gt;framework&lt;/em&gt; &lt;strong&gt;Bootstrap&lt;/strong&gt; yang ditampilkan pada &lt;em&gt;WebView&lt;/em&gt; dengan menggunakan &lt;strong&gt;Cordova&lt;/strong&gt;. Sehingga mampu memperkecil ukuran instalasi dan dapat mengubah isi konten secara berkala tanpa perlu memperbaharui aplikasi. Aplikasi android dapat diunduh di &lt;em&gt;Google Play Store&lt;/em&gt; pada tautan &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.melonkotak.belajarsanggul&quot; target=&quot;_blank&quot;&gt;berikut&lt;/a&gt; atau dengan memindai&lt;em&gt;QR-Code&lt;/em&gt; dibawah.&lt;/p&gt;
+&lt;p&gt;Dibangun secara statis menggunakan &lt;em&gt;framework&lt;/em&gt; &lt;strong&gt;Bootstrap&lt;/strong&gt; yang ditampilkan pada &lt;em&gt;WebView&lt;/em&gt; dengan menggunakan &lt;strong&gt;Cordova&lt;/strong&gt;. Sehingga mampu memperkecil ukuran instalasi dan dapat mengubah isi konten secara berkala tanpa perlu memperbaharui aplikasi. Aplikasi android dapat diunduh di &lt;em&gt;Google Play Store&lt;/em&gt; pada tautan &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.melonkotak.belajarsanggul&quot; target=&quot;_blank&quot;&gt;berikut&lt;/a&gt; atau dengan memindai &lt;em&gt;QR-Code&lt;/em&gt; dibawah.&lt;/p&gt;
 
 &lt;p class=&quot;text-center&quot;&gt;
 &lt;img src=&quot;/assets/img/blog/barcode_belajarsanggul.png&quot; title=&quot;Scan untuk meng-install aplikasi android - Belajar Sanggul&quot; class=&quot;qr-code&quot; /&gt;
 &lt;/p&gt;
 </description>
         <pubDate>Sun, 19 Apr 2020 00:00:00 +0700</pubDate>
+    </item>
+    
+    
+    
+    <item>
+        <title>Demo Deliberatif: an App to help understand Democracy</title>
+        <link>/project/2020/01/14/demo-deliberatif-an-app-to-help-understand-democracy.html</link>
+        <guid isPermaLink="true">/project/2020/01/14/demo-deliberatif-an-app-to-help-understand-democracy.html</guid>
+        <description>&lt;p&gt;Demo-deliberatif merupakan sebuah platform berbentuk aplikasi sebagai ajang sosialisasi politik melalui pemahaman demokrasi. Aplikasi ini merupakan sebuah permintaan dari seorang &lt;em&gt;client&lt;/em&gt; untuk merealisasikan sebuah &lt;em&gt;prototype&lt;/em&gt; guna memberikan edukasi pemahaman demokrasi menggunakan sistem digital.&lt;/p&gt;
+
+&lt;p&gt;Aplikasi ini dapat memudahkan warga negara untuk mengkrtisi kebijakan publik, bahkan pada saat proses kebijakan itu dibentuk. Masukan yang diterima akan dijadikan sebuah output untuk memperbaiki kebijakan itu sendiri agar tidak ada kebijakan kontroversial dan sesuai dengan keinginan masyarakat.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/blog/demodeliberatif_01.jpg&quot; title=&quot;Tangkapan layar Pada Halaman Berita - Aplikasi Demo Deliberatif&quot; class=&quot;img&quot; /&gt;
+&lt;img src=&quot;/assets/img/blog/demodeliberatif_02.jpg&quot; title=&quot;Tangkapan layar Utama Aplikasi Demo Deliberatif&quot; class=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Dibangun secara statis menggunakan &lt;em&gt;framework&lt;/em&gt; &lt;strong&gt;Bootstrap&lt;/strong&gt; yang ditampilkan pada &lt;em&gt;WebView&lt;/em&gt; dengan menggunakan &lt;strong&gt;Cordova&lt;/strong&gt;. Sehingga mampu memperkecil ukuran instalasi dan dapat mengubah isi konten secara berkala tanpa perlu memperbaharui aplikasi. Aplikasi android dapat diunduh di &lt;em&gt;Google Play Store&lt;/em&gt; pada tautan &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.melonkotak.demoderiberatif&quot; target=&quot;_blank&quot;&gt;berikut&lt;/a&gt; atau dengan memindai &lt;em&gt;QR-Code&lt;/em&gt; dibawah.&lt;/p&gt;
+
+&lt;p class=&quot;text-center&quot;&gt;
+&lt;img src=&quot;/assets/img/blog/qr-code-demodeliberatif.png&quot; title=&quot;Scan untuk meng-install aplikasi android - Demo Deliberatif&quot; class=&quot;qr-code&quot; /&gt;
+&lt;/p&gt;
+</description>
+        <pubDate>Tue, 14 Jan 2020 00:00:00 +0700</pubDate>
     </item>
     
     

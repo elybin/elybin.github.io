@@ -15,7 +15,7 @@ Mengulas perihal sanggul daerah yang berada di Jawa Tengah dan DIY khususnya san
 <img src="/assets/img/blog/belajar_sanggul_001.jpg" title="Tangkapan layar Pada Halaman Sejarah - Aplikasi Belajar Sanggul" class="img">
 <img src="/assets/img/blog/belajar_sanggul_002.jpg" title="Tangkapan layar Utama Aplikasi Belajar Sanggul" class="img">
 
-Dibangun secara statis menggunakan *framework* **Bootstrap** yang ditampilkan pada *WebView* dengan menggunakan **Cordova**. Sehingga mampu memperkecil ukuran instalasi dan dapat mengubah isi konten secara berkala tanpa perlu memperbaharui aplikasi. Aplikasi android dapat diunduh di *Google Play Store* pada tautan <a href="https://play.google.com/store/apps/details?id=com.melonkotak.belajarsanggul" target="_blank">berikut</a> atau dengan memindai*QR-Code* dibawah. 
+Dibangun secara statis menggunakan *framework* **Bootstrap** yang ditampilkan pada *WebView* dengan menggunakan **Cordova**. Sehingga mampu memperkecil ukuran instalasi dan dapat mengubah isi konten secara berkala tanpa perlu memperbaharui aplikasi. Aplikasi android dapat diunduh di *Google Play Store* pada tautan <a href="https://play.google.com/store/apps/details?id=com.melonkotak.belajarsanggul" target="_blank">berikut</a> atau dengan memindai *QR-Code* dibawah. 
 
 
 <p class="text-center">
