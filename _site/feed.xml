@@ -5,7 +5,7 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://0.0.0.0:4000/</link>
     <description>computer enthusiast, sound crusher and something in-between</description>
-    <pubDate>Thu, 18 Mar 2021 16:36:57 +0700</pubDate>
+    <pubDate>Thu, 18 Mar 2021 16:38:25 +0700</pubDate>
 
 
     
@@ -178,9 +178,9 @@ eyJoaXN0b3J5IjpbLTE1NjYxNzcxMjFdfQ==
         <guid isPermaLink="true">/project/2018/09/11/the-black-pink-box-midi-controlled-lights-with-live-9-and-arduino-uno.html</guid>
         <description>&lt;p&gt;Last month, I got a challenge to make a stunning light/visual show with a low budget that can sync with the music and visual. The Goal is to controlling lightings such as incandescent bulbs, or x-mas light (fairy lights) using some MIDI software such as Ableton Live 9, FL Studio, or other DAW. After surfing the internet, I’ve found that this thing can simply be done with just using DMX (&lt;em&gt;Digital Multiplex&lt;/em&gt;), but it’s so expensive. So, I started a little project named &lt;strong&gt;The Black Pink Box Project&lt;/strong&gt; and used a cheap $6 Arduino UNO (clone) to solve this problem.&lt;/p&gt;
 
-&lt;p&gt;This post may be really unstructured and messy, but the point is just to documented the whole process and probably getting some feedback to improve the quality of this project. Previously, I took my shovel and digging the internet, and nothing making something like this. The closer one looked similar but using Fl Studio as a DAW.&lt;/p&gt;
-
 &lt;p&gt;&lt;img src=&quot;/assets/img/blog/theblackpinkbox_003.jpg&quot; title=&quot;The Black Pink Box Project — 10-channels MIDI-controlled lights with Ableton Live 9 and Arduino Uno&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This post may be really unstructured and messy, but the point is just to documented the whole process and probably getting some feedback to improve the quality of this project. Previously, I took my shovel and digging the internet, and nothing making something like this. The closer one looked similar but using Fl Studio as a DAW.&lt;/p&gt;
 
 &lt;h2 id=&quot;material-needed&quot;&gt;Material Needed&lt;/h2&gt;
 &lt;p&gt;The material needed for this project basically can be categorized into hardware and software.&lt;/p&gt;

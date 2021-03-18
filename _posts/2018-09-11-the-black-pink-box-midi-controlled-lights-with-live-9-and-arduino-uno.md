@@ -11,11 +11,9 @@ excerpt: "Last month, I got a challenge to make a stunning light/visual show wit
 
 Last month, I got a challenge to make a stunning light/visual show with a low budget that can sync with the music and visual. The Goal is to controlling lightings such as incandescent bulbs, or x-mas light (fairy lights) using some MIDI software such as Ableton Live 9, FL Studio, or other DAW. After surfing the internet, I've found that this thing can simply be done with just using DMX (*Digital Multiplex*), but it's so expensive. So, I started a little project named **The Black Pink Box Project** and used a cheap $6 Arduino UNO (clone) to solve this problem. 
 
-This post may be really unstructured and messy, but the point is just to documented the whole process and probably getting some feedback to improve the quality of this project. Previously, I took my shovel and digging the internet, and nothing making something like this. The closer one looked similar but using Fl Studio as a DAW. 
-
 <img src="/assets/img/blog/theblackpinkbox_003.jpg" title="The Black Pink Box Project — 10-channels MIDI-controlled lights with Ableton Live 9 and Arduino Uno">
 
-
+This post may be really unstructured and messy, but the point is just to documented the whole process and probably getting some feedback to improve the quality of this project. Previously, I took my shovel and digging the internet, and nothing making something like this. The closer one looked similar but using Fl Studio as a DAW. 
 
 ## Material Needed
 The material needed for this project basically can be categorized into hardware and software. 
