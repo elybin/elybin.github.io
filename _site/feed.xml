@@ -5,7 +5,7 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://0.0.0.0:4000/</link>
     <description>computer enthusiast, sound crusher and something in-between</description>
-    <pubDate>Tue, 16 Mar 2021 09:04:13 +0700</pubDate>
+    <pubDate>Thu, 18 Mar 2021 15:58:10 +0700</pubDate>
 
 
     
@@ -90,6 +90,9 @@ Khakim&lt;/p&gt;
 &lt;p class=&quot;text-center&quot;&gt;
 &lt;img src=&quot;/assets/img/blog/qr-code-semarang-kreatif.png&quot; title=&quot;Scan untuk meng-install aplikasi android - Semarang Kreatif&quot; class=&quot;qr-code&quot; /&gt;
 &lt;/p&gt;
+&lt;!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE1NjYxNzcxMjFdfQ==
+--&gt;
 </description>
         <pubDate>Wed, 16 Dec 2020 00:00:00 +0700</pubDate>
     </item>
@@ -165,6 +168,81 @@ Khakim&lt;/p&gt;
 &lt;/p&gt;
 </description>
         <pubDate>Tue, 14 Jan 2020 00:00:00 +0700</pubDate>
+    </item>
+    
+    
+    
+    <item>
+        <title>The Black Pink Box: MIDI-controlled lights with Live 9 and Arduino</title>
+        <link>/project/2018/09/11/the-black-pink-box-midi-controlled-lights-with-live-9-and-arduino-uno.html</link>
+        <guid isPermaLink="true">/project/2018/09/11/the-black-pink-box-midi-controlled-lights-with-live-9-and-arduino-uno.html</guid>
+        <description>&lt;h2 id=&quot;tldr&quot;&gt;TL;DR.&lt;/h2&gt;
+
+&lt;p&gt;Last month, I got a challenge to make a stunning light/visual show with a low budget that can sync with the music and visual. The Goal is to controlling lightings such as incandescent bulbs, or x-mas light (fairy lights) using some MIDI software such as Ableton Live 9, FL Studio, or other DAW. After surfing the internet, I’ve found that this thing can simply be done with just using DMX (Digital Multiplex), but it’s so expensive. So, I started a little project named &lt;strong&gt;The Black Pink Box Project&lt;/strong&gt; and used a cheap $6 Arduino UNO (clone) to solve this problem.&lt;/p&gt;
+
+&lt;p&gt;This post may be really unstructured and messy, but the point is just to documented the whole process and probably getting some feedback to improve the quality of this project. Previously, I took my shovel and digging the internet, and nothing making something like this. The closer one looked similar but using Fl Studio as a DAW.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/blog/theblackpinkbox_003.jpg&quot; title=&quot;The Black Pink Box Project — 10-channels MIDI-controlled lights with Ableton Live 9 and Arduino Uno&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;material-needed&quot;&gt;Material Needed&lt;/h2&gt;
+&lt;p&gt;The material needed for this project basically can be categorized into hardware and software.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Arduino UNO&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bl.app.link/T9K1deSIsQ&quot;&gt;8+2 Channel Relay&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://kabelnym.com/shop/brand-series/broco-series/kontra-steker-hitam-broco-334n/&quot;&gt;10 Contra Steker&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Wires&lt;/li&gt;
+  &lt;li&gt;Laptop installed with Windows OS&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Digital_audio_workstation&quot;&gt;Digital Audio Workstation&lt;/a&gt; (I used &lt;a href=&quot;https://www.ableton.com/en/trial/&quot;&gt;Ableton Live 9&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=1QPQoZGAA88&quot;&gt;Basic knowledge of using DAW&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://projectgus.github.com/hairless-midiserial&quot;&gt;Hariless MIDI&amp;lt;-&amp;gt;Serial Bridge&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.tobias-erichsen.de/software/loopmidi.html&quot;&gt;loopMIDI&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.free-codecs.com/download/matroska_splitter.htm&quot;&gt;MatroskaSplitter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Quicktime Player&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.arduino.cc/en/Main/Software&quot;&gt;Arduino Software (IDE)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;schema&quot;&gt;Schema&lt;/h2&gt;
+&lt;p&gt;By looking at the schema. we start the journey from the left to the right. Firstly, we draw a &lt;a href=&quot;https://en.wikipedia.org/wiki/MIDI&quot;&gt;MIDI&lt;/a&gt; pattern on our DAW. The pattern could be anything, it’s up to you, but in this case, I draw the pattern to follow some music beats.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;assets/img/blog/theblackpinkbox_004_2.jpg&quot; title=&quot;In the nutshell schema of The Black Pink Box&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Since this project using 10 relays or lights to be switched on and of, the MIDI note that available to be played are just 10 notes. For simplicity, I set the first relay/bulb with the lowest note (C-2), and the higher notes lead to the next relay/bulb. So, it will look like this &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;(C-2 = 1st Bulb, C#-2 = 2nd Bulb, ... A-2 = 10th Bulb)&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Then, those MIDI signals pointed into output adapter to be used with other devices. Unfortunately, because this output signal usually goes straight into some hardware (eg. Launchpad, MIDI Controller), there is no default adapter being set inside the Windows/DAW, and this is where &lt;a href=&quot;https://www.tobias-erichsen.de/software/loopmidi.html&quot;&gt;loopMIDI&lt;/a&gt;  come into play.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;LoopMIDI is an impostor&lt;/strong&gt; , acts as a virtual adapter to trick DAW to think that there’s real hardware attached to the computer and ready to receive some MIDI signal, and then bouncing the signal into others application. It is worth noting that Arduino can’t read MIDI signal,  we need to convert that into &lt;a href=&quot;https://en.wikipedia.org/wiki/Serial_communication&quot;&gt;Serial&lt;/a&gt; data. Fortunately, thanks to Angus Gratton who made the app called &lt;a href=&quot;http://projectgus.github.com/hairless-midiserial&quot;&gt;Hariless MIDI&amp;lt;-&amp;gt;Serial Bridge&lt;/a&gt; that prevent my hand from touching the dirt.&lt;/p&gt;
+
+&lt;p&gt;Short story, the signal received by the Arduino through &lt;em&gt;USB Type-A Male to USB Type-B Male&lt;/em&gt; cables. But we need to decode that data to be able to understand by the Arduino. So, I made a simple script to translate every received serial signal into some short of relay instruction, that code &lt;a href=&quot;https://github.com/elybin/Black-Pink-Box/blob/master/file_arduino/Ableton_Arduino_Relay.ino&quot;&gt;available here&lt;/a&gt;. Finally, those bulbs triggered on/off by the relay that instructed through a &lt;em&gt;Digital Pin&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;installation&quot;&gt;Installation&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Install &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ableton&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;loopMIDI&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Hariless MIDI&amp;lt;-&amp;gt;Serial Bridge&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MatroskaSplitter&lt;/code&gt;,  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Quicktime Player&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Arduino Driver&lt;/code&gt; on your laptop&lt;/li&gt;
+  &lt;li&gt;Load the Ableton Project file named &lt;a href=&quot;https://github.com/elybin/Black-Pink-Box&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;lighting_test.als&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Setup your Ableton adapter, goto &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Options&lt;/code&gt;-&amp;gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt; Preferences&lt;/code&gt;-&amp;gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MIDI Tab&lt;/code&gt; then select output into &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;loopMIDI&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Open and start &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;loopMidi&lt;/code&gt;, make sure there is data received&lt;/li&gt;
+  &lt;li&gt;Connect your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Arduino&lt;/code&gt; and upload the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ableton_Arduino_Relay.ino&lt;/code&gt; form &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;file_arduino&lt;/code&gt; folder into your Arduino. Maybe you’ll need &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Arduino IDE&lt;/code&gt; in this process.&lt;/li&gt;
+  &lt;li&gt;Open &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Hairless MIDI&amp;lt;-&amp;gt;Serial Bridge&lt;/code&gt; and select &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Serial Port&lt;/code&gt; into your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Arduino UNO&lt;/code&gt;, select &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MIDI In&lt;/code&gt; into &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;loopMidi&lt;/code&gt;. Also, make sure the green dots blinking&lt;/li&gt;
+  &lt;li&gt;If you follow the step correctly, you’ll hearing the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Relay&lt;/code&gt; starting to clicking, good luck!&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;the-show&quot;&gt;The Show&lt;/h2&gt;
+&lt;p&gt;Today is the day, September 22, 2018, is the day when Electro Campus Orientation (ELCO) 2018 being held. ELCO is an annual event to welcome new undergrads students of the Department of Electrical Engineering in Universitas Negeri Semarang. One of the agenda is the opening show, which this year we gonna trying new things. Showing 12 dancers, 2 light-projector beamed on stage, pre-edited music and lighting using a computer, and working in synchronize timeline. It’s not an easy task to do, it’s a lot of teamwork and engineering involved in this project.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/blog/theblackpinkbox_001.jpeg&quot; title=&quot;ELCO held in Gedong Songo, Semarang — I still looking for image from 2018 this one is 2017&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/blog/theblackpinkbox_002_2.jpg&quot; title=&quot;Closer look of the circuit, look at those wiring the cables with the relay!&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We tried to prepare everything on the stage,  from the cable route, bulb array, dancers, and stage crews. Since the venue located in a high-altitude and remote area, there’s a lot of unpredictable challenges, like the dense humidity level that could make circuit shorts and causing potential damage.  All we can do for this threat is fingers crossed for what will happen next.&lt;/p&gt;
+
+&lt;p&gt;I got confirmation from all crew that everything ready to go.  Everyone got nervous when the show begins with a countdown from T-10 seconds. I pressed play, and the show began. Luckily, the show runs completely smooth! With all the claps from the guest appreciate how good the show is. At the end of the show every crews looks very happy with the result and the response, we did it!&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;in&quot; dir=&quot;ltr&quot;&gt;180922: “the black pink box project.” &lt;br /&gt;10-channels MIDI-controlled lights with Ableton Live 9 and Arduino Uno&lt;br /&gt;&lt;br /&gt;berhubung liat tweet tentang “lights show ppsmb ugm” yang pakai ~32x32 relay-array, jadi inget struggle pembuatan project serupa but lebih kecil skalanya... &lt;a href=&quot;https://t.co/35R76oI4h6&quot;&gt;pic.twitter.com/35R76oI4h6&lt;/a&gt;&lt;/p&gt;&amp;mdash; Clay Machine (@clay_machine) &lt;a href=&quot;https://twitter.com/clay_machine/status/1303938295122989058?ref_src=twsrc%5Etfw&quot;&gt;September 10, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Honestly, this is the first time I work on hardware stuff, I still never know how to calculate how many bulbs possible to attach, or what cables to pick so. However, it fun projects to do and worth spending hours to spend with. So, what do you think?&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 11 Sep 2018 00:00:00 +0700</pubDate>
     </item>
     
     

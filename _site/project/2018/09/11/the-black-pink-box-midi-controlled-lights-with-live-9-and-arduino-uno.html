@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head itemscope>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- CSS -->
+	<link rel="stylesheet" href="/assets/css/main.css">
+	<!--Favicon-->
+	<link rel="shortcut icon" href="/assets/img/rsz_inf-min.png" type="image/x-icon">
+	<!-- Canonical -->
+	<link rel="canonical" href="/project/2018/09/11/the-black-pink-box-midi-controlled-lights-with-live-9-and-arduino-uno.html">
+	<!-- RSS -->
+	<link rel="alternate" type="application/atom+xml" title="Khakim A. Hudaya" href="/feed.xml">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+	<!-- Google Analytics -->
+	<script>
+		(function (i, s, o, g, r, a, m) {
+		i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+			(i[r].q = i[r].q || []).push(arguments)
+		}, i[r].l = 1 * new Date(); a = s.createElement(o),
+			m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-113947180-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+	<title>The Black Pink Box: MIDI-controlled lights with Live 9 and Arduino -  Khakim A. Hudaya</title>
+	<meta name="description" content="Last month, I got a challenge to make a stunning light/visual show with a low budget that can sync with the music and visual. The Goal is to controlling ligh...">	
+
+    <!-- Open Graph Tags -->
+    <meta property="og:site_name" content="Khakim A. Hudaya">
+    <meta property="og:title" content="The Black Pink Box: MIDI-controlled lights with Live 9 and Arduino by Khakim A. Hudaya">
+    <meta property="og:type" content="article">
+    <meta property="og:description" content="Last month, I got a challenge to make a stunning light/visual show with a low budget that can sync with the music and visual. The Goal is to controlling lightings such as incandescent bulbs, or x-mas light (fairy lights) using some MIDI software such as Ableton Live 9, FL Studio, or other DAW. After surfing the internet, I've found that this thing can simply be done with just using DMX (Digital Multiplex), but it's so expensive. So, I started a little project named The Black Pink Box Project and used a cheap $6 Arduino UNO (clone) to solve this problem.">
+    <meta property="og:url" content="http://0.0.0.0:4000/project/2018/09/11/the-black-pink-box-midi-controlled-lights-with-live-9-and-arduino-uno.html">
+    <meta property="article:published_time" content="2018-09-11T00:00:00+07:00">
+    <meta property="article:modified_time" content="2018-09-11T00:00:00+07:00">
+    <meta property="author" content="Khakim A. Hudaya">
+    <meta property="article:publisher" content="" />
+    <meta property="og:image" content="http://0.0.0.0:4000/assets/img/og_cover-min.jpg">
+    <meta property="og:image:alt" content="https://melonkotak.com/api/v1/img-min/?qty=95&url=http://0.0.0.0:4000/assets/img/og_cover-min.jpg">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:width" content="1200">
+    <meta property="article:section" content="project">
+	<meta property="article:tag" content="project">
+	<meta property="article:tag" content="web-app">
+
+
+	  <!-- /twitter	  -->
+	  <meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="The Black Pink Box: MIDI-controlled lights with Live 9 and Arduino by Khakim A. Hudaya">
+
+	<meta name="twitter:description" content="Last month, I got a challenge to make a stunning light/visual show with a low budget that can sync with the music and visual. The Goal is to controlling lightings such as incandescent bulbs, or x-mas light (fairy lights) using some MIDI software such as Ableton Live 9, FL Studio, or other DAW. After surfing the internet, I've found that this thing can simply be done with just using DMX (Digital Multiplex), but it's so expensive. So, I started a little project named The Black Pink Box Project and used a cheap $6 Arduino UNO (clone) to solve this problem.">
+
+	<meta name="twitter:image" content="http://0.0.0.0:4000assets/img/og_cover-min.jpg">
+
+
+
+
+<!-- /facebook -->
+<meta property="fb:app_id" content="285677132447016" />
+
+
+
+
+<!-- /mswindow -->
+<meta name="msapplication-TileImage" content="/assets/img/rsz_inf-min.png">
+
+
+<meta name="msapplication-TileColor" content="#eee">
+
+
+
+
+
+<!-- /google search -->
+<!-- Google / Search Engine Tags -->
+		<meta itemprop="name" content="The Black Pink Box: MIDI-controlled lights with Live 9 and Arduino by Khakim A. Hudaya">
+
+	<meta content="Last month, I got a challenge to make a stunning light/visual show with a low budget that can sync with the music and visual. The Goal is to controlling lightings such as incandescent bulbs, or x-mas light (fairy lights) using some MIDI software such as Ableton Live 9, FL Studio, or other DAW. After surfing the internet, I've found that this thing can simply be done with just using DMX (Digital Multiplex), but it's so expensive. So, I started a little project named The Black Pink Box Project and used a cheap $6 Arduino UNO (clone) to solve this problem." itemprop="description">
+
+	<meta itemprop="image" content="http://0.0.0.0:4000/assets/img/og_cover-min.jpg">
+
+</head>
+  <body>
+    <div class="container">
+	<header class="site-header">
+		<div class="branding">
+			<div class="site-title">
+				<a href="/"><h1>Khakim A. Hudaya <span class="blinking-cursor">|</span></h1></a> 
+			</div>
+		</div>
+	</header>
+</div>
+    <div class="content">
+      <div class="container">
+<article >
+  
+   
+  
+  <header style="background-image: url('/')">
+    <h1 class="title">The Black Pink Box: MIDI-controlled lights with Live 9 and Arduino <div style="display:none">by khakim assidiqi</div></h1>
+    
+
+  </header>
+  <div class="meta">
+    <div class="row">
+      <div class="date">11 September 2018</div>
+      
+    </div>
+  </div>
+  <section class="post-content"><h2 id="tldr">TL;DR.</h2>
+
+<p>Last month, I got a challenge to make a stunning light/visual show with a low budget that can sync with the music and visual. The Goal is to controlling lightings such as incandescent bulbs, or x-mas light (fairy lights) using some MIDI software such as Ableton Live 9, FL Studio, or other DAW. After surfing the internet, I’ve found that this thing can simply be done with just using DMX (Digital Multiplex), but it’s so expensive. So, I started a little project named <strong>The Black Pink Box Project</strong> and used a cheap $6 Arduino UNO (clone) to solve this problem.</p>
+
+<p>This post may be really unstructured and messy, but the point is just to documented the whole process and probably getting some feedback to improve the quality of this project. Previously, I took my shovel and digging the internet, and nothing making something like this. The closer one looked similar but using Fl Studio as a DAW.</p>
+
+<p><img src="/assets/img/blog/theblackpinkbox_003.jpg" title="The Black Pink Box Project — 10-channels MIDI-controlled lights with Ableton Live 9 and Arduino Uno" /></p>
+
+<h2 id="material-needed">Material Needed</h2>
+<p>The material needed for this project basically can be categorized into hardware and software.</p>
+<ul>
+  <li>Arduino UNO</li>
+  <li><a href="https://bl.app.link/T9K1deSIsQ">8+2 Channel Relay</a></li>
+  <li><a href="https://kabelnym.com/shop/brand-series/broco-series/kontra-steker-hitam-broco-334n/">10 Contra Steker</a></li>
+  <li>Wires</li>
+  <li>Laptop installed with Windows OS</li>
+  <li><a href="https://en.wikipedia.org/wiki/Digital_audio_workstation">Digital Audio Workstation</a> (I used <a href="https://www.ableton.com/en/trial/">Ableton Live 9</a>)</li>
+  <li><a href="https://www.youtube.com/watch?v=1QPQoZGAA88">Basic knowledge of using DAW</a></li>
+  <li><a href="http://projectgus.github.com/hairless-midiserial">Hariless MIDI&lt;-&gt;Serial Bridge</a></li>
+  <li><a href="https://www.tobias-erichsen.de/software/loopmidi.html">loopMIDI</a></li>
+  <li><a href="http://www.free-codecs.com/download/matroska_splitter.htm">MatroskaSplitter</a></li>
+  <li>Quicktime Player</li>
+  <li><a href="https://www.arduino.cc/en/Main/Software">Arduino Software (IDE)</a></li>
+</ul>
+
+<h2 id="schema">Schema</h2>
+<p>By looking at the schema. we start the journey from the left to the right. Firstly, we draw a <a href="https://en.wikipedia.org/wiki/MIDI">MIDI</a> pattern on our DAW. The pattern could be anything, it’s up to you, but in this case, I draw the pattern to follow some music beats.</p>
+
+<p><a href="assets/img/blog/theblackpinkbox_004_2.jpg" title="In the nutshell schema of The Black Pink Box"></a></p>
+
+<p>Since this project using 10 relays or lights to be switched on and of, the MIDI note that available to be played are just 10 notes. For simplicity, I set the first relay/bulb with the lowest note (C-2), and the higher notes lead to the next relay/bulb. So, it will look like this <code class="language-plaintext highlighter-rouge">(C-2 = 1st Bulb, C#-2 = 2nd Bulb, ... A-2 = 10th Bulb)</code>.</p>
+
+<p>Then, those MIDI signals pointed into output adapter to be used with other devices. Unfortunately, because this output signal usually goes straight into some hardware (eg. Launchpad, MIDI Controller), there is no default adapter being set inside the Windows/DAW, and this is where <a href="https://www.tobias-erichsen.de/software/loopmidi.html">loopMIDI</a>  come into play.</p>
+
+<p><strong>LoopMIDI is an impostor</strong> , acts as a virtual adapter to trick DAW to think that there’s real hardware attached to the computer and ready to receive some MIDI signal, and then bouncing the signal into others application. It is worth noting that Arduino can’t read MIDI signal,  we need to convert that into <a href="https://en.wikipedia.org/wiki/Serial_communication">Serial</a> data. Fortunately, thanks to Angus Gratton who made the app called <a href="http://projectgus.github.com/hairless-midiserial">Hariless MIDI&lt;-&gt;Serial Bridge</a> that prevent my hand from touching the dirt.</p>
+
+<p>Short story, the signal received by the Arduino through <em>USB Type-A Male to USB Type-B Male</em> cables. But we need to decode that data to be able to understand by the Arduino. So, I made a simple script to translate every received serial signal into some short of relay instruction, that code <a href="https://github.com/elybin/Black-Pink-Box/blob/master/file_arduino/Ableton_Arduino_Relay.ino">available here</a>. Finally, those bulbs triggered on/off by the relay that instructed through a <em>Digital Pin</em>.</p>
+
+<h2 id="installation">Installation</h2>
+<ol>
+  <li>Install <code class="language-plaintext highlighter-rouge">Ableton</code>, <code class="language-plaintext highlighter-rouge">loopMIDI</code>, <code class="language-plaintext highlighter-rouge">Hariless MIDI&lt;-&gt;Serial Bridge</code>, <code class="language-plaintext highlighter-rouge">MatroskaSplitter</code>,  <code class="language-plaintext highlighter-rouge">Quicktime Player</code>, <code class="language-plaintext highlighter-rouge">Arduino Driver</code> on your laptop</li>
+  <li>Load the Ableton Project file named <a href="https://github.com/elybin/Black-Pink-Box"><code class="language-plaintext highlighter-rouge">lighting_test.als</code></a></li>
+  <li>Setup your Ableton adapter, goto <code class="language-plaintext highlighter-rouge">Options</code>-&gt;<code class="language-plaintext highlighter-rouge"> Preferences</code>-&gt;<code class="language-plaintext highlighter-rouge">MIDI Tab</code> then select output into <code class="language-plaintext highlighter-rouge">loopMIDI</code></li>
+  <li>Open and start <code class="language-plaintext highlighter-rouge">loopMidi</code>, make sure there is data received</li>
+  <li>Connect your <code class="language-plaintext highlighter-rouge">Arduino</code> and upload the <code class="language-plaintext highlighter-rouge">Ableton_Arduino_Relay.ino</code> form <code class="language-plaintext highlighter-rouge">file_arduino</code> folder into your Arduino. Maybe you’ll need <code class="language-plaintext highlighter-rouge">Arduino IDE</code> in this process.</li>
+  <li>Open <code class="language-plaintext highlighter-rouge">Hairless MIDI&lt;-&gt;Serial Bridge</code> and select <code class="language-plaintext highlighter-rouge">Serial Port</code> into your <code class="language-plaintext highlighter-rouge">Arduino UNO</code>, select <code class="language-plaintext highlighter-rouge">MIDI In</code> into <code class="language-plaintext highlighter-rouge">loopMidi</code>. Also, make sure the green dots blinking</li>
+  <li>If you follow the step correctly, you’ll hearing the <code class="language-plaintext highlighter-rouge">Relay</code> starting to clicking, good luck!</li>
+</ol>
+
+<h2 id="the-show">The Show</h2>
+<p>Today is the day, September 22, 2018, is the day when Electro Campus Orientation (ELCO) 2018 being held. ELCO is an annual event to welcome new undergrads students of the Department of Electrical Engineering in Universitas Negeri Semarang. One of the agenda is the opening show, which this year we gonna trying new things. Showing 12 dancers, 2 light-projector beamed on stage, pre-edited music and lighting using a computer, and working in synchronize timeline. It’s not an easy task to do, it’s a lot of teamwork and engineering involved in this project.</p>
+
+<p><img src="/assets/img/blog/theblackpinkbox_001.jpeg" title="ELCO held in Gedong Songo, Semarang — I still looking for image from 2018 this one is 2017" /></p>
+
+<p><img src="/assets/img/blog/theblackpinkbox_002_2.jpg" title="Closer look of the circuit, look at those wiring the cables with the relay!" /></p>
+
+<p>We tried to prepare everything on the stage,  from the cable route, bulb array, dancers, and stage crews. Since the venue located in a high-altitude and remote area, there’s a lot of unpredictable challenges, like the dense humidity level that could make circuit shorts and causing potential damage.  All we can do for this threat is fingers crossed for what will happen next.</p>
+
+<p>I got confirmation from all crew that everything ready to go.  Everyone got nervous when the show begins with a countdown from T-10 seconds. I pressed play, and the show began. Luckily, the show runs completely smooth! With all the claps from the guest appreciate how good the show is. At the end of the show every crews looks very happy with the result and the response, we did it!</p>
+
+<blockquote class="twitter-tweet"><p lang="in" dir="ltr">180922: “the black pink box project.” <br />10-channels MIDI-controlled lights with Ableton Live 9 and Arduino Uno<br /><br />berhubung liat tweet tentang “lights show ppsmb ugm” yang pakai ~32x32 relay-array, jadi inget struggle pembuatan project serupa but lebih kecil skalanya... <a href="https://t.co/35R76oI4h6">pic.twitter.com/35R76oI4h6</a></p>&mdash; Clay Machine (@clay_machine) <a href="https://twitter.com/clay_machine/status/1303938295122989058?ref_src=twsrc%5Etfw">September 10, 2020</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>Honestly, this is the first time I work on hardware stuff, I still never know how to calculate how many bulbs possible to attach, or what cables to pick so. However, it fun projects to do and worth spending hours to spend with. So, what do you think?</p>
+
+</section>
+  <!-- 
+<footer>
+  <div class="tags">
+    
+    <a class="tag" href="/tags#project">#project</a>
+    
+    <a class="tag" href="/tags#web-app">#web-app</a>
+    
+  </div>
+</footer>
+
+ -->
+</article>
+
+<!-- Disqus -->
+
+
+<div class="comments">
+  
+<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+        // Replace PAGE_URL with your page's canonical URL variable
+        this.page.url = "http://0.0.0.0:4000";  
+        
+        // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        this.page.identifier = "/project/2018/09/11/the-black-pink-box-midi-controlled-lights-with-live-9-and-arduino-uno.html"; 
+    };
+    
+    
+    (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
+        var d = document, s = d.createElement('script');
+        
+        // IMPORTANT: Replace EXAMPLE with your forum shortname!
+        s.src = 'https://elybin.disqus.com/embed.js';
+        
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>
+   please enable JavaScript to view comments.
+</noscript>
+
+</div>
+
+
+
+<!-- Post navigation -->
+
+</div>
+
+<!-- Image Alt -->
+<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+<script>
+ jQuery('.post-content').find('img').after(function() {
+   return jQuery('<p class="image-title">').text(jQuery (this).attr('title'));
+ });
+ jQuery('.post-content').find('iframe').after(function() {
+   return jQuery('<p class="image-title">').text(jQuery (this).attr('title'));
+ });
+</script>
+
+    </div>
+    
+<script src="/assets/js/katex_init.js"></script>
+
+
+
+<div class="container">
+	<footer class="site-footer">
+		<div class="row">
+			<div class="col-md-8">
+				<div class="name">Khakim A. Hudaya </div>
+				<div class="brief">Computer Enthusiast and Founder of <a href="https://melonkotak.com">Melon Kotak</a></div>
+				<div class="email">khakim.hudaya@gmail.com</div>
+			</div>
+			<div class="col-md-4">
+				<nav class="footer-nav">
+					<ul>
+							<!-- Social icons from Font Awesome, if enabled  -->
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="https://twitter.com/clay_machine" title="follow on Twitter">
+		<i class="fab fa-fw fa-twitter"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="https://github.com/elybin" title="follow on GitHub">
+		<i class="fab fa-fw fa-github"></i>
+	</a>
+</li>
+
+
+
+<li>
+	<a href="/feed.xml" title="follow RSS feed">
+		<i class="fas fa-fw fa-rss"></i>
+	</a>
+</li>
+
+
+					</ul>
+				</nav>
+			</div>
+		</div>
+		
+	</footer>
+</div>
+
+
+
+
+  </body>
+</html>
