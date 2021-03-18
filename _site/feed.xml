@@ -5,7 +5,7 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://0.0.0.0:4000/</link>
     <description>computer enthusiast, sound crusher and something in-between</description>
-    <pubDate>Thu, 18 Mar 2021 21:33:46 +0700</pubDate>
+    <pubDate>Thu, 18 Mar 2021 22:02:14 +0700</pubDate>
 
 
     
@@ -18,7 +18,7 @@
 
 &lt;p&gt;Short story, I really curious about how it feels to use this currently “hype” payment method. But I still don’t know what service or goods that I think worth to spent. Until I found some really cheap VPS (&lt;em&gt;Virtual private server&lt;/em&gt;) recommendation that supported cryptocurrency as a payment method. My first attempt goes to &lt;a href=&quot;https://my.racknerd.com/aff.php?aff=2185&quot;&gt;RackNerd&lt;/a&gt;, which I thought the cheapest VPS I ever know. It started with the price of $1.92/mo and $10.98/year for 1GB RAM, 15 GB Storage, and 2TB Bandwidth, It’s extremely affordable.&lt;/p&gt;
 
-&lt;p&gt;Then, I tried to do a comparison between Bitcoin Cash and PayPal which both methods are supported. Worth noting that, I used &lt;a href=&quot;https://indodax.com/&quot;&gt;Indodax&lt;/a&gt; to convert Indonesian Rupiah (IDR) into Bitcoin Cash (BCH) and it cost me about Rp3,000 for deposit fee and Rp847 for trade fee. After that, CoinPayments (&lt;em&gt;Cryptocurrency Payment Service Provider&lt;/em&gt;) charge me about Rp3,875. So, in total it’s about Rp4,603 for the transaction fee. Which I found myself jaw dropped! 😲 It’s extremely cheap! To put in the perspective, PayPal would charge me about Rp12,682 just for PayPal itself. Excluding fee to convert IDR into USD (about Rp6,000) from the bank.&lt;/p&gt;
+&lt;p&gt;Then, I tried to do a comparison between Bitcoin Cash and PayPal which both methods are supported. Worth noting that, I used &lt;a href=&quot;https://indodax.com/&quot;&gt;Indodax&lt;/a&gt; to convert Indonesian Rupiah (IDR) into Bitcoin Cash (BCH) and it cost me about Rp3,000 for deposit fee and Rp847 for trade fee. After that, CoinPayments (&lt;em&gt;Cryptocurrency Payment Service Provider&lt;/em&gt;) charge me about Rp3,875. So, in total it’s about Rp7,722 for the transaction fee. Which I found myself jaw dropped! 😲 It’s extremely cheap! To put in the perspective, PayPal would charge me about Rp12,682 just for PayPal itself. Excluding fee to convert IDR into USD (about Rp6,000) from the bank.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/img/blog/bitcoincash_001.jpg&quot; title=&quot;CoinPayments Window while buying VPS from RackNerd&quot; /&gt;&lt;/p&gt;
 
@@ -243,21 +243,21 @@ eyJoaXN0b3J5IjpbLTE1NjYxNzcxMjFdfQ==
 &lt;/ol&gt;
 
 &lt;h2 id=&quot;the-show&quot;&gt;The Show&lt;/h2&gt;
-&lt;p&gt;Today is the day, September 22, 2018, is the day when Electro Campus Orientation (ELCO) 2018 being held. ELCO is an annual event to welcome new undergrads students of the Department of Electrical Engineering in Universitas Negeri Semarang. One of the agenda is the opening show, which this year we gonna trying new things. Showing 12 dancers, 2 light-projector beamed on stage, pre-edited music and lighting using a computer, and working in synchronize timeline. It’s not an easy task to do, it’s a lot of teamwork and engineering involved in this project.&lt;/p&gt;
+&lt;p&gt;Today is the day, September 22, 2018, is the day when Electro Campus Orientation (ELCO) 2018 being held. ELCO is an annual event to welcome new undergrads students of the Department of Electrical Engineering in Universitas Negeri Semarang. One of the agenda is the opening show, which this year we gonna trying new things. Presenting 12 dancers, 2 light-projector beamed on stage, pre-edited music and lighting using a computer, and working in synchronize timeline. It’s not an easy task to do, it’s a lot of teamwork and engineering involved in this project.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/img/blog/theblackpinkbox_001.jpeg&quot; title=&quot;ELCO held in Gedong Songo, Semarang — I still looking for image from 2018 this one is 2017&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/img/blog/theblackpinkbox_002_2.jpg&quot; title=&quot;Closer look of the circuit, look at those cables! it's cool, isn't it?&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;We tried to prepare everything on the stage,  from the cable route, bulb array, dancers, and stage crews. Since the venue located in a high-altitude and remote area, there’s a lot of unpredictable challenges, like the dense humidity level that could make circuit shorts and causing potential damage.  All we can do for this threat is fingers crossed for what will happen next.&lt;/p&gt;
+&lt;p&gt;We tried to prepare everything on the stage,  from the cable route, bulb array, dancers, and stage crews. Since the venue located in a high-altitude and remote area, there’s a lot of unpredictable challenges, like the dense humidity level that could make circuit shorts and causing potential damage.  All we can do for this threat is putting a few Silica gels to keep it dry, and the rest is crossing fingers for what will happen next.&lt;/p&gt;
 
-&lt;p&gt;I got confirmation from all crew that everything ready to go.  Everyone got nervous when the show begins with a countdown from T-10 seconds. I pressed play, and the show began. Luckily, the show runs completely smooth! With all the claps from the guest appreciate how good the show is. At the end of the show every crews looks very happy with the result and the response, we did it!&lt;/p&gt;
+&lt;p&gt;I got confirmation from all crew that everything set and ready to go.  Everyone got nervous when the show going to begin with a countdown from T-10 seconds. I pressed play, and the show began. Luckily, the show runs completely smooth! With all the claps from the guest appreciate how good the show is. At the end of the show, every crew looks very happy with the result and the response. And for today, we did it!&lt;/p&gt;
 
 &lt;div class=&quot;tweet-container&quot;&gt;
 &lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;in&quot; dir=&quot;ltr&quot;&gt;180922: “the black pink box project.” &lt;br /&gt;10-channels MIDI-controlled lights with Ableton Live 9 and Arduino Uno&lt;br /&gt;&lt;br /&gt;berhubung liat tweet tentang “lights show ppsmb ugm” yang pakai ~32x32 relay-array, jadi inget struggle pembuatan project serupa but lebih kecil skalanya... &lt;a href=&quot;https://t.co/35R76oI4h6&quot;&gt;pic.twitter.com/35R76oI4h6&lt;/a&gt;&lt;/p&gt;&amp;mdash; Clay Machine (@clay_machine) &lt;a href=&quot;https://twitter.com/clay_machine/status/1303938295122989058?ref_src=twsrc%5Etfw&quot;&gt;September 10, 2020&lt;/a&gt;&lt;/blockquote&gt; &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Honestly, this is the first time I work on hardware stuff, I still never know how to calculate how many bulbs possible to attach, or what cables to pick so. However, it fun projects to do and worth spending hours to spend with. So, what do you think?&lt;/p&gt;
+&lt;p&gt;Honestly, this is the first time I work on hardware stuff, I still never know how to calculate about… how many bulbs possible to attach, or what cables to pick so. However, it was a fun project to do and worth spending hours to spend with. So, what do you think?&lt;/p&gt;
 
 </description>
         <pubDate>Tue, 11 Sep 2018 00:00:00 +0700</pubDate>

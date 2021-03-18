@@ -55,20 +55,19 @@ Short story, the signal received by the Arduino through *USB Type-A Male to USB 
 7. If you follow the step correctly, you'll hearing the `Relay` starting to clicking, good luck!
 
 ## The Show 
-Today is the day, September 22, 2018, is the day when Electro Campus Orientation (ELCO) 2018 being held. ELCO is an annual event to welcome new undergrads students of the Department of Electrical Engineering in Universitas Negeri Semarang. One of the agenda is the opening show, which this year we gonna trying new things. Showing 12 dancers, 2 light-projector beamed on stage, pre-edited music and lighting using a computer, and working in synchronize timeline. It's not an easy task to do, it's a lot of teamwork and engineering involved in this project.
+Today is the day, September 22, 2018, is the day when Electro Campus Orientation (ELCO) 2018 being held. ELCO is an annual event to welcome new undergrads students of the Department of Electrical Engineering in Universitas Negeri Semarang. One of the agenda is the opening show, which this year we gonna trying new things. Presenting 12 dancers, 2 light-projector beamed on stage, pre-edited music and lighting using a computer, and working in synchronize timeline. It's not an easy task to do, it's a lot of teamwork and engineering involved in this project.
 
 <img src="/assets/img/blog/theblackpinkbox_001.jpeg" title="ELCO held in Gedong Songo, Semarang — I still looking for image from 2018 this one is 2017">
 
 <img src="/assets/img/blog/theblackpinkbox_002_2.jpg" title="Closer look of the circuit, look at those cables! it's cool, isn't it?">
 
-We tried to prepare everything on the stage,  from the cable route, bulb array, dancers, and stage crews. Since the venue located in a high-altitude and remote area, there's a lot of unpredictable challenges, like the dense humidity level that could make circuit shorts and causing potential damage.  All we can do for this threat is fingers crossed for what will happen next. 
+We tried to prepare everything on the stage,  from the cable route, bulb array, dancers, and stage crews. Since the venue located in a high-altitude and remote area, there's a lot of unpredictable challenges, like the dense humidity level that could make circuit shorts and causing potential damage.  All we can do for this threat is putting a few Silica gels to keep it dry, and the rest is crossing fingers for what will happen next. 
 
-I got confirmation from all crew that everything ready to go.  Everyone got nervous when the show begins with a countdown from T-10 seconds. I pressed play, and the show began. Luckily, the show runs completely smooth! With all the claps from the guest appreciate how good the show is. At the end of the show every crews looks very happy with the result and the response, we did it! 
+I got confirmation from all crew that everything set and ready to go.  Everyone got nervous when the show going to begin with a countdown from T-10 seconds. I pressed play, and the show began. Luckily, the show runs completely smooth! With all the claps from the guest appreciate how good the show is. At the end of the show, every crew looks very happy with the result and the response. And for today, we did it! 
 
 <div class="tweet-container">
 <blockquote class="twitter-tweet"><p lang="in" dir="ltr">180922: “the black pink box project.” <br>10-channels MIDI-controlled lights with Ableton Live 9 and Arduino Uno<br><br>berhubung liat tweet tentang “lights show ppsmb ugm” yang pakai ~32x32 relay-array, jadi inget struggle pembuatan project serupa but lebih kecil skalanya... <a href="https://t.co/35R76oI4h6">pic.twitter.com/35R76oI4h6</a></p>&mdash; Clay Machine (@clay_machine) <a href="https://twitter.com/clay_machine/status/1303938295122989058?ref_src=twsrc%5Etfw">September 10, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
 
-Honestly, this is the first time I work on hardware stuff, I still never know how to calculate how many bulbs possible to attach, or what cables to pick so. However, it fun projects to do and worth spending hours to spend with. So, what do you think?
-
+Honestly, this is the first time I work on hardware stuff, I still never know how to calculate about... how many bulbs possible to attach, or what cables to pick so. However, it was a fun project to do and worth spending hours to spend with. So, what do you think?
 
