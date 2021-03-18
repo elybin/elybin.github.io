@@ -23,3 +23,6 @@ Aplikasi android dapat diunduh di *Google Play Store* pada tautan <a href="https
 <p class="text-center">
 <img src="/assets/img/blog/qr-code-semarang-kreatif.png" title="Scan untuk meng-install aplikasi android - Semarang Kreatif" class="qr-code">
 </p>
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE1NjYxNzcxMjFdfQ==
+-->
