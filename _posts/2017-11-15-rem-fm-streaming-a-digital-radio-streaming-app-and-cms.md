@@ -4,6 +4,7 @@ title: "REM FM Streaming: a Digital Radio Streaming App and CMS"
 categories: [project]
 tags: [project, web-app]
 author: "Khakim A. Hudaya"
+lang: id
 comments: false
 excerpt: "Singkat cerita pada akhir 2017, REM FM hendak menonaktifkan penggunaan jaringan radio pada frekuensi 107.7 MHz dan beralih sepenuhnya ke radio streaming. Saat itu, layanan streaming masih menggunakan website sederhana yang di-embed kan sebuah player radio. Kemudian terlintas dalam pikiran: Apakah fitur ini boleh dan bisa ditingkatkan dalam versi mobile? mengingat banyak pengguna yang menggunakan mobile pada saat itu. Setelah berdiskusi dengan crew lainnya akhirnya diputuskanlah saya untuk menangani pembuatan aplikasi ini."
 ---

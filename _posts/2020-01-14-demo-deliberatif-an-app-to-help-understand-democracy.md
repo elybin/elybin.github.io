@@ -2,6 +2,7 @@
 layout: post
 title: "Demo Deliberatif: an App to help understand Democracy"
 author: "Khakim A. Hudaya"
+lang: id
 excerpt: "Demo-deliberatif merupakan sebuah platform berbentuk aplikasi sebagai ajang sosialisasi politik melalui pemahaman demokrasi. Aplikasi ini merupakan sebuah permintaan dari seorang client untuk merealisasikan sebuah protoype guna memberikan edukasi pemahaman demokrasi menggunakan sistem digital."
 comments: false
 categories: [project]

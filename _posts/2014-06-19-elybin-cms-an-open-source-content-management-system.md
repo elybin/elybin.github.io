@@ -4,6 +4,7 @@ title: "Elybin CMS: an Open Source Content Management System"
 categories: [project]
 tags: [project, web-app]
 author: "Khakim A. Hudaya"
+lang: id
 comments: false
 excerpt: "Elybin CMS dibuat dengan campuran antara Native dan OOP yang di-fork dari Popoji CMS. Tampilan menggunakan framework AdminLTE yang berjalan pada Bootstrap ditambah dengan beberapa plugin JavaScript. Untuk penyimpanan data digunakan MySQL.
 

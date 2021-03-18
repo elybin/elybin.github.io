@@ -2,6 +2,7 @@
 layout: post
 title: "Belajar Sanggul: an App for learning Javanese Hair Bun"
 author: "Khakim A. Hudaya"
+lang: id
 excerpt: "Belajar Sanggul merupakan aplikasi yang merangkum tentang sejarah dan tahapan cara pembuatan Sanggul Tradisional Jawa. Aplikasi ini merupakan sebuah permintaan dari seorang client yang hendak menguji coba efisiensi penggunaan media pembelajaran elektronik pada Sekolah Menengah Kejuruan khususnya pada bidang Tata Kecantikan."
 comments: false
 categories: [project]

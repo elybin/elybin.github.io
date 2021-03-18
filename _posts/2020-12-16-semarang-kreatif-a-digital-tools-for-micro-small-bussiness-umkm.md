@@ -2,6 +2,7 @@
 layout: post
 title: "Semarang Kreatif: a Digital tools for micro-small bussiness (UMKM)"
 author: "Khakim A. Hudaya"
+lang: id
 excerpt: "Semarang Kreatif merupakan aplikasi yang mempermudah Usaha Mikro, Kecil, dan Menengah (UMKM) dalam melakukan berbagai kegitan secara daring. Memiliki beberapa fitur utama seperti menampilkan daftar tautan penting, rekomendasi wisata, dan panduan izin usaha kreatif."
 comments: false
 categories: [project]

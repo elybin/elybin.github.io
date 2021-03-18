@@ -7,6 +7,7 @@ tags:
   - blog
   - magang
 author: "Khakim A. Hudaya"
+lang: id
 comments: true
 published: true
 excerpt: "Hari ini adalah hari pertama saya melakukan magang di Semarang TV yang merupakan televisi regional yang berada dibawah naungan PT Mataram Cakrawala Televisi Indonesia. Beralamat pada kompleks Candi Sari, Semarang, Jawa Tengah, televisi ini mengudara 17 jam setiap hari pada frekuensi 45 UHF. Berlangsung selama 45 hari, program magang merupakan salah satu aktifitas yang wajib ditempuh oleh mahasiswa Teknik Elektro UNNES yang sedang menempuh semester 5."

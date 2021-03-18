@@ -7,6 +7,7 @@ tags:
   - blog
   - starting
 author: Khakim A. Hudaya
+lang: en
 comments: false
 published: true
 ---
