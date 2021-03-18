@@ -5,7 +5,7 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://0.0.0.0:4000/</link>
     <description>computer enthusiast, sound crusher and something in-between</description>
-    <pubDate>Thu, 18 Mar 2021 16:49:43 +0700</pubDate>
+    <pubDate>Thu, 18 Mar 2021 16:50:47 +0700</pubDate>
 
 
     
@@ -202,7 +202,7 @@ eyJoaXN0b3J5IjpbLTE1NjYxNzcxMjFdfQ==
 &lt;h2 id=&quot;schema&quot;&gt;Schema&lt;/h2&gt;
 &lt;p&gt;By looking at the schema. we start the journey from the left to the right. Firstly, we draw a &lt;a href=&quot;https://en.wikipedia.org/wiki/MIDI&quot;&gt;MIDI&lt;/a&gt; pattern on our DAW. The pattern could be anything, it’s up to you, but in this case, I draw the pattern to follow some music beats.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/img/blog/theblackpinkbox_004_2.jpg&quot; title=&quot;In the nutshell schema of The Black Pink Box&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/blog/theblackpinkbox_004_2.jpg&quot; title=&quot;In the nutshell schema of The Black Pink Box&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Since this project using 10 relays or lights to be switched on and of, the MIDI note that available to be played are just 10 notes. For simplicity, I set the first relay/bulb with the lowest note (C-2), and the higher notes lead to the next relay/bulb. So, it will look like this &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;(C-2 = 1st Bulb, C#-2 = 2nd Bulb, ... A-2 = 10th Bulb)&lt;/code&gt;.&lt;/p&gt;
 

@@ -34,7 +34,7 @@ The material needed for this project basically can be categorized into hardware 
 By looking at the schema. we start the journey from the left to the right. Firstly, we draw a [MIDI](https://en.wikipedia.org/wiki/MIDI) pattern on our DAW. The pattern could be anything, it's up to you, but in this case, I draw the pattern to follow some music beats.
 
 
-<img src="assets/img/blog/theblackpinkbox_004_2.jpg" title="In the nutshell schema of The Black Pink Box">
+<img src="/assets/img/blog/theblackpinkbox_004_2.jpg" title="In the nutshell schema of The Black Pink Box">
 
 
 Since this project using 10 relays or lights to be switched on and of, the MIDI note that available to be played are just 10 notes. For simplicity, I set the first relay/bulb with the lowest note (C-2), and the higher notes lead to the next relay/bulb. So, it will look like this `(C-2 = 1st Bulb, C#-2 = 2nd Bulb, ... A-2 = 10th Bulb)`.
