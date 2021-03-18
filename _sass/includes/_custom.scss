@@ -192,15 +192,11 @@ h1{
     font-size: 20px;
     font-weight: bold;
 }
-.tweet-container
+.post-content .tweet-container .twitter-tweet
 {
   margin: auto;
-  margin-bottom: 200px;
-}
-{
-    color: $dark-color;
-    font-size: 20px;
-    font-weight: bold;
+  margin-bottom: 40px !important;
+  margin-top: 40px !important;
 }
 article .meta
 {
