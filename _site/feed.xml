@@ -5,7 +5,7 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://0.0.0.0:4000/</link>
     <description>computer enthusiast, sound crusher and something in-between</description>
-    <pubDate>Thu, 18 Mar 2021 22:02:14 +0700</pubDate>
+    <pubDate>Fri, 19 Mar 2021 20:46:34 +0700</pubDate>
 
 
     
@@ -187,6 +187,25 @@ eyJoaXN0b3J5IjpbLTE1NjYxNzcxMjFdfQ==
 &lt;/p&gt;
 </description>
         <pubDate>Tue, 14 Jan 2020 00:00:00 +0700</pubDate>
+    </item>
+    
+    
+    
+    <item>
+        <title>Mata Air Jepara: a Management System and Organization Website</title>
+        <link>/project/2018/10/24/mata-air-jepara-a-management-system-and-organization-website.html</link>
+        <guid isPermaLink="true">/project/2018/10/24/mata-air-jepara-a-management-system-and-organization-website.html</guid>
+        <description>&lt;p&gt;Beberapa waktu lalu saya mengerjakan sebuah proyek dari organisasi &lt;strong&gt;Mata Air Jepara&lt;/strong&gt; untuk membuat sebuah sistem pengelolaan sekaligus website profil. Mata Air merupakan organisasi yang fokus bergerak dalam bidang pendidikan yang memberikan kesempatan kepada pelajar berprestasi untuk menempuh pendidikan di perguruan tinggi dan didanai oleh donatur.&lt;/p&gt;
+
+&lt;p&gt;Website tersebut memiliki fitur utama sebagai sistem untuk mengelola daftar siswa, donatur, anggaran, &lt;em&gt;merchandise&lt;/em&gt;, dan berlangganan berita. Selain itu sistem ini juga bertindak sebagai CMS (&lt;em&gt;Content Management System&lt;/em&gt;) yang memungkinkan pengelola dapat memenejemen website dengan mudah dah tanpa perlu melakukan &lt;em&gt;coding&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/blog/mataairjepara_001.jpg&quot; title=&quot;Tangkapan layar untuk Halaman Tentang Kami - Aplikasi Mata Air Jepara&quot; class=&quot;img&quot; /&gt;
+&lt;img src=&quot;/assets/img/blog/mataairjepara_002.jpg&quot; title=&quot;Halaman untuk mengelola berita pada website Mata Air Jepara&quot; class=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Dibangun dengan menggunakan bahasa pemrogramman &lt;em&gt;PHP&lt;/em&gt; dan database &lt;em&gt;MySQL&lt;/em&gt; untuk bagian &lt;em&gt;back-end&lt;/em&gt; dan menggunakan &lt;em&gt;Bootstrap&lt;/em&gt; sebagai tampilan depan. Tampilan website ini sudah mendukung berbagai macam ukuran layar (&lt;em&gt;responsive&lt;/em&gt;). Selain itu, penggunaan enkripsi dan &lt;em&gt;captcha&lt;/em&gt; meningkatkan keamanan website tersebut. Website tersebut dapat diakses secara langsung pada alamat &lt;a href=&quot;https://www.mataairjepara.or.id/&quot; target=&quot;_blank&quot;&gt;https://www.mataairjepara.or.id/&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 24 Oct 2018 00:00:00 +0700</pubDate>
     </item>
     
     
