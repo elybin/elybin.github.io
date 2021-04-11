@@ -27,7 +27,7 @@ Salah satu fitur yang menurut saya menarik adalah kemampuan Elybin CMS untuk sec
 
 Sampai 15 Januari 2016, Elybin CMS telah diunduh lebih dari 2000 kali dan masuk pada artikel "<a href="https://web.archive.org/web/20201028143313/https://winpoin.com/inilah-4-cms-keren-buatan-indonesia-untuk-membuat-website-dengan-mudah/">*Inilah 4 CMS Keren Buatan Indonesia untuk Membuat Website Dengan Mudah*</a>" yang ditulis oleh <a href="https://web.archive.org/web/20201028143313/https://winpoin.com/inilah-4-cms-keren-buatan-indonesia-untuk-membuat-website-dengan-mudah/">winpoin.com</a>. 
 
-Elybin CMS juga pernah digunakan pada situ Lomba Foto Nasional KSI 2015 (<a href="https://web.archive.org/web/20160317210959/http://www.lombafotoksi2015.com/">lombafotoksi2015.com</a>) dan memenangkan penghargaan pada *Electro Engineering Expo 2017* yang diadakan oleh HIMPROTE Universitas Negeri Semarang.
+Elybin CMS juga pernah digunakan pada situs Lomba Foto Nasional KSI 2015 (<a href="https://web.archive.org/web/20160317210959/http://www.lombafotoksi2015.com/">lombafotoksi2015.com</a>) dan memenangkan penghargaan pada *Electro Engineering Expo 2017* yang diadakan oleh HIMPROTE Universitas Negeri Semarang.
 
 ![alt text](/assets/img/blog/eee2017.jpg "Penghargaan pada Electro Engineering Expo")
 
