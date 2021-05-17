@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head itemscope>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- CSS -->
+	<link rel="stylesheet" href="/assets/css/main.css">
+	<!--Favicon-->
+	<link rel="shortcut icon" href="/assets/img/rsz_inf-min.png" type="image/x-icon">
+	<!-- Canonical -->
+	<link rel="canonical" href="/project/2017/11/15/rem-fm-streaming-a-digital-radio-streaming-app-and-cms.html">
+	<!-- RSS -->
+	<link rel="alternate" type="application/atom+xml" title="Khakim A. Hudaya" href="/feed.xml">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+	<!-- Google Analytics -->
+	<script>
+		(function (i, s, o, g, r, a, m) {
+		i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+			(i[r].q = i[r].q || []).push(arguments)
+		}, i[r].l = 1 * new Date(); a = s.createElement(o),
+			m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-113947180-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+	<title>REM FM Streaming: a Digital Radio Streaming App and CMS -  Khakim A. Hudaya</title>
+	<meta name="description" content="Singkat cerita pada akhir 2017, REM FM hendak menonaktifkan penggunaan jaringan radio pada frekuensi 107.7 MHz dan beralih sepenuhnya ke radio streaming. Saa...">	
+
+    <!-- Open Graph Tags -->
+    <meta property="og:site_name" content="Khakim A. Hudaya">
+    <meta property="og:title" content="REM FM Streaming: a Digital Radio Streaming App and CMS oleh Khakim A. Hudaya">
+    <meta property="og:type" content="article">
+    <meta property="og:description" content="Singkat cerita pada akhir 2017, REM FM hendak menonaktifkan penggunaan jaringan radio pada frekuensi 107.7 MHz dan beralih sepenuhnya ke radio streaming. Saat itu, layanan streaming masih menggunakan website sederhana yang di-embed kan sebuah player radio. Kemudian terlintas dalam pikiran: Apakah fitur ini boleh dan bisa ditingkatkan dalam versi mobile? mengingat banyak pengguna yang menggunakan mobile pada saat itu. Setelah berdiskusi dengan crew lainnya akhirnya diputuskanlah saya untuk menangani pembuatan aplikasi ini.">
+    <meta property="og:url" content="http://0.0.0.0:4000/project/2017/11/15/rem-fm-streaming-a-digital-radio-streaming-app-and-cms.html">
+    <meta property="article:published_time" content="2017-11-15T00:00:00+07:00">
+    <meta property="article:modified_time" content="2017-11-15T00:00:00+07:00">
+    <meta property="author" content="Khakim A. Hudaya">
+    <meta property="article:publisher" content="" />
+    <meta property="og:image" content="http://0.0.0.0:4000/assets/img/og_cover-min.jpg">
+    <meta property="og:image:alt" content="https://melonkotak.com/api/v1/img-min/?qty=95&url=http://0.0.0.0:4000/assets/img/og_cover-min.jpg">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:width" content="1200">
+    <meta property="article:section" content="project">
+	<meta property="article:tag" content="project">
+	<meta property="article:tag" content="web-app">
+
+
+	  <!-- /twitter	  -->
+	  <meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="REM FM Streaming: a Digital Radio Streaming App and CMS oleh Khakim A. Hudaya">
+
+	<meta name="twitter:description" content="Singkat cerita pada akhir 2017, REM FM hendak menonaktifkan penggunaan jaringan radio pada frekuensi 107.7 MHz dan beralih sepenuhnya ke radio streaming. Saat itu, layanan streaming masih menggunakan website sederhana yang di-embed kan sebuah player radio. Kemudian terlintas dalam pikiran: Apakah fitur ini boleh dan bisa ditingkatkan dalam versi mobile? mengingat banyak pengguna yang menggunakan mobile pada saat itu. Setelah berdiskusi dengan crew lainnya akhirnya diputuskanlah saya untuk menangani pembuatan aplikasi ini.">
+
+	<meta name="twitter:image" content="http://0.0.0.0:4000assets/img/og_cover-min.jpg">
+
+
+
+
+<!-- /facebook -->
+<meta property="fb:app_id" content="285677132447016" />
+
+
+
+
+<!-- /mswindow -->
+<meta name="msapplication-TileImage" content="/assets/img/rsz_inf-min.png">
+
+
+<meta name="msapplication-TileColor" content="#eee">
+
+
+
+
+
+<!-- /google search -->
+<!-- Google / Search Engine Tags -->
+		<meta itemprop="name" content="REM FM Streaming: a Digital Radio Streaming App and CMS oleh Khakim A. Hudaya">
+
+	<meta content="Singkat cerita pada akhir 2017, REM FM hendak menonaktifkan penggunaan jaringan radio pada frekuensi 107.7 MHz dan beralih sepenuhnya ke radio streaming. Saat itu, layanan streaming masih menggunakan website sederhana yang di-embed kan sebuah player radio. Kemudian terlintas dalam pikiran: Apakah fitur ini boleh dan bisa ditingkatkan dalam versi mobile? mengingat banyak pengguna yang menggunakan mobile pada saat itu. Setelah berdiskusi dengan crew lainnya akhirnya diputuskanlah saya untuk menangani pembuatan aplikasi ini." itemprop="description">
+
+	<meta itemprop="image" content="http://0.0.0.0:4000/assets/img/og_cover-min.jpg">
+
+</head>
+  <body>
+    <div class="container">
+	<header class="site-header">
+		<div class="branding">
+			<div class="site-title">
+				<a href="/"><h1>Khakim A. Hudaya <span class="blinking-cursor">|</span></h1></a> 
+			</div>
+		</div>
+	</header>
+</div>
+    <div class="content">
+      <div class="container">
+<article >
+  
+   
+  
+  <header style="background-image: url('/')">
+    <h1 class="title">REM FM Streaming: a Digital Radio Streaming App and CMS <div style="display:none">by khakim assidiqi</div></h1>
+    
+
+  </header>
+  <div class="meta">
+    <div class="row">
+      <div class="date">15 November 2017</div>
+      
+    </div>
+  </div>
+  <section class="post-content"><p>Radio Ekspresi Mahasiswa (REM FM) merupakan salah satu Unit Kegiatan Mahasiswa (UKM) yang ada di Universitas Negeri Semarang. Saya bergabung dengan UKM ini pada semester awal (2016) dan memilih divisi <em>Production House</em> yang fokus terhadap pembuatan konten.</p>
+
+<p>Singkat cerita pada akhir 2017, <strong>REM FM</strong> hendak menonaktifkan penggunaan jaringan radio pada frekuensi 107.7 MHz dan beralih sepenuhnya ke radio <em>streaming</em>. Saat itu, layanan <em>streaming</em> masih menggunakan website sederhana yang di-<em>embed</em> kan sebuah <em>player</em> radio. Kemudian terlintas dalam pikiran: Apakah fitur ini boleh dan bisa ditingkatkan dalam versi <em>mobile</em>? mengingat banyak pengguna yang menggunakan mobile pada saat itu. Setelah berdiskusi dengan <em>crew</em> lainnya akhirnya diputuskanlah saya untuk menangani pembuatan aplikasi ini.</p>
+
+<p><img src="/assets/img/blog/app_remfm.webp" title="Banner Aplikasi Android Radio REM FM UNNES" class="img" /></p>
+
+<p>Aplikasi ini dibuat dengan menggunakan <strong>Ionic</strong> sebagai <strong>Mobile Client</strong> dan <strong>CodeIgniter</strong> sebagai <strong>Backend</strong>. <em>AngularJS</em> menjadi hal yang sangat baru untuk saya, yang sebelumnya hanya berangkat dari <em>native JavaScript</em> untuk pengembangan website. Versi 0.0.1 rilis pada tanggal 15 November 2017 dengan fitur yang sangat minimilalis, yaitu hanya terdapat pemutar radio <em>streaming</em> dan infomasi nomor telepon.</p>
+
+<p>Namun, hal yang lebih menarik adalah fitur yang terdapat pada tampilan <em>Backend</em> atau <em>panel</em> yang sering disebut <strong>Kabin Siar</strong>. Terdapat fitur untuk melakukan presensi siaran secara daring, sehingga informasi nama penyiar yang sedang <em>on-air</em> dapat muncul pada aplikasi <em>mobile</em> tersebut. Kemudian terdapat fitur “<em>Menejemen Musik</em>” yang membantu divisi <em>Music Director</em> untuk mengelola pustaka musik yang ada. Data musik di-singkronisasi dengan <em>database</em> <strong>iTunes</strong> dan <strong>Spotify</strong> melalui API, sehingga <em>album art</em> dan informasi lagu tersebutdapat muncul pada saat pengguna radio REM FM (<em>baca: Akademia</em>) mendengarkan musik.</p>
+
+<p><img src="/assets/img/blog/remfm_manager.jpg" title="Direktur REM FM 2019 (Kiri), Pembina, Manager Off Air, Manager On Air (Kanan)." class="img" /></p>
+
+<p>Pada 2019, saya diberikan amanah untuk menjabat sebagai <em>Manager On Air</em> yang menangani 5 divisi dibawahnya. Saya mengamati bahwa adanya potensi anggota UKM REM FM untuk menuliskan opini dan berita secara individu dan independen, <em>because I believe that everyone deserve equal power to share their ideas</em>. Sehingga, saya bersama divisi Teknisi berinisiatif untuk menambahkan fitur baru yang memungkinakan setiap anggota dapat menuliskan pemikiranya dalam bentuk <em>blog</em>.</p>
+
+<p><img src="/assets/img/blog/web_remfm_01.jpg" title="Web Radio REM FM UNNES" /></p>
+
+<p>Pada minggu pertama peluncuran, aplikasi ini sukses diunduh lebih dari 350 mahasiswa UNNES. Aplikasi ini masih digunakan hingga sekarang dan mendapat umpan balik yang positif baik dari anggota maupun pendengar. Website dapat diakses pada alamat <a href="https://remfm.unnes.ac.id/" target="_blank"><code>remfm.unnes.ac.id</code></a> dan aplikasi android dapat diunduh di <em>Google Play Store</em> pada tautan <a href="https://play.google.com/store/apps/details?id=com.remfm.streaming" target="_blank">berikut</a> atau <em>QR-Code</em> dibawah.</p>
+
+<p class="text-center">
+<img src="/assets/img/blog/barcode_remfm_streaming.png" title="Scan untuk meng-install aplikasi android - REM FM Streaming" class="qr-code" />
+</p>
+</section>
+  <!-- 
+<footer>
+  <div class="tags">
+    
+    <a class="tag" href="/tags#project">#project</a>
+    
+    <a class="tag" href="/tags#web-app">#web-app</a>
+    
+  </div>
+</footer>
+
+ -->
+</article>
+
+<!-- Disqus -->
+
+
+
+
+<!-- Post navigation -->
+
+</div>
+
+<!-- Image Alt -->
+<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+<script>
+ jQuery('.post-content').find('img').after(function() {
+   return jQuery('<p class="image-title">').text(jQuery (this).attr('title'));
+ });
+ jQuery('.post-content').find('iframe').after(function() {
+   return jQuery('<p class="image-title">').text(jQuery (this).attr('title'));
+ });
+</script>
+
+    </div>
+    
+<script src="/assets/js/katex_init.js"></script>
+
+
+
+<div class="container">
+	<footer class="site-footer">
+		<div class="row">
+			<div class="col-md-8">
+				<div class="name">Khakim A. Hudaya </div>
+				<div class="brief">Computer Enthusiast and Founder of <a href="https://melonkotak.com">Melon Kotak</a></div>
+				<div class="email">khakim.hudaya@gmail.com</div>
+			</div>
+			<div class="col-md-4">
+				<nav class="footer-nav">
+					<ul>
+							<!-- Social icons from Font Awesome, if enabled  -->
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="https://twitter.com/clay_machine" title="follow on Twitter">
+		<i class="fab fa-fw fa-twitter"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="https://github.com/elybin" title="follow on GitHub">
+		<i class="fab fa-fw fa-github"></i>
+	</a>
+</li>
+
+
+
+<li>
+	<a href="/feed.xml" title="follow RSS feed">
+		<i class="fas fa-fw fa-rss"></i>
+	</a>
+</li>
+
+
+					</ul>
+				</nav>
+			</div>
+		</div>
+		
+	</footer>
+</div>
+
+
+
+
+  </body>
+</html>

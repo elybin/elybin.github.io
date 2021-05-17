@@ -1,0 +1,79 @@
+---
+layout: default
+---
+
+
+<div class="home">
+
+  <div class="container">
+    <div class="row section-heading">
+      <div class="col section-title">
+        <h2>Blog Posts</h2>
+      </div>
+      <div class="col">
+       
+      </div>
+    </div>
+    
+    {% assign count = 0 %}
+    {% for post in site.categories.blog %}
+    <div class="row posts">
+      <div class="col date">
+        {{ post.date | date: "%d %b  %Y" }}
+      </div>
+      <div class="col title">
+        <a href="{{ post.url | relative_url }}">
+          {{ post.title }}
+          </a>
+      </div>
+    </div>
+    {% assign count = count | plus:1 %}
+    {% if count == 20 %}{% break %}{% endif %}
+    {% endfor %}
+  </div>
+  
+  <div class="container">
+    <div class="row section-heading">
+      <div class="col section-title">
+        <h2>Works and Projects</h2>
+      </div>
+      <div class="col">
+       
+      </div>
+    </div>
+    {% assign count = 0 %}
+    {% for post in site.categories.project %}
+    <div class="row posts">
+      <div class="col date">
+        {{ post.date | date: "%d %b  %Y" }}
+      </div>
+      <div class="col title">
+        <a href="{{ post.url | relative_url }}">
+          {{ post.title }}
+          </a>
+      </div>
+    </div>
+    {% assign count = count | plus:1 %}
+    {% if count == 20 %}{% break %}{% endif %}
+    {% endfor %}
+  </div>
+
+  <div class="container">
+    <div class="row section-heading">
+      <div class="col section-title">
+        <h2>Apps, Links and APIs</h2>
+      </div>
+      <div class="col">
+       
+      </div>
+    </div>
+    {% for post in site.categories.apps %}
+    <div class="row posts">
+      <div class="col title-apps">
+        <span class="bold"><a href="{{ post.links }}" >{{ post.title }}</a>:</span><span class="brief">  {{ post.brief }}</span>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+</div>

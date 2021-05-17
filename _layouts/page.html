@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<article {% if page.feature-img %}class="feature-image"{% endif %}>
+{% if page.feature-img %}
+  <header style="background-image: url('{{ site.baseurl }}/{{ page.feature-img }}')" class="with-header">
+    <h1 class="title">{{ page.feature-title | default: page.title }}</h1>
+    {% if page.subtitle %}<h2 class="subtitle">{{ page.subtitle }}</h2>{% endif %}
+    
+    <a href="{{page.img-credit-link}}" target="_blank" class="header-credit">
+    <small>{{page.img-credit-text}}</small></a>
+  </header>
+{% else %}
+  <header>
+    <h1 class="title">{{ page.feature-title | default: page.title }}</h1>
+    {% if page.subtitle %}<h2 class="subtitle">{{ page.subtitle }}</h2>{% endif %}
+  </header>
+{% endif %}
+  <section class="post-content">{{ content }}</section>
+</article>
+
