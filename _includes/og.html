@@ -14,7 +14,7 @@
 {% endif %}{% if page.featured-image %}    <meta property="og:image" content="{{ site.url }}/{{ page.featured-image }}">
 {% else %}    <meta property="og:image" content="https://melonkotak.com/api/v1/og-thumbs/app/image.php?url={{ site.baseurl }}{{ page.url }}">
 {% endif %}{% if page.featured-image %}    <meta content="https://melonkotak.com/api/v1/og-thumbs/app/image.php?url={{ site.baseurl }}{{ page.url }}" property="og:image:alt">
-{% else %}    <meta property="og:image:alt" content="{{ site.baseurl }}/assets/img/og_cover-min.jpg">
+{% else %}    <meta property="og:image:alt" content="{{ site.url }}/assets/img/og_cover-min.jpg">
 {% endif %}    <meta property="og:image:height" content="630">
     <meta property="og:image:width" content="1200">
 {% if page.categories %}{% for category in page.categories limit:1 %}    <meta property="article:section" content="{{ category }}">
@@ -30,7 +30,7 @@
 {% else %}	<meta name="twitter:description" content="{{ site.description }}">
 {% endif %}
 {% if page.featured-image %}	<meta name="twitter:image" content="{{ site.url }}/{{ page.featured-image }}">
-{% else %}	<meta name="twitter:image" content="https://melonkotak.com/api/v1/og-thumbs/app/image.php?url={{ site.baseurl }}{{ page.url }}">
+{% else %}	<meta name="twitter:image" content="https://melonkotak.com/api/v1/og-thumbs/app/image.php?url={{ site.url }}{{ page.url }}">
 {% endif %}
 {% if page.featured-image %}	<meta name="twitter:site" content="{{ site.twitter }}">
 {% endif %}
@@ -63,5 +63,5 @@
 {% else %}	<meta content="{{ site.description }}" itemprop="description">
 {% endif %}
 {% if page.featured-image %}	<meta itemprop="image" content="{{ site.url }}/{{ page.featured-image }}">
-{% else %}	<meta itemprop="image" content="https://melonkotak.com/api/v1/og-thumbs/app/image.php?url={{ site.baseurl }}{{ page.url }}">
+{% else %}	<meta itemprop="image" content="https://melonkotak.com/api/v1/og-thumbs/app/image.php?url={{ site.url }}{{ page.url }}">
 {% endif %}
