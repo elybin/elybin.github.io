@@ -7,6 +7,7 @@ excerpt: "Semarang Kreatif merupakan aplikasi yang mempermudah Usaha Mikro, Keci
 comments: false
 categories: [project]
 tags: [project, web-app]
+featured-image: assets/img/blog/semarang_kreatif_001.jpg
 ---
 Semarang Kreatif merupakan aplikasi yang mempermudah Usaha Mikro, Kecil, dan Menengah (UMKM) dalam melakukan berbagai kegitan secara daring. Memiliki beberapa fitur utama seperti menampilkan daftar tautan penting, rekomendasi wisata, dan panduan izin usaha kreatif. Aplikasi ini merupakan sebuah permintaan dari Kak Fauzi yang hendak merencanakan suatu *prototype* untuk memudahkan UMKM mengelola perizinan.
 

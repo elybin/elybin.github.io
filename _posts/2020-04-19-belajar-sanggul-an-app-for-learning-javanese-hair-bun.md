@@ -7,6 +7,7 @@ excerpt: "Belajar Sanggul merupakan aplikasi yang merangkum tentang sejarah dan 
 comments: false
 categories: [project]
 tags: [project, web-app]
+featured-image: assets/img/blog/belajar_sanggul_001.jpg
 ---
 
 Belajar Sanggul merupakan aplikasi mobile yang merangkum tentang sejarah dan tahapan cara pembuatan Sanggul Tradisional Jawa. Aplikasi ini merupakan sebuah permintaan dari seorang *client* yang hendak menguji coba efisiensi penggunaan media pembelajaran elektronik pada Sekolah Menengah Kejuruan khususnya pada bidang Tata Kecantikan.

@@ -7,6 +7,7 @@ excerpt: "Demo-deliberatif merupakan sebuah platform berbentuk aplikasi sebagai 
 comments: false
 categories: [project]
 tags: [project, web-app]
+featured-image: assets/img/blog/demodeliberatif_01.jpg
 ---
 
 

@@ -7,6 +7,7 @@ excerpt: "Star Mobile App merupakan aplikasi pembelajaran daring yang mudah digu
 comments: false
 categories: [project]
 tags: [project, web-app]
+featured-image: assets/img/blog/starmobileapp_screen_001.jpg
 ---
 
 
