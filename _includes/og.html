@@ -32,7 +32,9 @@
 {% if page.featured-image %}	<meta name="twitter:image" content="{{ site.url }}/{{ page.featured-image }}">
 {% else %}	<meta name="twitter:image" content="https://melonkotak.com/api/v1/og-thumbs/app/image.php?url={{ site.url }}{{ page.url }}">
 {% endif %}
-{% if site.twitter %}	<meta name="twitter:site" content="{{ site.twitter }}">
+{% if site.theme_settings.twitter %}	<meta name="twitter:site" content="{{ site.theme_settings.twitter }}">
+{% endif %}
+{% if site.theme_settings.twitter %}	<meta name="twitter:creator" content="{{ site.theme_settings.twitter }}">
 {% endif %}
 
 {% if site.theme_settings.fb_appid %}
