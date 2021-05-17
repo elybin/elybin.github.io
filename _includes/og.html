@@ -23,7 +23,7 @@
 
 	  <!-- /twitter	  -->
 	  <meta name="twitter:card" content="summary_large_image">
-{% if page.title %}	<meta name="twitter:title" content="{{ page.title }} {% if page.lang %}oleh{% else %}by{% endif %} {{ page.author}}">
+{% if page.title %}	<meta name="twitter:title" content="{{ page.title }}">
 {% else %}	<meta name="twitter:title" content="{{ site.site_name }}">
 {% endif %}
 {% if page.excerpt %}	<meta name="twitter:description" content="{{ page.excerpt }}">
@@ -43,7 +43,7 @@
 
 {% if site.theme_settings.favicon %}
 <!-- /mswindow -->
-<meta name="msapplication-TileImage" content="{{ site.baseurl }}/{{ site.theme_settings.favicon }}">
+<meta name="msapplication-TileImage" content="{{ site.url }}/{{ site.theme_settings.favicon }}">
 {% endif %}
 {% if site.theme_settings.web_color %}
 <meta name="msapplication-TileColor" content="{{ site.theme_settings.web_color }}">
