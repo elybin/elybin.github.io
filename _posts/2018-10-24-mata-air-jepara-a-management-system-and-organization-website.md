@@ -7,6 +7,7 @@ excerpt: "Beberapa waktu lalu saya mengerjakan sebuah proyek dari organisasi Mat
 comments: false
 categories: [project]
 tags: [project, web-app]
+featured-image: assets/img/blog/mataairjepara_001.jpg
 ---
 
 Beberapa waktu lalu saya mengerjakan sebuah proyek dari organisasi **Mata Air Jepara** untuk membuat sebuah sistem pengelolaan sekaligus website profil. Mata Air merupakan organisasi yang fokus bergerak dalam bidang pendidikan yang memberikan kesempatan kepada pelajar berprestasi untuk menempuh pendidikan di perguruan tinggi dan didanai oleh donatur.

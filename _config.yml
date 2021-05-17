@@ -1,0 +1,97 @@
+# SITE CONFIGURATION
+baseurl: "https://khakim.melonkotak.com"
+url: "https://khakim.melonkotak.com"
+site_name : "Khakim A. Hudaya"
+
+
+# THEME-SPECIFIC CONFIGURATION
+theme_settings:
+  # Meta
+  title: Khakim A. Hudaya
+  avatar: assets/img/ava-min.jpg
+  favicon: assets/img/rsz_inf-min.png
+  gravatar: # Email MD5 hash
+  description: "computer enthusiast, sound crusher and something in-between" # used by search engines
+
+  # Header and footer text
+  header_text: >
+     <p>computer enthusiast, sound crusher and something in-between.</p>
+  header_text_feature_image:
+
+
+  # Icons
+  rss: true
+  email_address: khakim.hudaya@gmail.com
+  behance:
+  bitbucket:
+  dribbble:
+  facebook:
+  flickr: 
+  gitlab:
+  gitter:
+  google_plus:
+  instagram: 
+  linkedin:  # Full URL
+  pinterest:
+  reddit:
+  soundcloud: 
+  stack_exchange:  # Full URL
+  steam:
+  tumblr:
+  twitter: "clay_machine"
+  wordpress:
+  youtube: 
+  github: "elybin"
+
+  # Scripts
+  google_analytics: "UA-113947180-1"
+  disqus_shortname: "elybin"
+  fb_appid: "285677132447016"
+  fb_articlepublisher: ""
+  web_color: "#eee"
+  katex: true # Enable if using math markup
+  search: true # Enable the search feature
+
+  # Localization strings
+  str_follow_on: "follow on"
+  str_rss_follow: "follow RSS feed"
+  str_email: "email"
+  str_next_post: "next post"
+  str_previous_post: "prev post"
+  str_next_page: "next"
+  str_previous_page: "prev"
+  str_continue_reading: "continue reading"
+  str_javascript_required_disqus: "please enable JavaScript to view comments."
+  str_search_no_results: "no results found."
+
+  # Colours, typography and padding
+  # Open the "_sass > base" folder, and open "_variables.scss"
+  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
+
+  # Post navigation
+  post_navigation: false
+
+# PAGINATION
+paginate: 1
+paginate_path: "blog/page:num"
+
+# BUILD SETTINGS
+markdown: kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: :compressed
+plugins:
+  - jekyll
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-mentions
+  - jekyll-paginate
+  - jekyll-sitemap
+# keep_files: [app, skripsi-clarita, demo-deriberatif]
+exclude: [Gemfile, Gemfile.lock, README.md, vendor ]
+
+
+# deployment
+host: 0.0.0.0
+port: 4000
