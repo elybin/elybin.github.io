@@ -1,0 +1,28 @@
+{% if site.theme_settings.katex and page.id %}
+<script src="{{ "/assets/js/katex_init.js" | relative_url }}"></script>
+{% endif %}
+
+
+<div class="container">
+	<footer class="site-footer">
+		<div class="row">
+			<div class="col-md-8">
+				<div class="name">{{ site.theme_settings.title }} </div>
+				<div class="brief">Computer Enthusiast and Founder of <a href="https://melonkotak.com">Melon Kotak</a></div>
+				<div class="email">{{ site.theme_settings.email_address }}</div>
+			</div>
+			<div class="col-md-4">
+				<nav class="footer-nav">
+					<ul>
+							<!-- Social icons from Font Awesome, if enabled  -->
+							{% include icons.html %}
+					</ul>
+				</nav>
+			</div>
+		</div>
+		
+	</footer>
+</div>
+
+
+
