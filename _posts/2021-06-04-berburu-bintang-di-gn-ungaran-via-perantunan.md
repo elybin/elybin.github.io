@@ -11,10 +11,10 @@ lang: id
 comments: true
 published: true
 is_hidden: true    
-excerpt: "Pada 4 Mei 2021, saya dan 3 kawan lain berencana melepas penat sejenak dengan bercengkrama dengan alam. Gunung Ungaran yang terletak di Kabupaten Semarang menjadi sasaran kami, dengan ketinggian 2,050 mdpl nampaknya akan menjadi perjalanan yang panjang dan membutuhkan banyak tenaga."
+excerpt: "Pada 4 Juni 2021, saya dan 3 kawan lain berencana melepas penat sejenak dengan bercengkrama dengan alam. Gunung Ungaran yang terletak di Kabupaten Semarang menjadi sasaran kami, dengan ketinggian 2,050 mdpl nampaknya akan menjadi perjalanan yang panjang dan membutuhkan banyak tenaga."
 featured-image: assets/img/blog/20210604_foto_dengan_galaxy.jpg
 ---
-Pada 4 Mei 2021, saya dan 3 kawan lain berencana sejenak melepas penat dengan cara bercengkrama dengan alam. [Gunung Ungaran](https://id.wikipedia.org/wiki/Gunung_Ungaran) yang terletak di Kabupaten Semarang menjadi sasaran kami, dengan ketinggian 2,050 mdpl nampaknya akan menjadi perjalanan yang panjang dan membutuhkan banyak tenaga.
+Pada 4 Juni 2021, saya dan 3 kawan lain berencana sejenak melepas penat dengan cara bercengkrama dengan alam. [Gunung Ungaran](https://id.wikipedia.org/wiki/Gunung_Ungaran) yang terletak di Kabupaten Semarang menjadi sasaran kami, dengan ketinggian 2,050 mdpl nampaknya akan menjadi perjalanan yang panjang dan membutuhkan banyak tenaga.
 
 Awalnya kami berencana berangkat pukul 1 siang, namun karena Ozy mendadak harus melakukan bimbingan skripsi, ya mau tidak mau keberangkatan harus ditunda dulu. Kami berangkat dari kos Alfian pada pukul 4 sore menuju *basecamp* Perantunan, yang merupakan jalur pendakian baru yang akan kami ambil. Kami sampai di *basecamp* tepat pukul 6 sore, dengan membayar biaya masuk 15rb rupiah ditambah 5rb untuk protokol kesehatan dan diwajibkan untuk menerapkan protokol kesehatan seperti menggunakan masker. Saat kami tiba, *basecamp* terlihat cukup sepi, mungkin hanya ada 10-14 sepeda motor yang terparkir.
 
